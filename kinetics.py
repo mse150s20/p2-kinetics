@@ -2,8 +2,10 @@ from scipy.integrate import solve_ivp
 import matplotlib.pyplot as plt
 import numpy as np
 
-maxtime = 300
-N = 10000
+# the maximum time of virus in days
+maxtime = 365
+# people in Idaho
+N = 1754000
 def kinetics(k1, k2, a_0, b_0, c_0):
     def abc(t, y):
         ''' System of differential equations: y(t) = [A(t),B(t),C(t)]
