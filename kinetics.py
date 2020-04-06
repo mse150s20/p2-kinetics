@@ -4,8 +4,8 @@ import numpy as np
 
 maxtime = 300
 N = 10000
-def kinetics(k1, k2, a_0, b_0, c_0):
-    def abc(t, y):
+def kinetics(k1, k2, a_0, b_0, c_0):#defining a function for rates of change
+    def abc(t, y): #takes two parameters, y describes concentrations of (a,b,c) and (a,b,c) returns the rate of change of a the rate of change of b and the tare of change of c.i
         ''' System of differential equations: y(t) = [A(t),B(t),C(t)]
             returns:
                 A list containing [dA/dt, dB/dt, dC/dt]
