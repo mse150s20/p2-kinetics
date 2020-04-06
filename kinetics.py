@@ -14,7 +14,7 @@ def kinetics(k1, k2, a_0, b_0, c_0):
         return [-k1*A*B/(A+B+C), k1*A*B/(A+B+C)-k2*B, k2*B]
     return solve_ivp(abc, [0, maxtime], [a_0,b_0,c_0], t_eval=np.arange(0, maxtime, 1),method='Radau')
 
-solution = kinetics(0.1,0.02, N-1,1,0)
+solution = kinetics(7,0.02, N-1,1,0)
 
 plt.plot(solution.t,solution.y[0]/N,label='A')
 plt.plot(solution.t,solution.y[1]/N,label='B',linestyle='dashed')
