@@ -1,2 +1,11 @@
 #Finding data to be used in the code
 #NYT csv files at: https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv
+#
+from scipy.integrate import solve_ivp
+import matplotlib.pyplot as plt
+import numpy as np
+
+import pandas as pd
+url = 'https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv'
+df = pd.read_csv(url, error_bad_lines=False)
+show()
