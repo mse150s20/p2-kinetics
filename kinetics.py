@@ -18,9 +18,9 @@ def kinetics(k1, k2, a_0, b_0, c_0):
 
 solution = kinetics(0.07,0.02, N-1000,1000,0) #ONE infected person on day0
 
-plt.plot(solution.t,solution.y[0],label='A')
-plt.plot(solution.t,solution.y[1],label='B',linestyle='dashed')
-plt.plot(solution.t,solution.y[2],label='C',linestyle='dotted')
+plt.plot(solution.t,solution.y[0],label='Uninfected')
+plt.plot(solution.t,solution.y[1],label='Infected',linestyle='dashed')
+plt.plot(solution.t,solution.y[2],label='Recovered',linestyle='dotted')
 plt.xlabel('Time [days]')
 plt.ylabel('Population infected')
 plt.grid() 
