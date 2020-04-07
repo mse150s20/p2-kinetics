@@ -16,8 +16,8 @@ import numpy as np
 import pandas as pd
 #url = 'https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv'
 url = 'https://raw.githubusercontent.com/pydata/pydata-book/master/ch09/stock_px.csv'
-df = pd.read_csv(url,index_col=0,parse_dates=[0])
+#df = pd.read_csv(url,index_col=0,parse_dates=[0])
 
-print df.head(5)
+#print df()
 #print(url)
-
+print(pd.read_csv)
