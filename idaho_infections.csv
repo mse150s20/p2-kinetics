@@ -1,4 +1,4 @@
-Source(https://public.tableau.com/profile/idaho.division.of.public.health#!/vizhome/DPHIdahoCOVID-19Dashboard_V2/DPHCOVID19Dashboard2)
+Source(https://public.tableau.com/profile/idaho.division.of.public.health#!/vizhome/DPHIdahoCOVID-19Dashboard_V2/DPHCOVID19Dashboard2),,,,
 1. date(YYYY-MM-DD), 2.state wide cumulative # of cases, 3. state wide new cases, 4. cumulative deaths, 5. new deaths 
 2020-03-12,2,2,,
 2020-03-13,6,4,,
