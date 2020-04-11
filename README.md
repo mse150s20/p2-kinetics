@@ -1,2 +1,9 @@
+# overview of code
 
-# p2-kinetics
+# software requirements
+
+# how to get this code
+
+# how to use this code
+
+
