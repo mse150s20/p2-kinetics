@@ -1,6 +1,7 @@
 from scipy.integrate import solve_ivp
 import matplotlib.pyplot as plt
 import numpy as np
+import sys
 
 # the maximum time of virus in days
 maxtime = 365
@@ -18,6 +19,10 @@ def kinetics(k1, k2, a_0, b_0, c_0):
     return solve_ivp(abc, [0, maxtime], [a_0,b_0,c_0], t_eval=np.arange(0, maxtime, 1),method='Radau')
 
 # Original k1 is 0.1
+
+filename = idaho_infected
+infected = np.loadtxt(filename, skiprows = 3, delimiter = ',', usecols = (2))
+
 solution = kinetics(0.5,0.02, N-1,1,0)
 
 
@@ -30,4 +35,4 @@ plt.grid()
 plt.legend()
 plt.show()
 
-
+print(infected)
