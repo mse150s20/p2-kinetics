@@ -17,3 +17,5 @@ The run the code on your computer, pull the p2-kinetics repository from github c
 
 # links to cite where we got our data
 Idaho Division of Public Health - https://public.tableau.com/profile/idaho.division.of.public.health#
+New York Times GitHub Repo -  https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv
+
