@@ -9,6 +9,7 @@ And maybe tell us a little bit about how we might compare our plots from kinetic
 This code requires access to a commandline terminal and access to a program such as git to track and collaborate with other researchers on this topic
 
 # how to get this code
+The run the code on your computer, pull the p2-kinetics repository from github class master to your terminal, or fork the repository and pull the code from your own personal repository. 
 
 # how to use this code
 
