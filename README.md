@@ -16,5 +16,5 @@ This code requires access to a commandline terminal and access to a program such
 
 # links to cite where we got our data
 Idaho Division of Public Health - https://public.tableau.com/profile/idaho.division.of.public.health#
-#findings.py attempts to use ['https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv']
+New York Times GitHub Repo -  https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv
 
