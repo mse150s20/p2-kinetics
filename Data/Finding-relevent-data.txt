@@ -1,0 +1,6 @@
+#Write any relevent data related to the coronavirus.
+- Summary of data (citation - include link to source)
+
+1. R0 value of COVID-19 is between 1.5 and 3.5
+ (https://labblog.uofmhealth.org/rounds/how-scientists-quantify-intensity-of-an-outbreak-like-covid-19)
+2.
