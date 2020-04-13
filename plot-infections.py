@@ -1,13 +1,14 @@
 import matplotlib.pyplot as plt
 import numpy as np
+import sys 
 
 filename= sys.argv[1]
 
-infected= np.loadtxt(filename, skiprows =3, delimiter = ',')
-infection_rates= infected[:2]
+infected= np.loadtxt(filename, skiprows =2, delimiter = ',', usecols= (2))
+infection_rates= infected[:3]
+day= [0]
 
-plt.plot(solution.t,solution.y[0],label='Uninfected')
-plt.plot(solution.t,solution.y[1],label='Infected',linestyle='dashed')
+plt.plot(day, infection_rates)
 plt.xlabel('Time [days]')
 plt.ylabel('Population infected')
 plt.grid() 
