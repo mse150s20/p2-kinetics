@@ -13,6 +13,8 @@ This code requires access to a commandline terminal and access to a program such
 # how to get this code
 
 # how to use this code
+This code can be run in the commandline terminal by typing "$ python [FILE NAME]" here.
+
 
 # figures showing our code output here
 
