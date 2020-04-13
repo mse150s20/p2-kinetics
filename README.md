@@ -21,3 +21,5 @@ This code can be run in the commandline terminal by typing "$ python [FILE NAME]
 
 # links to cite where we got our data
 Idaho Division of Public Health - https://public.tableau.com/profile/idaho.division.of.public.health#
+New York Times GitHub Repo -  https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv
+
