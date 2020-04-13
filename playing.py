@@ -33,6 +33,7 @@ with open("maxday_vs_k1k2.txt","w") as f:
             f.write("{},{},{}\n".format(k1,k2,max_day))
 
 #k1 is infection rate, k2 is recovery, prints amount of days until infected is at the maximum
+
 #plt.plot(solution.t,solution.y[0],label='Uninfected')
 #plt.plot(solution.t,solution.y[1],label='Infected',linestyle='dashed')
 #plt.plot(solution.t,solution.y[2],label='Recovered',linestyle='dotted')
