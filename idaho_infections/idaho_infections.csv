@@ -1,5 +1,5 @@
 Source(https://public.tableau.com/profile/idaho.division.of.public.health#!/vizhome/DPHIdahoCOVID-19Dashboard_V2/DPHCOVID19Dashboard2),,,,,
-Days Since Initial Infection, Date(YYYY-MM-DD), State Wide Cumulative # of Cases, State Wide New Cases, Cumulative Deaths, additional information 
+Days Since Initial Infection, Date(YYYY-MM-DD), State Wide Cumulative # of Cases, State Wide New Cases, Cumulative Deaths, Additional Information 
 0,2020-03-12,2,2,, First confirmed infection recorded
 1,2020-03-13,6,4,, Boise State announces online classes
 2,2020-03-14,6,0,,
