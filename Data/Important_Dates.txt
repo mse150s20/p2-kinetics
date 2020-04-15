@@ -1,6 +1,6 @@
 
 12/31/2019
-Date that an unknown pneumonia detected in Wuhan, China was reported to the WHr
+Date that an unknown pneumonia detected in Wuhan, China was reported to the WHO (1)
 
 1/20/2019
 Date that testing confirmed the first case of COVID-19 in the United States
@@ -16,3 +16,19 @@ Date that the Idaho Department of Health and Welfare mandates an Order to Self-I
 
 First confirmed case of COVID-19 coincides with the BSU announcement while the self-isolation notice 
 occured 12 days later
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1.Wikipedia contributors. (2020, April 15). 2019–20 coronavirus pandemic. In Wikipedia, The Free Encyclopedia. Retrieved 20:35, April 15, 2020, from https://en.wikipedia.org/w/index.php?title=2019%E2%80%9320_coronavirus_pandemic&oldid=951160943
