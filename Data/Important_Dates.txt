@@ -3,16 +3,16 @@
 Date that an unknown pneumonia detected in Wuhan, China was reported to the WHO (1)
 
 1/20/2019
-Date that testing confirmed the first case of COVID-19 in the United States
+Date that testing confirmed the first case of COVID-19 in the United States (1)
 
 3/13/2020
-Date that testing confirmed the first case of COVID-19 in the state of Idaho
+Date that testing confirmed the first case of COVID-19 in the state of Idaho (2)
 
 3/13/2020
 Date that the decision was made to delivery all BSU classes remotely, which began the following Monday
 
 3/25/2020
-Date that the Idaho Department of Health and Welfare mandates an Order to Self-Isolate
+Date that Governor Brad Little issued a statewide stay-at-home order (2)
 
 First confirmed case of COVID-19 coincides with the BSU announcement while the self-isolation notice 
 occured 12 days later
@@ -32,3 +32,5 @@ occured 12 days later
 
 
 1.Wikipedia contributors. (2020, April 15). 2019–20 coronavirus pandemic. In Wikipedia, The Free Encyclopedia. Retrieved 20:35, April 15, 2020, from https://en.wikipedia.org/w/index.php?title=2019%E2%80%9320_coronavirus_pandemic&oldid=951160943
+
+2.Wikipedia contributors. (2020, April 14). 2020 coronavirus pandemic in Idaho. In Wikipedia, The Free Encyclopedia. Retrieved 20:41, April 15, 2020, from https://en.wikipedia.org/w/index.php?title=2020_coronavirus_pandemic_in_Idaho&oldid=950859214
