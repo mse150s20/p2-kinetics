@@ -19,9 +19,11 @@ def kinetics(k1, k2, a_0, b_0, c_0):
     return solve_ivp(abc, [0, maxtime], [a_0,b_0,c_0], t_eval=np.arange(0, maxtime, 1),method='Radau')
 
 # Original k1 is 0.1
-
-filename = idaho_infections.csv
-infected = np.loadtxt(filename, skiprows = 3, delimiter = ',', usecols = (2))
+filename = sys.argv[1]
+population_infected = np.loadtxt(filename, skiprows = 3, delimiter = ',', usecols = (2))
+time = np.loadtxt(filename, skiprows = 3, delimiter = ',', usecols =(0))
+#filename = idaho_infections.csv
+#infected = np.loadtxt(filename, skiprows = 3, delimiter = ',', usecols = (2))
 
 solution = kinetics(0.5,0.02, N-1,1,0)
 
@@ -35,4 +37,4 @@ plt.grid()
 plt.legend()
 plt.show()
 
-print(infected)
+print(population_infected)
