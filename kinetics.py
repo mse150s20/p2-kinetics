@@ -20,7 +20,7 @@ def kinetics(k1, k2, a_0, b_0, c_0):
 
 # Original k1 is 0.1
 
-filename = idaho_infections
+filename = idaho_infections.csv
 infected = np.loadtxt(filename, skiprows = 3, delimiter = ',', usecols = (2))
 
 solution = kinetics(0.5,0.02, N-1,1,0)
