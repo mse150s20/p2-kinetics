@@ -24,10 +24,6 @@ filename = idaho_infected
 infected = np.loadtxt(filename, skiprows = 3, delimiter = ',', usecols = (2))
 
 solution = kinetics(0.5,0.02, N-1,1,0)
-<<<<<<< HEAD
-
-=======
->>>>>>> aca252b49ec004db188a76ea2dacd19de74df0da
 
 
 plt.plot(solution.t,solution.y[0],label='Uninfected')
@@ -38,8 +34,5 @@ plt.ylabel('Population infected')
 plt.grid() 
 plt.legend()
 plt.show()
-<<<<<<< HEAD
 
 print(infected)
-=======
->>>>>>> a9709f67506e01dcb69530471bd99f1aa604bbf5
