@@ -37,4 +37,3 @@ plt.grid()
 plt.legend()
 plt.show()
 
-print(population_infected)
