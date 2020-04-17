@@ -1,3 +1,4 @@
+infection rate, recovery rate, number of days until maximum infection
 0.0,0.0,0
 0.0,0.1111111111111111,0
 0.0,0.2222222222222222,0
