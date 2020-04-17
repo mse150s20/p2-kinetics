@@ -6,6 +6,7 @@ It models the pandemic in Idaho as kinetic function of time in days, with WORDS 
 ## Tell us a little bit about the idaho_infections.csv file and what it holds
 And maybe tell us a little bit about how we might compare our plots from kinetics.py with it.
 
+The idaho_infections.csv file includes the number of infected people in Idaho and the number of days since the first recorded infection. 
 
 # software requirements
 This code requires access to a commandline terminal and to have a github account to access the p2-kinetics repository and to be able to track and collaborate with other researchers on
