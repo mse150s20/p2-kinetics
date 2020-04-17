@@ -2,3 +2,5 @@ Summary of Playing.py with changing k1, and k2
 - Transmissability factor above 3 but below 5 (https://www.sciencedirect.com/science/article/pii/S1286457920300265)
 - Analyzed data from factor of 3-5
   - Max day was from 4-6 with this k1 value
+-Analyzed data with k1 4-5
+
