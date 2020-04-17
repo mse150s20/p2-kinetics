@@ -8,3 +8,4 @@ Summary of Playing.py with changing k1, and k2
 -Analyzed k1 2-3
   - k1 value matched a better to cdc graph
   -Max day around 9-10
+  -values of k1 2-2.1 matches peak
