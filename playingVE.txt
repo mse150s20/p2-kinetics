@@ -1,2 +1,2 @@
 Summary of Playing.py with changing k1, and k2
-- Transmissability factor above 3 but below 5
+- Transmissability factor above 3 but below 5 (https://www.sciencedirect.com/science/article/pii/S1286457920300265)
