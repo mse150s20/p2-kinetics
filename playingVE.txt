@@ -5,4 +5,4 @@ Summary of Playing.py with changing k1, and k2
   - Max day was from 4-6 with this k1 value
 -Analyzed data with k1 4-5
   - Max day was 4-6
-
+-Analyzed k1 2-3
