@@ -1,1 +1,2 @@
 Summary of Playing.py with changing k1, and k2
+- Transmissability factor above 3 but below 5
