@@ -1,5 +1,7 @@
 # overview of code
+This code describes and models the current coronavirus (COVID-19) pandemic in the state of Idaho.
 
+It models the pandemic in Idaho as kinetic function of time in days, with WORDS WORDS WORDS modeling uninfected, infected, recovered, and deaths???
 
 ## Tell us a little bit about the idaho_infections.csv file and what it holds
 And maybe tell us a little bit about how we might compare our plots from kinetics.py with it.
@@ -16,6 +18,9 @@ The run the code on your computer, pull the p2-kinetics repository from github c
 
 # how to use this code
 To use this code you must be in the directory that contains the code. Type "python kinetics.pyi " + the path to the file that contains the data.
+This code can be run in the commandline terminal by typing "$ python [FILE NAME]" here.
+
+
 # figures showing our code output here
 
 # links to cite where we got our data
