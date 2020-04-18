@@ -22,7 +22,7 @@ solution = kinetics(0.07,0.02, N-1000,1000,0) #ONE infected person on day0
 
 k1s=np.linspace(2,3,10)
 k2s=np.linspace(0,1,10)
-with open("maxday_vs_k1k2.txt","w") as f:
+with open("maxday_vs_k1k2.txt","w") as f:  #copies to maxday_vs_k1k2.txt file
 
     for k1 in k1s:
         for k2 in k2s:
