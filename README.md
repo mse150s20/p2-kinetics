@@ -27,3 +27,5 @@ Idaho Division of Public Health - https://public.tableau.com/profile/idaho.divis
 
 New York Times GitHub Repo -  https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv
 
+
+# Results from playing with paramters
