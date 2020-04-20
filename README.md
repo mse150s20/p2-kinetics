@@ -1,5 +1,5 @@
 # Overview of Code
-This code describes and models the current coronavirus (COVID-19) pandemic in the state of Idaho.
+This code describes and models the current coronavirus (COVID-19) pandemic in the state of Idaho. With this, we hope to provide information on how well Idaho is dealing with COVID-19.
 
 It models the pandemic in Idaho as kinetic function of time in days, with equations that model the uninfected, infected, recovered, and deaths in Idaho.
 
