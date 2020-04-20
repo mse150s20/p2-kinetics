@@ -1,7 +1,7 @@
 # Overview of Code
 This code describes and models the current coronavirus (COVID-19) pandemic in the state of Idaho.
 
-It models the pandemic in Idaho as kinetic function of time in days, with WORDS WORDS WORDS modeling uninfected, infected, recovered, and deaths???
+It models the pandemic in Idaho as kinetic function of time in days, with equations that model the uninfected, infected, recovered, and deaths in Idaho.
 
 ## Tell us a little bit about the idaho_infections.csv file and what it holds
 And maybe tell us a little bit about how we might compare our plots from kinetics.py with it.
