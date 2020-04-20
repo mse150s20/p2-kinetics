@@ -13,7 +13,7 @@ plt.xlabel('Time [days]')
 plt.ylabel('Population infected')
 plt.yscale('log')
 plt.grid() 
-plt.legend('Infected People')
+plt.legend(['Infected People'], loc='best')
 plt.show()
 
 
