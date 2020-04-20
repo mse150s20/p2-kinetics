@@ -9,6 +9,7 @@ infected_people= infected[:,1]
 day= infected[:,0]
 
 plt.plot(day, infected_people)
+plt.title("Infection rate of COVID-19 in Idaho") 
 plt.xlabel('Time [days]')
 plt.ylabel('Population infected')
 plt.grid() 
