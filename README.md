@@ -28,4 +28,5 @@ Idaho Division of Public Health - https://public.tableau.com/profile/idaho.divis
 New York Times GitHub Repo -  https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv
 
 
-# Results from playing with paramters
+# Results from playing with parameters
+Increasing k1 makes the beginning of the infection begin sooner, and increasing k2 raises the maximum number of individuals that won't be infected
