@@ -14,8 +14,9 @@ plt.plot(day, log_infected, color='green', linestyle='--')
 plt.title("Infection rate of COVID-19 in Idaho") 
 plt.xlabel('Time [days]')
 plt.ylabel('Population infected')
+plt.yscale('log')
 plt.grid() 
-plt.legend()
+plt.legend(['Infected People'], loc='best')
 plt.show()
 
 
