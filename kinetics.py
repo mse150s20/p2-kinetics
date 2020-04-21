@@ -26,9 +26,9 @@ time = np.loadtxt(filename, skiprows = 3, delimiter = ',', usecols =(0))
 solution = kinetics(0.5,0.02, N-1,1,0) #ONE infected person on day0
 
 plt.plot(time,population_infected, label='Idaho Cumulative Infections')
-plt.plot(solution.t,solution.y[0],label='A')
-plt.plot(solution.t,solution.y[1],label='B',linestyle='dashed')
-plt.plot(solution.t,solution.y[2],label='C',linestyle='dotted')
+plt.plot(solution.t,solution.y[0],label='Uninfected')
+plt.plot(solution.t,solution.y[1],label='Infected',linestyle='dashed')
+plt.plot(solution.t,solution.y[2],label='Recovered',linestyle='dotted')
 
 plt.xlabel('Time [days]')
 plt.ylabel('Population infected')
