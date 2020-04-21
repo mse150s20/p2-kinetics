@@ -11,8 +11,9 @@ day= infected[:,0]
 plt.plot(day, infected_people)
 plt.xlabel('Time [days]')
 plt.ylabel('Population infected')
+plt.yscale('log')
 plt.grid() 
-plt.legend()
+plt.legend(['Infected People'], loc='best')
 plt.show()
 
 
