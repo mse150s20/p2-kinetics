@@ -1,5 +1,5 @@
 
-m scipy.integrate import solve_ivp
+from scipy.integrate import solve_ivp
 import matplotlib.pyplot as plt
 import numpy as np
 import sys
@@ -36,4 +36,4 @@ plt.ylabel('Population infected')
 plt.ylim(0,2000)
 plt.grid()
 plt.legend(loc='best')
-
+plt.show()
