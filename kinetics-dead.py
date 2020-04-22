@@ -30,5 +30,3 @@ plt.ylabel('Population infected')
 plt.grid() 
 plt.legend()
 plt.show()
-
-
