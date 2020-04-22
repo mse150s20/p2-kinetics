@@ -18,7 +18,7 @@ def kinetics(k1, k2, a_0, b_0, c_0):
 
 solution = kinetics(0.07,0.02, N-1000,1000,0) #ONE infected person on day0
 
-#Code will evaluate k1 and k2 values from 0 to 1, finding the index of the max value of B, this will then copy the code to a text file which is separated commas.
+#Code will evaluate k1 (infection rate) and k2 (recovery rate) values from 0 to 1, finding the index of the max value of B, this will then copy the code to a text file which is separated commas.
 
 k1s=np.linspace(0,1,10)
 k2s=np.linspace(0,1,10)
@@ -32,6 +32,7 @@ with open("maxday_vs_k1k2.txt","w") as f:
             max_day= solution.t[max_B_ind]
             f.write("{},{},{}\n".format(k1,k2,max_day))
 
+#k1 is infection rate, k2 is recovery rate, prints amount of time in  days until infected is at the maximum
 
 #plt.plot(solution.t,solution.y[0],label='Uninfected')
 #plt.plot(solution.t,solution.y[1],label='Infected',linestyle='dashed')
