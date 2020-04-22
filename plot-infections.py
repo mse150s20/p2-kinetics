@@ -18,5 +18,3 @@ plt.yscale('log')
 plt.grid() 
 plt.legend(['Infected People'], loc='best')
 plt.show()
-
-

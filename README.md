@@ -27,3 +27,30 @@ Idaho Division of Public Health - https://public.tableau.com/profile/idaho.divis
 
 New York Times GitHub Repo -  https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv
 
+
+# Results from playing with parameters
+Increasing k1 makes the beginning of the infection begin sooner, and increasing k2 raises the maximum number of individuals that won't be infected
+
+# Info copy pasted from info.txt - should be cleaned up
+Project 2 descriptions:
+    Modeling kinetics: rate of change between things!
+    
+    A -> B -> C
+    
+The rates of change betweeen A->B and B->C Determine when we will see a certain concentration, AND the initial conditions. 
+
+Species C:
+    comes from a reaction from B->C
+    
+    Line 14 has k2*B in that big list that's returned
+    That MEANS: dC/dt = k2 * B
+    That means: Amount of C goes up over time, depending on how much B there is.
+    k2 is a CONSTANT for this project
+    
+Species A: 
+    dA/dt is in the first element of the list returned on line 14
+    dA/dt = -k1*A*B/(A+B+C)
+This reaction depends on the concentration of A and the concentration of B
+concentration of A is A/(A+B+C), and the concentration of B is B/(A+B+C)
+
+k1 and k2 are our reaction constants
