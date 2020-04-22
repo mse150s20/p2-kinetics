@@ -1,14 +1,14 @@
-  
+
 from scipy.integrate import solve_ivp
 import matplotlib.pyplot as plt
 import numpy as np
 import sys
 
 # the maximum time of virus in days
-maxtime = 365
+maxtime = 50
 # people in Idaho
 N = 1754000 #where did this number come from?
-def kinetics(k1, k2, a_0, b_0, c_0):   #Units of k1 
+def kinetics(k1, k2, a_0, b_0, c_0):   #Units of k1
     def abc(t, y):
         ''' System of differential equations: y(t) = [A(t),B(t),C(t)]
             returns:
@@ -33,6 +33,7 @@ plt.plot(solution.t,solution.y[2],label='Recovered',linestyle='dotted')
 
 plt.xlabel('Time [days]')
 plt.ylabel('Population infected')
-plt.grid() 
+plt.ylim(0,2000)
+plt.grid()
 plt.legend(loc='best')
 plt.show()
