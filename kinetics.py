@@ -20,15 +20,13 @@ def kinetics(k1, k2, a_0, b_0, c_0):   #Units of k1
     return solve_ivp(abc, [0, maxtime], [a_0,b_0,c_0], t_eval=np.arange(0, maxtime, 1),method='Radau')
 # Original k1 is 0.1
 filename = sys.argv[1]
-population_infected = np.loadtxt(filename, skiprows = 3, delimiter = ',', usecols = (2))
 time = np.loadtxt(filename, skiprows = 3, delimiter = ',', usecols = (0))
+infected = np.loadtxt(filename, skiprows = 3, delimiter = ',', usecols = (2))
 dead = np.loadtxt(filename, skiprows = 3, delimiter = ',', usecols = (4))
-#filename = idaho_infections.csv
-#infected = np.loadtxt(filename, skiprows = 3, delimiter = ',', usecols = (2))
 solution = kinetics(0.5,0.02, N-1,1,0) #ONE infected person on day0
 
 plt.plot(time, dead, label='Real Dead', color = 'k')
-plt.plot(time,population_infected, label='Real Infections')
+plt.plot(time,infected, label='Real Infections')
 plt.plot(solution.t,solution.y[0],label='Model Uninfected')
 plt.plot(solution.t,solution.y[1],label='Model Infected',linestyle='dashed')
 plt.plot(solution.t,solution.y[2],label='Model Recovered',linestyle='dotted')
