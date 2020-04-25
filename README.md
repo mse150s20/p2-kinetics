@@ -22,11 +22,17 @@ To use this code you must be in the directory that contains the code. Type "$ py
 
 # Figures Showing Our Code Output Here
 
-# Links to Cite Where We Got Our Data
-Idaho Division of Public Health - https://public.tableau.com/profile/idaho.division.of.public.health#
+# Information About Idaho Infection data
+idaho\_infections.csv is the place where we're consolidating the infection vs. time data.
+It contains idaho division of health resource (Link 1).
 
-New York Times GitHub Repo -  https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv
 
+## Links to specific sources
+1. Idaho Division of Public Health - https://public.tableau.com/profile/idaho.division.of.public.health#
+
+2. New York Times GitHub Repo -  https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv
+
+Idaho Statesman - https://www.idahostatesman.com/news/coronavirus/article242127516.html
 
 # Results from playing with parameters
 Increasing k1 makes the beginning of the infection begin sooner, and increasing k2 raises the maximum number of individuals that won't be infected
