@@ -7,7 +7,7 @@ import sys
 # the maximum time of virus in days
 maxtime = 365
 # people in Idaho
-N = 1754000 #where did this number come from?
+N = 1754000 # Population of Idaho according to U.S. Census
 def kinetics(k1, k2, a_0, b_0, c_0):   #Units of k1 
     def abc(t, y):
         ''' System of differential equations: y(t) = [A(t),B(t),C(t)]
@@ -23,7 +23,7 @@ filename = sys.argv[1]
 time = np.loadtxt(filename, skiprows = 8, delimiter = ',', usecols = (0))
 infected = np.loadtxt(filename, skiprows = 8, delimiter = ',', usecols = (2))
 dead = np.loadtxt(filename, skiprows = 8, delimiter = ',', usecols = (4))
-recovered = np.loadtxt(filename, skiprows = 8, delimiter = ',', usecols = (6))
+recovered = np.loadtxt(filename, skiprows = 8,  delimiter = ',', usecols = (6))
 solution = kinetics(0.5,0.02, N-1,1,0) #ONE infected person on day0
 
 plt.plot(time, dead, label='Real Dead', color = 'k')
