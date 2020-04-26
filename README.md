@@ -17,7 +17,7 @@ downloading Python onto the local machine. It will ask a few permission question
 To run this code on your computer, pull the p2-kinetics repository from github class master to your terminal, or fork the repository and pull the code from your own personal repository. 
 
 # How to Use This Code
-To use this code you must be in the directory that contains the code. Type "$ python kinetics.pyi " + the path to the file that contains the data.
+To use this code you must be in the directory that contains the code. Type "$ python kinetics.pyi " + the path to the file that contains the data. To run the code, type python (filename.py) in your command line.
 
 
 # Figures Showing Our Code Output Here
