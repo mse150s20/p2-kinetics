@@ -23,3 +23,7 @@
  	b) https://towardsdatascience.com/infectious-disease-modelling-beyond-the-basic-sir-model-216369c584c4
 	c) https://towardsdatascience.com/infectious-disease-modelling-fit-your-model-to-coronavirus-data-2568e672dbc7
 	d) https://github.com/hf2000510/infectious_disease_modelling/blob/master/part_two.ipynb
+
+8. International Journal of Infections Dieseases. Monitoring Transmissibility and Mortality of COVID-19 in Europe: Table of R(t) values over time in different European countries, including Italy
+https://www.ijidonline.com/article/S1201-9712(20)30182-X/fulltext
+
