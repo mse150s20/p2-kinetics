@@ -19,6 +19,10 @@ To run this code on your computer, pull the p2-kinetics repository from github c
 # How to Use This Code
 To use this code you must be in the directory that contains the code. Type "$ python kinetics.pyi " + the path to the file that contains the data.
 
+# Example of how to use this code
+$ cd p2-kinetics/
+$ python kinetics.py Data/idaho_infections.csv
+A plot will appear if everything is working correctly.
 
 # Figures Showing Our Code Output Here
 
