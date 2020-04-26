@@ -32,7 +32,9 @@ It contains idaho division of health resource (Link 1).
 
 2. New York Times GitHub Repo -  https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv
 
-Idaho Statesman - https://www.idahostatesman.com/news/coronavirus/article242127516.html
+3. Idaho Statesman - https://www.idahostatesman.com/news/coronavirus/article242127516.html
+
+4. KTVB 7 - https://www.ktvb.com/article/news/health/coronavirus/idaho-confirms-first-covid-19-coronavirus-case/277-262de30b-ef00-40a2-b40e-43e26f0bb99b
 
 # Results from playing with parameters
 Increasing k1 makes the beginning of the infection begin sooner, and increasing k2 raises the maximum number of individuals that won't be infected
