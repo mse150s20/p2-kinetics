@@ -32,3 +32,4 @@ It contains idaho division of health resource (Link 1).
 
 2. New York Times GitHub Repo -  https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv
 
+1. New link that is just gonna mess things up.
