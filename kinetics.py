@@ -21,9 +21,9 @@ def kinetics(k1, k2, a_0, b_0, c_0):   #Units of k1
 # Original k1 is 0.1
 filename = sys.argv[1]
 population_infected = np.loadtxt(filename, skiprows = 3, delimiter = ',', usecols = (2))
-time = np.loadtxt(filename, skiprows = 8, delimiter = ',', usecols = (0))
+time = np.loadtxt(filename, skiprows = 3, delimiter = ',', usecols = (0))
 #infected = np.loadtxt(filename, skiprows = 8, delimiter = ',', usecols = (2))
-dead = np.loadtxt(filename, skiprows = 8, delimiter = ',', usecols = (4))
+dead = np.loadtxt(filename, skiprows = 3, delimiter = ',', usecols = (4))
 #filename = idaho_infections.csv
 #recovered = np.loadtxt(filename, skiprows = 8,  delimiter = ',', usecols = (6))
 solution = kinetics(0.5,0.02, N-1,1,0) #ONE infected person on day0
