@@ -36,3 +36,4 @@ https://www.ijidonline.com/article/S1201-9712(20)30182-X/fulltext
 12. The Center for Disease Control and Prevention has up to date data visualitations which include data from the global map
 	a) https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/world-map.html
 	b) https://www.cdc.gov/coronavirus/2019-ncov/covid-data/data-visualization.htm
+13. Our World in Data includes data from aoround the world catagorized by country. This website includes an interactive graph on total number of deaths, daily number of deaths, and a global comparision by day.
