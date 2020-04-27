@@ -19,3 +19,5 @@ plt.ylabel('Number of People')
 plt.grid() 
 plt.legend(loc='best')
 plt.show()
+
+plt.savefig(filename + ".png")
