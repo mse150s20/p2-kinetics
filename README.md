@@ -19,8 +19,9 @@ To run the code on your computer, pull the p2-kinetics repository from github cl
 # How to Use This Code
 To use this code you must be in the directory that contains the code. Type "$ python kinetics.py" + the path to the file that contains the data. To run the code, type python (filename.py) in your command line.
 
+
 # Example of how to use this code
-$ cd p2-kinetics/
+`$ cd p2-kinetics/`
 
 `$ python kinetics.py Data/idaho_infections.csv`
 
