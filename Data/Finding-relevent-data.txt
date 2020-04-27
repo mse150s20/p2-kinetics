@@ -13,7 +13,8 @@
 4. Data on the total number of deaths and deaths that occured each day 
 	(https://www.idahostatesman.com/news/coronavirus/article242127516.html)
 
-5. The collection of data of all of Idaho on the number of confirmed COVID-19 cases. Includes data on the number of confirmed cases that occur each day, by age group, by sex, etc. (https://public.tableau.com/profile/idaho.division.of.public.health#!/vizhome/DPHIdahoCOVID-19Dashboard_V2/Story1)
+5. The collection of data of all of Idaho on the number of confirmed COVID-19 cases. Includes data on the number of confirmed cases that occur each day, by age group, by sex, etc. 
+	(https://public.tableau.com/profile/idaho.division.of.public.health#!/vizhome/DPHIdahoCOVID-19Dashboard_V2/Story1)
 
 6. COVID-19 data based on each countryin every state has reported (https://coronavirus.jhu.edu/us-map)
 
