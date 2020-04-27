@@ -29,4 +29,6 @@ https://www.ijidonline.com/article/S1201-9712(20)30182-X/fulltext
 
 9. KTVB 7 - Has data on the number of recoveries on their reported dates. (https://www.ktvb.com/article/news/health/coronavirus/idaho-confirms-first-covid-19-coronavirus-case/277-262de30b-ef00-40a2-b40e-43e26f0bb99b)
 
-10. The Center for Disease Control and Prevention has up to date data visualitations which include data from the global map
+10. Institute for Health Metrics and Evaluation - contains plots of reported and projected number of deaths up to August (https://covid19.healthdata.org/united-states-of-america/idaho)
+
+11. Covid Act Now - website has a plot of reported and projected numbers of hospitalizations (https://covidactnow.org/us/id)
