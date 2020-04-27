@@ -9,32 +9,27 @@ And maybe tell us a little bit about how we might compare our plots from kinetic
 The idaho_infections.csv file includes the number of infected people in Idaho and the number of days since the first recorded infection. 
 
 # Software Requirements
-This code requires access to a commandline terminal and to have a github account to access the p2-kinetics repository and to be able to track and collaborate with other researchers on this topic. For this program to run, python must be installed on the local machine.To download Python go to terminal, type in the command line "apt-get install python". This will start 
-downloading Python onto the local machine. It will ask a few permission questions and you will have to let it install Python onto the local machine.
-
+This code requires access to a commandline terminal, a github account to access the p2-kinetics repository, and to be able to track and collaborate with other researchers on this topic. For this program to run, python must be installed on the local machine. To download Python, go to terminal, type in the command line "apt-get install python". This will start downloading Python onto the local machine. Your computer will ask a few permission questions and you will have to let it install Python onto the local machine.
 
 # How to Get This Code
 To run the code on your computer, pull the p2-kinetics repository from github class master to your terminal, or fork the repository and pull the code from your own personal repository. 
 
 # How to Use This Code
-To use this code you must be in the directory that contains the code. Type "$ python kinetics.pyi " + the path to the file that contains the data. To run the code, type python (filename.py) in your command line.
+To use this code you must be in the directory that contains the code. Type "$ python kinetics.py" + the path to the file that contains the data. To run the code, type python (filename.py) in your command line. Then hit Enter.
+
 
 # Example of how to use this code
 `$ cd p2-kinetics/`
 
-$ python kinetics.py Data/idaho_infections.csv
+`$ python kinetics.py Data/idaho_infections.csv`
+
 A plot will appear if everything is working correctly.
 
 # Figures Showing Our Code Output Here
 Data/idaho_infection.csv.png
 A graph of the numer of infections vs time on a logarithmic scale. 
 
-# Information About Idaho Infection data
-idaho\_infections.csv is the place where we're consolidating the infection vs. time data.
-It contains idaho division of health resource (Link 1).
-
-
-## Links to specific sources
+# Links to Cite Where We Got Our Data
 1. Idaho Division of Public Health - https://public.tableau.com/profile/idaho.division.of.public.health#
 
 1. New York Times GitHub Repo -  https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv
@@ -47,7 +42,7 @@ It contains idaho division of health resource (Link 1).
 
 
 # Results from playing with parameters
-Increasing k1 makes the beginning of the infection begin sooner, and increasing k2 raises the maximum number of individuals that won't be infected
+Increasing k1 increases the rate at which uninfected people are infected, increasing k2 increases the rate at which people recover from the infected portion of the graph, and increasing k3 increases the rate at which people die from the infected portion of the graph.
 
 # Info copy pasted from info.txt - should be cleaned up
 Project 2 descriptions:
@@ -67,8 +62,9 @@ Species C:
     
 Species A: 
     dA/dt is in the first element of the list returned on line 14
-    dA/dt = -k1*A*B/(A+B+C)
+    dA/dt = -k1\*A*B/(A+B+C)
 This reaction depends on the concentration of A and the concentration of B
 concentration of A is A/(A+B+C), and the concentration of B is B/(A+B+C)
 
 k1 and k2 are our reaction constants
+
