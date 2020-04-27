@@ -26,8 +26,8 @@ To use this code you must be in the directory that contains the code. Type "$ py
 A plot will appear if everything is working correctly.
 
 # Figures Showing Our Code Output Here
-Data/idaho_infection.csv.png
-A graph of the numer of infections vs time on a logarithmic scale. 
+![infections vs time](Data/idaho_infection.csv.png)
+A graph of the number of infections vs time on a logarithmic scale. 
 
 # Links to Cite Where We Got Our Data
 1. Idaho Division of Public Health - https://public.tableau.com/profile/idaho.division.of.public.health#
