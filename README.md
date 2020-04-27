@@ -7,13 +7,13 @@ It models the pandemic in Idaho as kinetic function of time in days, with equati
 The idaho_infections.csv file contains the reported numbers of the total reported infected people, deaths, and recoveries in Idaho. The file starts on the first day of reported cases in the state. It also includes the number of new cases of each designation. This csv file works in conjuction with kinetics.py as it will show the comparison of the reported data along side with the projected data. 
 
 # Software Requirements
-This code requires access to a commandline terminal, a github account to access the p2-kinetics repository, and to be able to track and collaborate with other researchers on this topic. For this program to run, python must be installed on the local machine. To download Python, go to terminal, type in the command line "apt-get install python". This will start downloading Python onto the local machine. It will ask a few permission questions and you will have to let it install Python onto the local machine.
+This code requires access to a commandline terminal, a github account to access the p2-kinetics repository, and to be able to track and collaborate with other researchers on this topic. For this program to run, python must be installed on the local machine. To download Python, go to terminal, type in the command line "apt-get install python". This will start downloading Python onto the local machine. Your computer will ask a few permission questions and you will have to let it install Python onto the local machine.
 
 # How to Get This Code
 To run the code on your computer, pull the p2-kinetics repository from github class master to your terminal, or fork the repository and pull the code from your own personal repository. 
 
 # How to Use This Code
-To use this code you must be in the directory that contains the code. Type "$ python kinetics.py" + the path to the file that contains the data. To run the code, type python (filename.py) in your command line.
+To use this code you must be in the directory that contains the code. Type "$ python kinetics.py" + the path to the file that contains the data. To run the code, type python (filename.py) in your command line. Then hit Enter.
 
 
 # Example of how to use this code
@@ -43,7 +43,7 @@ It contains idaho division of health resource (Link 1).
 
 
 # Results from playing with parameters
-Increasing k1 makes the beginning of the infection begin sooner, and increasing k2 raises the maximum number of individuals that won't be infected
+Increasing k1 increases the rate at which uninfected people are infected, increasing k2 increases the rate at which people recover from the infected portion of the graph, and increasing k3 increases the rate at which people die from the infected portion of the graph.
 
 # Info copy pasted from info.txt - should be cleaned up
 Project 2 descriptions:
