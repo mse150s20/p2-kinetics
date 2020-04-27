@@ -8,19 +8,19 @@ import sys
 maxtime = 365
 # people in Idaho
 N = 1754000 # Population of Idaho according to U.S. Census
-def kinetics(k1, k2, a_0, b_0, c_0):   #Units of k1 
+def kinetics(k1, k2, h_0, i_0, r_0):   #Units of k1 
     def abc(t, y):
-        ''' System of differential equations: y(t) = [A(t),B(t),C(t)]
+        ''' System of differential equations: y(t) = [H(t),I(t),R(t)]
             returns:
-                A list containing [dA/dt, dB/dt, dC/dt]
+                A list containing [dH/dt, dI/dt, dR/dt]
         '''
-        H,B,C = y
+        H,I,R = y
 	#H = the number of healthy people who have never contracted the virus.
         #I = the number of people who have become infected due to the virus.
 	#R = the number of people who have recoverd from the virus.
 	
-	return [-k1*A*B/(A+B+C), k1*A*B/(A+B+C)-k2*B, k2*B] #The equation for Dead will just be (k3*B) where k3 is the death rate, we will have to add (-k3*B) to the infected part of the graph.
-    return solve_ivp(abc, [0, maxtime], [a_0,b_0,c_0], t_eval=np.arange(0, maxtime, 1),method='Radau')
+	return [-k1*H*I/(H+I+R), k1*H*I/(H+I+R)-k2*I, k2*I] #The equation for Dead will just be (k3*I) where k3 is the death rate, we will have to add (-k3*I) to the infected part of the graph.
+    return solve_ivp(abc, [0, maxtime], [h_0,i_0,r_0], t_eval=np.arange(0, maxtime, 1),method='Radau')
 # Original k1 is 0.1
 filename = sys.argv[1]
 population_infected = np.loadtxt(filename, skiprows = 3, delimiter = ',', usecols = (2))
