@@ -25,14 +25,12 @@ To use this code you must be in the directory that contains the code. Type "$ py
 
 A plot will appear if everything is working correctly.
 
+
 # Figures Showing Our Code Output Here
 
-# Information About Idaho Infection data
-idaho\_infections.csv is the place where we're consolidating the infection vs. time data.
-It contains idaho division of health resource (Link 1).
+![alt text](#waiting for Cody's image to be merged here)
 
-
-## Links to specific sources
+# Links to Cite Where We Got Our Data
 1. Idaho Division of Public Health - https://public.tableau.com/profile/idaho.division.of.public.health#
 
 1. New York Times GitHub Repo -  https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv
@@ -70,3 +68,4 @@ This reaction depends on the concentration of A and the concentration of B
 concentration of A is A/(A+B+C), and the concentration of B is B/(A+B+C)
 
 k1 and k2 are our reaction constants
+
