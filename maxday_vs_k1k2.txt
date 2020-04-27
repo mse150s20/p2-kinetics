@@ -1,4 +1,4 @@
-Shows the days at which the infections were at a peak
+Shows the days in which the infections were at a peak
 2.0,0.0,26
 2.0,0.1111111111111111,9
 2.0,0.2222222222222222,9
