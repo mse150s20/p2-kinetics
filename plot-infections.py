@@ -17,7 +17,7 @@ plt.plot(day, infected_people,label='Infected',color='r')
 plt.xlabel('Time [days]')
 plt.ylabel('Number of People')
 plt.grid()
-plt.title(filename,loc='best') 
+plt.title(filename,loc='center') 
 plt.legend(loc='best')
 plt.show()
 
