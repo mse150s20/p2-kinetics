@@ -16,7 +16,8 @@
 5. The collection of data of all of Idaho on the number of confirmed COVID-19 cases. Includes data on the number of confirmed cases that occur each day, by age group, by sex, etc. 
 	(https://public.tableau.com/profile/idaho.division.of.public.health#!/vizhome/DPHIdahoCOVID-19Dashboard_V2/Story1)
 
-6. COVID-19 data based on each countryin every state has reported (https://coronavirus.jhu.edu/us-map)
+6. COVID-19 data based on each countryin every state has reported 
+	(https://coronavirus.jhu.edu/us-map)
 
 7. Medium: Towards Data Science
 	A series of articles that explains SIR equations that are used to model the COVID-19 pandemic. The article also attached a link to github to generate the same plots on python.
