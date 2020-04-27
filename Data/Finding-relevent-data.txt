@@ -44,4 +44,4 @@
 	(https://www.cdc.gov/coronavirus/2019-ncov/covid-data/data-visualization.htm)
 
 13. The website Our World in Data includes interactive graphs from around the world by country for the total number of deaths, daily number of deaths, and a global comparision by day.
-	https://ourworldindata.org/coronavirus
+	(https://ourworldindata.org/coronavirus)
