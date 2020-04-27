@@ -1,8 +1,8 @@
 #Write any relevent data related to the coronavirus.
 - Summary of data (citation - include link to source)
 
-1. R0 value of COVID-19 is between 1.5 and 3.5
- (https://labblog.uofmhealth.org/rounds/how-scientists-quantify-intensity-of-an-outbreak-like-covid-19)
+1. R0 value of COVID-19 is between 1.5 and 3.5 
+	(https://labblog.uofmhealth.org/rounds/how-scientists-quantify-intensity-of-an-outbreak-like-covid-19)
 
 2. Infection data from Johns Hopkins University both world wide data and data by state (on their git hub)
  	(https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv)
