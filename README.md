@@ -48,7 +48,7 @@ It contains idaho division of health resource (Link 1).
 # Results from playing with parameters
 Increasing k1 makes the beginning of the infection begin sooner, and increasing k2 raises the maximum number of individuals that won't be infected
 
-# Info copy pasted from info.txt - should be cleaned up
+# Info copy pasted from info.txt
 Project 2 descriptions:
     Modeling kinetics: rate of change between things!
     
@@ -57,10 +57,10 @@ Project 2 descriptions:
 The rates of change betweeen A->B and B->C Determine when we will see a certain concentration, AND the initial conditions. 
 
 Species C:
-    comes from a reaction from B->C
+    Comes from a reaction from B->C
     
     Line 14 has k2*B in that big list that's returned
-    That MEANS: dC/dt = k2 * B
+    That means: dC/dt = k2 * B
     That means: Amount of C goes up over time, depending on how much B there is.
     k2 is a CONSTANT for this project
     
