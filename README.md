@@ -12,16 +12,22 @@ The idaho_infections.csv file includes the number of infected people in Idaho an
 This code requires access to a commandline terminal and to have a github account to access the p2-kinetics repository and to be able to track and collaborate with other researchers on this topic. For this program to run, python must be installed on the local machine. To download Python, go to terminal, type in the command line "apt-get install python". This will start 
 downloading Python onto the local machine. Your computer will ask a few permission questions and you will have to let it install Python onto the local machine.
 
-
 # How to Get This Code
 To run the code on your computer, pull the p2-kinetics repository from github class master to your terminal, or fork the repository and pull the code from your own personal repository. 
 
 # How to Use This Code
+<<<<<<< HEAD
 To use this code you must be in the directory that contains the code. Type "$ python kinetics" + the path to the file that contains the data. To run the code, type python (filename.py) in your command line. Then hit Enter.
+=======
+To use this code you must be in the directory that contains the code. Type "$ python kinetics.py" + the path to the file that contains the data. To run the code, type python (filename.py) in your command line.
+
+>>>>>>> d29aa5d90db6bb780b898731e1806150a1077c37
 
 # Example of how to use this code
-$ cd p2-kinetics/
-$ python kinetics.py Data/idaho_infections.csv
+`$ cd p2-kinetics/`
+
+`$ python kinetics.py Data/idaho_infections.csv`
+
 A plot will appear if everything is working correctly.
 
 # Figures Showing Our Code Output Here
@@ -64,7 +70,7 @@ Species C:
     
 Species A: 
     dA/dt is in the first element of the list returned on line 14
-    dA/dt = -k1*A*B/(A+B+C)
+    dA/dt = -k1\*A*B/(A+B+C)
 This reaction depends on the concentration of A and the concentration of B
 concentration of A is A/(A+B+C), and the concentration of B is B/(A+B+C)
 
