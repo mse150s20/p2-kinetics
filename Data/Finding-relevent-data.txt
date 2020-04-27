@@ -32,3 +32,5 @@ https://www.ijidonline.com/article/S1201-9712(20)30182-X/fulltext
 10. Institute for Health Metrics and Evaluation - contains plots of reported and projected number of deaths up to August (https://covid19.healthdata.org/united-states-of-america/idaho)
 
 11. Covid Act Now - website has a plot of reported and projected numbers of hospitalizations (https://covidactnow.org/us/id)
+
+12.10. The Center for Disease Control and Prevention has up to date data visualitations which include data from the global map
