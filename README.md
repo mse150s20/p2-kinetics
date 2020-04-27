@@ -19,6 +19,10 @@ To run this code on your computer, pull the p2-kinetics repository from github c
 # How to Use This Code
 To use this code you must be in the directory that contains the code. Type "$ python kinetics.pyi " + the path to the file that contains the data.
 
+# Example of how to use this code
+$ cd p2-kinetics/
+$ python kinetics.py Data/idaho_infections.csv
+A plot will appear if everything is working correctly.
 
 # Figures Showing Our Code Output Here
 
@@ -30,11 +34,15 @@ It contains idaho division of health resource (Link 1).
 ## Links to specific sources
 1. Idaho Division of Public Health - https://public.tableau.com/profile/idaho.division.of.public.health#
 
-2. New York Times GitHub Repo -  https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv
+1. New York Times GitHub Repo -  https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv
 
-3. Idaho Statesman - https://www.idahostatesman.com/news/coronavirus/article242127516.html
+1. Idaho Statesman - https://www.idahostatesman.com/news/coronavirus/article242127516.html
 
-4. Centers for Disease Control and Prevention - https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/summary.html#:~:text=On%20March%2011%2C%20the,of%20novel%20influenza%20viruses.
+1. KTVB 7 - https://www.ktvb.com/article/news/health/coronavirus/idaho-confirms-first-covid-19-coronavirus-case/277-262de30b-ef00-40a2-b40e-43e26f0bb99b
+
+1. Centers for Disease Control and Prevention - https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/summary.html#:~:text=On%20March%2011%2C%20the,of%20novel%20influenza%20viruses.
+
+
 # Results from playing with parameters
 Increasing k1 makes the beginning of the infection begin sooner, and increasing k2 raises the maximum number of individuals that won't be infected
 

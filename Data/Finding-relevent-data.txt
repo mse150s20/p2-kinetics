@@ -27,3 +27,4 @@
 8. International Journal of Infections Dieseases. Monitoring Transmissibility and Mortality of COVID-19 in Europe: Table of R(t) values over time in different European countries, including Italy
 https://www.ijidonline.com/article/S1201-9712(20)30182-X/fulltext
 
+9. KTVB 7 - Has data on the number of recoveries on their reported dates. (https://www.ktvb.com/article/news/health/coronavirus/idaho-confirms-first-covid-19-coronavirus-case/277-262de30b-ef00-40a2-b40e-43e26f0bb99b)
