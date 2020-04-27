@@ -37,3 +37,4 @@ https://www.ijidonline.com/article/S1201-9712(20)30182-X/fulltext
 	a) https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/world-map.html
 	b) https://www.cdc.gov/coronavirus/2019-ncov/covid-data/data-visualization.htm
 13. Our World in Data includes data from around the world catagorized by country. This website includes an interactive graph on total number of deaths, daily number of deaths, and a global comparision by day.
+https://ourworldindata.org/coronavirus
