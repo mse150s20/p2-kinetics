@@ -10,7 +10,7 @@ The idaho_infections.csv file includes the number of infected people in Idaho an
 
 # Software Requirements
 This code requires access to a commandline terminal and to have a github account to access the p2-kinetics repository and to be able to track and collaborate with other researchers on this topic. For this program to run, python must be installed on the local machine. To download Python, go to terminal, type in the command line "apt-get install python". This will start 
-downloading Python onto the local machine. It will ask a few permission questions and you will have to let it install Python onto the local machine.
+downloading Python onto the local machine. Your computer will ask a few permission questions and you will have to let it install Python onto the local machine.
 
 
 # How to Get This Code
