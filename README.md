@@ -66,7 +66,7 @@ Species C:
     
 Species A: 
     dA/dt is in the first element of the list returned on line 14
-    dA/dt = -k1*A*B/(A+B+C)
+    dA/dt = -k1\*A*B/(A+B+C)
 This reaction depends on the concentration of A and the concentration of B
 concentration of A is A/(A+B+C), and the concentration of B is B/(A+B+C)
 
