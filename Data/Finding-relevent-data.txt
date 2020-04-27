@@ -23,3 +23,5 @@
  	b) https://towardsdatascience.com/infectious-disease-modelling-beyond-the-basic-sir-model-216369c584c4
 	c) https://towardsdatascience.com/infectious-disease-modelling-fit-your-model-to-coronavirus-data-2568e672dbc7
 	d) https://github.com/hf2000510/infectious_disease_modelling/blob/master/part_two.ipynb
+
+8. KTVB 7 - Has data on the number of recoveries on their reported dates. (https://www.ktvb.com/article/news/health/coronavirus/idaho-confirms-first-covid-19-coronavirus-case/277-262de30b-ef00-40a2-b40e-43e26f0bb99b)
