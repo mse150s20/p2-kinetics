@@ -30,3 +30,5 @@ plt.ylabel('Population infected')
 plt.grid() 
 plt.legend()
 plt.show()
+plt.title('States of Covid-19 in the Public')
+
