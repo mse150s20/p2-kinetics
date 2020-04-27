@@ -25,6 +25,7 @@ A plot will appear if everything is working correctly.
 
 # Figures Showing Our Code Output Here
 ![infections vs time](infections.png)
+
 A graph of the number of infections vs time on a logarithmic scale. 
 
 # Links to Cite Where We Got Our Data
