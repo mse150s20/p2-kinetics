@@ -24,8 +24,8 @@ A plot of the data from the data idaho_indections.csv will appear if everything 
 
 
 # Information About Idaho Infection data
-idaho\_infections.csv is the place where we're consolidating the infection vs. time data.
-It contains idaho division of health resource (Link 1).
+The file idaho_infections.csv is the location where we're consolidating the infection vs. time data.
+The data used to plot the graph contains information from idaho division of health resource (Link 1). Additional links used for additional information and further understanding of the virus can be found below.
 
 
 ## Links to specific sources
