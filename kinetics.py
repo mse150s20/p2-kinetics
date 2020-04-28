@@ -22,8 +22,8 @@ def kinetics(k1, k2, h_0, i_0, r_0):   #Units of k1
 	#The equation for Dead will just be (k3*I) where k3 is the death rate, we will have to add (-k3*I) to the infected part of the graph.
     return solve_ivp(abc, [0, maxtime], [h_0,i_0,r_0], t_eval=np.arange(0, maxtime, 1),method='Radau')
 filename = sys.argv[1]
-population_infected = np.loadtxt(filename, skiprows = 3, delimiter = ',', usecols = (2))
-time = np.loadtxt(filename, skiprows = 3, delimiter = ',', usecols =(0))
+population_infected = np.loadtxt(filename, skiprows = 8, delimiter = ',', usecols = 2)
+time = np.loadtxt(filename, skiprows = 8, delimiter = ',', usecols =0)
 
 time = np.loadtxt(filename, skiprows = 8, delimiter = ',', usecols = (0))
 infected = np.loadtxt(filename, skiprows = 8, delimiter = ',', usecols = (2))
