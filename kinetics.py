@@ -8,7 +8,8 @@ import sys
 maxtime = 365
 # people in Idaho
 pop = 1754000 # Population of Idaho according to U.S. Census
-def kinetics(k1, k2, h_0, i_0, r_0):   #Units of k1 
+def kinetics(k1, k2, h_0, i_0, r_0):
+	#k1 = the rate at which healthy people contract the virus.    
     def abc(t, y):
         ''' System of differential equations: y(t) = [H(t),I(t),R(t)]
             returns:
