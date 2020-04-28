@@ -3,7 +3,7 @@ This code describes and models the current coronavirus (COVID-19) pandemic in th
 
 It models the pandemic in Idaho as kinetic function of time in days, with equations that model the uninfected, infected, recovered, and deaths in Idaho.
 
-The idaho_infections.csv file can be found under the data directory
+The idaho_infections.csv file can be found under the data directory. This file contains data from the sources provided below. 
 
 The idaho_infections.csv file includes the number of infected people in Idaho and the number of days since the first recorded infection. 
 
