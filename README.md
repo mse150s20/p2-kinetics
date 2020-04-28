@@ -9,6 +9,8 @@ The idaho_infections.csv file contains the reported numbers of the total reporte
 # Software Requirements
 This code requires access to a commandline terminal, a github account to access the p2-kinetics repository, and to be able to track and collaborate with other researchers on this topic. For this program to run, python must be installed on the local machine. To download Python, go to terminal, type in the command line "apt-get install python". This will start downloading Python onto the local machine. Your computer will ask a few permission questions and you will have to let it install Python onto the local machine.
 
+The code also requires that numpy, matplotlib.pyplot, sys, and solve_iv be imported. This can be done by 
+
 # How to Get This Code
 To run the code on your computer, pull the p2-kinetics repository from github class master to your terminal, or fork the repository and pull the code from your own personal repository. 
 
