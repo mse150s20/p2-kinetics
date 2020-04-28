@@ -15,6 +15,7 @@ The code also requires that numpy, matplotlib.pyplot, sys, and solve_iv be impor
 To run the code on your computer, pull the p2-kinetics repository from github class master to your terminal, or fork the repository and pull the code from your own personal repository. 
 
 # How to Use This Code
+
 To use this code you must be in the directory that contains the code. Type "$ python kinetics.py" + the path to the file that contains the data. To run the code, type python (filename.py) in your command line. Then hit Enter.
 
 
@@ -68,4 +69,3 @@ This reaction depends on the concentration of A and the concentration of B
 concentration of A is A/(A+B+C), and the concentration of B is B/(A+B+C)
 
 k1 and k2 are our reaction constants
-
