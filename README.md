@@ -14,7 +14,7 @@ To run the code on your computer, pull the p2-kinetics repository from github cl
 # How to Use This Code
 To use this code you must be in the directory that contains the code. Type "$ python kinetics.py " + the path to the file that contains the data. To run the code, type python (filename.py) in your command line. For examples we'll move to the next section.
 
-# Example of how to use this code
+# Example of How to Use This Code
 $ cd p2-kinetics/
 
 $ python kinetics.py Data/idaho_infections.csv
@@ -22,7 +22,7 @@ $ python kinetics.py Data/idaho_infections.csv
 A plot of the data from the data idaho_indections.csv will appear if everything is working correctly.
 
 
-# Information About Idaho Infection data
+# Information About Idaho Infection Data
 The file idaho_infections.csv is the location where we're consolidating the infection vs. time data.
 The data used to plot the graph contains information from idaho division of health resource (Link 1). Additional links used for additional information and further understanding of the virus can be found below.
 
@@ -34,7 +34,7 @@ The data used to plot the graph contains information from idaho division of heal
 
 1. Idaho Statesman - https://www.idahostatesman.com/news/coronavirus/article242127516.html
 
-# Results from playing with parameters
+# Results From Playing With Parameters
 Increasing k1 makes the beginning of the infection begin sooner, and increasing k2 raises the maximum number of individuals that won't be infected.
 
 Modeling kinetics: The rate of change between things, specifically the rate of change between the different species!
@@ -58,6 +58,6 @@ Species A:
     dA/dt = -k1*A*B/(A+B+C)
 
 This reaction depends on the concentration of A and the concentration of B
-concentration of A is A/(A+B+C), and the concentration of B is B/(A+B+C)
+concentration of A is A/(A+B+C), and the concentration of B is B/(A+B+C).
 
-Both k1 and k2 are our reaction constants for this project.
+Both k1 and k2 are our reaction constants for this project!
