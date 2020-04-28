@@ -19,10 +19,10 @@ def kinetics(k1, k2, a_0, b_0, c_0):
 solution = kinetics(0.07,0.02, N-1000,1000,0) #ONE infected person on day0
 
 #Code will evaluate k1 (infection rate) and k2 (recovery rate) values from 0 to 1, finding the index of the max value of B, this will then copy the code to a text file which is separated commas.
-
-k1s=np.linspace(2,3,10)
-k2s=np.linspace(0,1,10)
-plotarray=np.empty((10,10))
+num=5
+k1s=np.linspace(2,3,num)
+k2s=np.linspace(0,1,num)
+plot_array=np.empty((num,num))
 
 with open("maxday_vs_k1k2.txt","w") as f:  #copies to maxday_vs_k1k2.txt file
     for i,k1 in enumerate(k1s):
@@ -32,20 +32,19 @@ with open("maxday_vs_k1k2.txt","w") as f:  #copies to maxday_vs_k1k2.txt file
             max_B_ind= np.argmax(B)
             max_day= solution.t[max_B_ind]
 	
-            plotarray[i][j]=max_day
+            plot_array[i][j]=max_day
             f.write("{},{},{}\n".format(k1,k2,max_day))
 
 #k1 is infection rate, k2 is recovery rate, prints amount of time in  days until infected is at the maximum
 
-#plt.plot(solution.t,solution.y[0],label='Uninfected')
-#plt.plot(solution.t,solution.y[1],label='Infected',linestyle='dashed')
-#plt.plot(solution.t,solution.y[2],label='Recovered',linestyle='dotted')
-#plt.xlabel('Time [days]')
-#plt.ylabel('Population infected')
-#plt.grid() 
-#plt.legend()
-#plt.show()
+plt.pcolormesh(plot_array)
+plt.colorbar()
+plt.ylabel("Infection Rate (k1)")
+plt.xlabel("Recovery Rate (k2)")
+pos = [i+0.5 for i in range(num)]
+k1_y = ["{:.2f}".format(k1) for k1 in k1s]
+k2_x = ["{:.2f}".format(k2) for k2 in k2s]
+plt.xticks(pos, k2_x)
+plt.yticks(pos, k1_y)
 
-
-#data=np.loadtxt("maxday_vs_k1k2.txt",delimiter=",")
-#print(data.shape)
+plt.show()
