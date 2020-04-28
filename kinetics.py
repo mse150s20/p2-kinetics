@@ -8,7 +8,11 @@ import sys
 maxtime = 365
 # people in Idaho
 pop = 1754000 # Population of Idaho according to U.S. Census
-def kinetics(k1, k2, h_0, i_0, r_0):   #Units of k1 
+def kinetics(k1, k2, h_0, i_0, r_0):
+	#k1 = the rate at which healthy people contract the virus.
+	#k1 units = people/day    
+	#k2 = the rate at which infected people recover from the virus.
+	#k2 units = people/day
     def abc(t, y):
         ''' System of differential equations: y(t) = [H(t),I(t),R(t)]
             returns:
@@ -32,12 +36,13 @@ solution = kinetics(0.05,0.02, pop-1,1,0) #ONE infected person on day0
 plt.plot(time, dead, label='Real Dead', color = 'k')
 plt.plot(time,infected, label='Real Infections')
 plt.plot(time,recovered, label='Real Recovered', color = 'm')
-plt.plot(solution.t,solution.y[0],label='Model Uninfected')
+plt.plot(solution.t,solution.y[0],label='Model Healthy')
 plt.plot(solution.t,solution.y[1],label='Model Infected',linestyle='dashed')
 plt.plot(solution.t,solution.y[2],label='Model Recovered',linestyle='dotted')
 
 plt.xlabel('Time [days]')
 plt.ylabel('Population infected')
-plt.grid() 
+plt.grid()
+plt.title('Model VS Data')
 plt.legend(loc='best')
 plt.show()
