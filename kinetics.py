@@ -44,3 +44,5 @@ plt.ylabel('Population infected')
 plt.grid() 
 plt.legend(loc='best')
 plt.show()
+plt.title('Number Infected vs. Time in Idaho') 
+
