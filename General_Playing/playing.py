@@ -42,7 +42,7 @@ plt.colorbar()
 plt.ylabel("Infection Rate (k1)")
 plt.xlabel("Recovery Rate (k2)")
 pos = [i+0.5 for i in range(num)]
-k1_y = ["{:.2f}".format(k1) for k1 in k1s]
+k1_y = ["{:.2f}".format(k1) for k1 in k1s]#Formats as a string
 k2_x = ["{:.2f}".format(k2) for k2 in k2s]
 plt.xticks(pos, k2_x)
 plt.yticks(pos, k1_y)
