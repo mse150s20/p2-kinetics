@@ -14,11 +14,11 @@ def kinetics(k1, k2, k3, a_0, b_0, c_0, d_0):
         '''
 # where A is uninfected, B is infected, C is recovered, and D is dead
         A,B,C,D = y
-        return [-k1*A*B/(A+B+C+D), k1*A*B/(A+B+C+D)-k2*B, k2*B, k3*C]
+        return [-k1*A*B/(A+B+C+D), k1*A*B/(A+B+C+D)-k2*B-k3*B, k2*B, k3*B]
     return solve_ivp(abc, [0, maxtime], [a_0,b_0,c_0,d_0], t_eval=np.arange(0, maxtime, 1),method='Radau')
 
 # Original k1 is 0.1
-solution = kinetics(0.5,0.02,0.001, N-1,1,0,0)
+solution = kinetics(0.139,0.02,0.03167, N-1,1,0,0) #From Tommy- I changed the death rate to be what the total deaths divided by total infected is currently. The numbers are 56 dead over 1768 infected. I might just be dumb but I can't find the death rate in any of the finding data. This is most likely going to change later on. Also changed the infection rate to be what www.worldometers.info/coronavirus claims it to be.
 
 
 plt.plot(solution.t,solution.y[0],label='Uninfected')
@@ -30,3 +30,5 @@ plt.ylabel('Population infected')
 plt.grid() 
 plt.legend()
 plt.show()
+plt.title('States of Covid-19 in the Public')
+
