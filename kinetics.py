@@ -9,7 +9,8 @@ maxtime = 365
 # people in Idaho
 pop = 1754000 # Population of Idaho according to U.S. Census
 def kinetics(k1, k2, h_0, i_0, r_0):
-	#k1 = the rate at which healthy people contract the virus.    
+	#k1 = the rate at which healthy people contract the virus.
+	#k1 units = people/day    
 	#k2 = the rate at which infected people recover from the virus.
     def abc(t, y):
         ''' System of differential equations: y(t) = [H(t),I(t),R(t)]
