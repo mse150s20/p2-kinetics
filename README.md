@@ -22,7 +22,6 @@ $ python kinetics.py Data/idaho_infections.csv
 
 A plot of the data from the data idaho_indections.csv will appear if everything is working correctly.
 
-# Figures Showing Our Code Output Here
 
 # Information About Idaho Infection data
 idaho\_infections.csv is the place where we're consolidating the infection vs. time data.
