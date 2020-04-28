@@ -2,3 +2,5 @@ This is where I will summarize my results.
 
 
 Results based on the infection rate:
+
+As the infection rate increased by values of 0.1
