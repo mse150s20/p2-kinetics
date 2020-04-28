@@ -5,8 +5,7 @@ The idaho_infections.csv file can be found under the data directory. This file c
 
 
 # Software Requirements
-This code requires access to a commandline terminal and to have a github account to access the p2-kinetics repository and to be able to track and collaborate with other researchers on this topic. For this program to run, python must be installed on the local machine.To download Python go to terminal, type in the command line "apt-get install python". This will start 
-downloading Python onto the local machine. It will ask a few permission questions and you will have to let it install Python onto the local machine.
+This code requires access to a commandline terminal and to have a github account to access the p2-kinetics repository and to be able to track and collaborate with other researchers on this topic. For this program to run, python must be installed on the local machine. To download Python go to terminal, type in the command line "apt-get install python". This will start downloading Python onto the local machine. It will ask a few permission questions and you will have to let it install Python onto the local machine. Depending on the machine you are using you may have do download an additional program in the same mannor. Mac users, such as myself, running older operating systems have to download XQuartz. Without it my code ran but there was no visual graph of the data, but with XQuartz downloaded it worked as it should.
 
 
 # How to Get This Code
