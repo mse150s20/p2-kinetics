@@ -3,9 +3,8 @@ This code describes and models the current coronavirus (COVID-19) pandemic in th
 
 It models the pandemic in Idaho as kinetic function of time in days, with equations that model the uninfected, infected, recovered, and deaths in Idaho.
 
-The idaho_infections.csv file can be found under the data directory. This file contains data from the sources provided below. 
+The idaho_infections.csv file can be found under the data directory. This file contains data from the sources provided below. The data includes days since first infection, deaths, recovered, as well as new cases and more. This file is probably the most important and valuable file in this project! 
 
-The idaho_infections.csv file includes the number of infected people in Idaho and the number of days since the first recorded infection. 
 
 # Software Requirements
 This code requires access to a commandline terminal and to have a github account to access the p2-kinetics repository and to be able to track and collaborate with other researchers on this topic. For this program to run, python must be installed on the local machine.To download Python go to terminal, type in the command line "apt-get install python". This will start 
