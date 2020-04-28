@@ -1,8 +1,11 @@
 # Overview of Code
-This code describes and models the current coronavirus (COVID-19) pandemic in the state of Idaho. With this, we hope to provide information on how well Idaho is dealing with COVID-19. This code models the pandemic in Idaho as kinetic function of time in days, with equations that model the uninfected, infected, recovered, and deaths in Idaho.
+This code describes and models the current coronavirus (COVID-19) pandemic in the state of Idaho. With this, we hope to provide information on how well Idaho is dealing with COVID-19.
+
+It models the pandemic in Idaho as a kinetic function of time in days, with equations that model the uninfected, infected, recovered, and deaths in Idaho.
 
 # Software Requirements
-This code requires access to a commandline terminal, a github account to access the p2-kinetics repository, and to be able to track and collaborate with other researchers on this topic. For this program to run, python must be installed on the local machine. To download Python, go to terminal, type in the command line "apt-get install python". This will start downloading Python onto the local machine. Your computer will ask a few permission questions and you will have to let it install Python onto the local machine.
+This code requires access to a command line terminal and to have a github account to access the p2-kinetics repository and to be able to track and collaborate with other researchers on this topic. For this program to run, python must be installed on the local machine. To download Python, go to terminal, type in the command line "apt-get install python". This will start 
+downloading Python onto the local machine. Your computer will ask a few permission questions and you will have to let it install Python onto the local machine.
 
 The code also requires that numpy, matplotlib.pyplot, sys, and solve_iv be imported. This can be done by 
 
@@ -12,6 +15,7 @@ To run the code on your computer, pull the p2-kinetics repository from github cl
 # How to Use This Code
 
 To use this code you must be in the directory that contains the code. Type "$ python kinetics.py" + the path to the file that contains the data. To run the code, type python (filename.py) in your command line. Then hit Enter.
+
 
 
 ## Example of how to use this code
@@ -28,7 +32,7 @@ A graph of the number of infections vs time on a logarithmic scale.
 
 # File Descriptions
 ### idaho_infections.csv
-The idaho_infections.csv file contains the reported numbers of the total reported infected people, deaths, and recoveries in Idaho. The file starts on the first day of reported cases in the state. It also includes the number of new cases of each designation. This csv file works in conjuction with kinetics.py as it will show the comparison of the reported data along side with the projected data.
+The idaho_infections.csv file contains the reported numbers of the total reported infected people, deaths, and recoveries in Idaho. The file starts on the first day of reported cases in the state. It also includes the number of new cases of each designation. This csv file works in conjunction with kinetics.py as it will show the comparison of the reported data alongside with the projected data. 
 
 ### kinetics.py
 
@@ -59,7 +63,7 @@ Project 2 descriptions:
     
     A -> B -> C
     
-The rates of change betweeen A->B and B->C Determine when we will see a certain concentration, AND the initial conditions. 
+The rates of change between A->B and B->C Determine when we will see a certain concentration, AND the initial conditions. 
 
 Species C:
     comes from a reaction from B->C
