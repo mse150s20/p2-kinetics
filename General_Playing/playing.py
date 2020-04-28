@@ -22,14 +22,17 @@ solution = kinetics(0.07,0.02, N-1000,1000,0) #ONE infected person on day0
 
 k1s=np.linspace(2,3,10)
 k2s=np.linspace(0,1,10)
-with open("maxday_vs_k1k2.txt","w") as f:  #copies to maxday_vs_k1k2.txt file
+plotarray=np.empty((10,10))
 
-    for k1 in k1s:
-        for k2 in k2s:
+with open("maxday_vs_k1k2.txt","w") as f:  #copies to maxday_vs_k1k2.txt file
+    for i,k1 in enumerate(k1s):
+        for j,k2 in enumerate(k2s):
             solution=kinetics(k1,k2,N-1,1,0)
             B=solution.y[1]
             max_B_ind= np.argmax(B)
             max_day= solution.t[max_B_ind]
+	
+            plotarray[i][j]=max_day
             f.write("{},{},{}\n".format(k1,k2,max_day))
 
 #k1 is infection rate, k2 is recovery rate, prints amount of time in  days until infected is at the maximum
@@ -44,3 +47,5 @@ with open("maxday_vs_k1k2.txt","w") as f:  #copies to maxday_vs_k1k2.txt file
 #plt.show()
 
 
+#data=np.loadtxt("maxday_vs_k1k2.txt",delimiter=",")
+#print(data.shape)
