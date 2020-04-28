@@ -10,7 +10,7 @@ downloading Python onto the local machine. It will ask a few permission question
 
 
 # How to Get This Code
-To run the code on your computer, pull the p2-kinetics repository from github class master to your terminal, or fork the repository and pull the code from your own personal repository. 
+To run the code on your computer, pull the p2-kinetics repository from github class master to your terminal, or fork the repository and pull the code from your own personal repository. Once you've done this you can now access all files needed. This code should give you the ability to graph the data colected as well as access the idaho_infections.csv file in order to view the raw data yourself. 
 
 # How to Use This Code
 To use this code you must be in the directory that contains the code. Type "$ python kinetics.pyi " + the path to the file that contains the data. To run the code, type python (filename.py) in your command line.
