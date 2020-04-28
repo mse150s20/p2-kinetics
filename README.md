@@ -24,7 +24,7 @@ To use this code you must be in the directory that contains the code. Type "$ py
 A plot will appear if everything is working correctly.
 
 ## Figures Showing Code Output
-![infections vs time](infections.png)
+![infections vs time](Data/infections.png)
 
 A graph of the number of infections vs time on a logarithmic scale. 
 
