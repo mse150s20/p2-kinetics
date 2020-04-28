@@ -38,6 +38,7 @@ The data used to plot the graph contains information from idaho division of heal
 Increasing k1 makes the beginning of the infection begin sooner, and increasing k2 raises the maximum number of individuals that won't be infected.
 
 Modeling kinetics: The rate of change between things, specifically the rate of change between the different species!
+
     
     A -> B -> C
     
