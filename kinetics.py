@@ -38,6 +38,7 @@ plt.plot(solution.t,solution.y[2],label='Model Recovered',linestyle='dotted')
 
 plt.xlabel('Time [days]')
 plt.ylabel('Population infected')
+plt.title('Infection Rate of COVID-19 in Idaho')
 plt.grid() 
 plt.legend(loc='best')
 plt.show()
