@@ -35,22 +35,22 @@ The data used to plot the graph contains information from idaho division of heal
 1. Idaho Statesman - https://www.idahostatesman.com/news/coronavirus/article242127516.html
 
 # Results from playing with parameters
-Increasing k1 makes the beginning of the infection begin sooner, and increasing k2 raises the maximum number of individuals that won't be infected
+Increasing k1 makes the beginning of the infection begin sooner, and increasing k2 raises the maximum number of individuals that won't be infected.
 
 Project 2 descriptions:
-    Modeling kinetics: rate of change between things!
+
+    Modeling kinetics: The rate of change between things, specifically the rate of change between the different species!
     
     A -> B -> C
     
-The rates of change betweeen A->B and B->C Determine when we will see a certain concentration, AND the initial conditions. 
+The rates of change betweeen A->B and B->C determine when we will see a certain concentration, and the initial conditions. 
 
 Species C:
     Comes from a reaction from B->C
     
     Line 14 has k2*B in that big list that's returned
     That means: dC/dt = k2 * B
-    That means: Amount of C goes up over time, depending on how much B there is.
-    k2 is a CONSTANT for this project
+    That means: The amount of C goes up over time, depending on how much B there is.
     
 Species A: 
 
@@ -61,4 +61,4 @@ Species A:
 This reaction depends on the concentration of A and the concentration of B
 concentration of A is A/(A+B+C), and the concentration of B is B/(A+B+C)
 
-k1 and k2 are our reaction constants.
+Both k1 and k2 are our reaction constants for this project.
