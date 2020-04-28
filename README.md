@@ -49,7 +49,7 @@ Project 2 descriptions:
     
     A -> B -> C
     
-The rates of change betweeen A->B and B->C Determine when we will see a certain concentration, AND the initial conditions. 
+The rates of change between A->B and B->C Determine when we will see a certain concentration, AND the initial conditions. 
 
 Species C:
     comes from a reaction from B->C
