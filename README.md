@@ -20,7 +20,7 @@ $ cd p2-kinetics/
 
 $ python kinetics.py Data/idaho_infections.csv
 
-A plot will appear if everything is working correctly.
+A plot of the data from the data idaho_indections.csv will appear if everything is working correctly.
 
 # Figures Showing Our Code Output Here
 
