@@ -37,7 +37,6 @@ The data used to plot the graph contains information from idaho division of heal
 # Results from playing with parameters
 Increasing k1 makes the beginning of the infection begin sooner, and increasing k2 raises the maximum number of individuals that won't be infected
 
-# Info copy pasted from info.txt
 Project 2 descriptions:
     Modeling kinetics: rate of change between things!
     
