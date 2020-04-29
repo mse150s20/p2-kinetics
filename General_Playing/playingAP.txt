@@ -1,1 +1,1 @@
-When the Infection Rate(k1) was at a range of 2-3 and the REcovery Rate (k2) was at a range of 0-1, the maximum number of cases occured at 26 days.
+When the Infection Rate(k1) was at a range of 2-3 and the Recovery Rate (k2) was at a range of 0-1, the maximum number of cases occured at 26 days.
