@@ -9,10 +9,14 @@ maxtime = 365
 pop = 1754000 # Population of Idaho according to U.S. Census
 def kinetics(rateInfect, rateRecover, h_0, i_0, r_0):
 	#Rates in individuals per day    
+	#rateInfect = the rate at which healthy people contract the virus.
+	#rateInfect units = people/day    
+	#rateRecover = the rate at which infected people recover from the virus.
+	#rateRecover units = people/day
     def abc(t, y):
-        ''' System of differential equations: y(t) = [H(t),I(t),R(t)]
+        ''' System of differential equations: y(t) = [Healthy(t),Infected(t),Recovered(t)]
             returns:
-                A list containing [dH/dt, dI/dt, dR/dt]
+                A list containing [dHealthy/dt, dInfected/dt, dRecovered/dt]
         '''
         healthy,infected,recovered = y
         return [-rateInfect*healthy*infected/(healthy+infected+recovered), rateInfect*healthy*infected/(healthy+infected+recovered)-rateRecover*infected, rateRecover*infected]
@@ -41,3 +45,5 @@ plt.grid()
 
 plt.legend(loc='best')
 plt.show()
+plt.title('Number Infected vs. Time in Idaho') 
+
