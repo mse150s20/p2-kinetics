@@ -91,7 +91,8 @@ concentration of A is A/(A+B+C), and the concentration of B is B/(A+B+C)
 k1 and k2 are our reaction constants - what do they mean?
 
 # Conclusion
-This is where we talk about what this data means for us. What are the next steps we need to take? Should we continue social distancing? Comment on how well the state is handling it. Etc...
+Our data shows a spike in the beginning when we were not prepared or taking the steps to prevent the virus spreading. Since the social distancing, it has flattened a little so we should continue to distance as much as possible until we have more information or more recovered people so we have a better chance of overcoming this.
+#This is where we talk about what this data means for us. What are the next steps we need to take? Should we continue social distancing? Comment on how well the state is handling it. Etc...
 
 ### Results from playing with parameters
 The most apparent effect of decreasing k1 was delaying the "ramping up" of the population
