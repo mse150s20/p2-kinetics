@@ -40,6 +40,14 @@ The idaho_infections.csv file contains the reported numbers of the total reporte
 
 ### plot-infections.py
 
+### kinetics-copy.py
+
+# Playing team findings
+
+### kinetics-copy.py
+A higher k1 is required to get the infection to ramp up in a similar timeframe to the real infections (i.e. smaller k1 = later beginning of mass infection). However, a k2 is needed to control the k1; it can't be too big or too small as to squash the infected graph, or to let it grow exponentially large. Finer tuning needed.
+
+
 # References
 1. Idaho Division of Public Health - https://public.tableau.com/profile/idaho.division.of.public.health#
 
@@ -52,8 +60,6 @@ The idaho_infections.csv file contains the reported numbers of the total reporte
 1. Centers for Disease Control and Prevention - https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/summary.html#:~:text=On%20March%2011%2C%20the,of%20novel%20influenza%20viruses.
 
 
-# Results from playing with parameters
-The most apparent effect of decreasing k1 was delaying the "ramping up" of the population
 
 # Info copy pasted from info.txt - should be cleaned up
 Project 2 descriptions:
