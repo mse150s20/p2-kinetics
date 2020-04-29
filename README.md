@@ -23,6 +23,8 @@ To use this code you must be in the directory that contains the code. Type "$ py
 `$ cd p2-kinetics/`
 
 `$ python kinetics.py Data/idaho_infections.csv`
+OR
+`$ python kinetics-dead.py Data/idaho_infections.csv`
 
 A plot will appear if everything is working correctly.
 
