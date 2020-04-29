@@ -37,7 +37,7 @@ The idaho_infections.csv file contains the reported numbers of the total reporte
 ### finding.py
 
 ### kinetics-dead.py
-
+This graph shows a prediction of the number of healthy, infected, recovered, and dead people given constants of infection rate, recovery rate, and death rate.
 ### plot-infections.py
 
 # References
