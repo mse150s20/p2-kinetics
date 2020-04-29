@@ -31,4 +31,7 @@ plt.xlabel('Time [days]')
 plt.ylabel('log(Number of People)')
 plt.grid()
 plt.title(filename, loc = 'center')
+plt.legend(loc = 'best')
+plt.show()
+plt.savefig(filename + ".png")
 
