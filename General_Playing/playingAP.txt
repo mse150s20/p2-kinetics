@@ -1,6 +1,1 @@
-This is where I will summarize my results.
-
-
-Results based on the infection rate:
-
-As the infection rate increased by values of 0.1
+When the Infection Rate(k1) was at a range of 2-3 and the REcovery Rate (k2) was at a range of 0-1, the maximum number of cases occured at 26 days.
