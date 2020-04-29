@@ -29,9 +29,9 @@ dead = np.loadtxt(filename, skiprows = 8, delimiter = ',', usecols = (4))
 recovered = np.loadtxt(filename, skiprows = 8,  delimiter = ',', usecols = (6))
 solution = kinetics(0.3,0.04, pop-1,1,0) #ONE infected person on day0
 
-plt.plot(time, dead, label='Real Dead', color = 'k')
-plt.plot(time,infected, label='Real Infections')
-plt.plot(time,recovered, label='Real Recovered', color = 'm')
+plt.loglog(time, dead, label='Real Dead', color = 'k')
+plt.loglog(time,infected, label='Real Infections')
+plt.loglog(time,recovered, label='Real Recovered', color = 'm')
 #plt.plot(solution.t,solution.y[0],label='Model Healthy')
 plt.plot(solution.t,solution.y[1],label='Model Infected',linestyle='dashed')
 plt.plot(solution.t,solution.y[2],label='Model Recovered',linestyle='dotted')
