@@ -96,7 +96,8 @@ This is where we talk about what this data means for us. What are the next steps
 ### Results from playing with parameters
 The most apparent effect of decreasing k1 was delaying the "ramping up" of the population
 
-
+#Visualizing the results of playing with the parameters
+Within the General_PLaying Folder, there is a file named "playing.py". By using vim to access the file, the variables k1 and k2 can be changed. Then, the playing.py file can be graphed be using the python command. The results of this graph will display the day in which there are the maximum number of cases. The color bar on the side can be used to indicate what conditions of k1 and k2 will produce the days of maximum cases.
 # References
 1. Idaho Division of Public Health - https://public.tableau.com/profile/idaho.division.of.public.health#
 ..* This source contains data on the statewide cases in Idaho. It contains information on recovered, hospitalized, ICU admittances, and cases among health care workers. It also contains data on COVID-19 demographics and county data.
