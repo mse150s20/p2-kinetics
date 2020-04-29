@@ -45,8 +45,7 @@ plt.ylabel('Population infected')
 
 plt.title('Infection Rate of COVID-19 in Idaho:\nModel VS Data')
 plt.grid() 
-
+plt.title('Number Infected vs. Time in Idaho')
 plt.legend(loc='best')
 plt.show()
-plt.title('Number Infected vs. Time in Idaho') 
 
