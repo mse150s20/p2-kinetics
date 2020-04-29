@@ -7,7 +7,7 @@ It models the pandemic in Idaho as a kinetic function of time in days, with equa
 This code requires access to a command line terminal and to have a github account to access the p2-kinetics repository and to be able to track and collaborate with other researchers on this topic. For this program to run, python must be installed on the local machine. To download Python, go to terminal, type in the command line "apt-get install python". This will start 
 downloading Python onto the local machine. Your computer will ask a few permission questions and you will have to let it install Python onto the local machine.
 
-The code also requires that numpy, matplotlib.pyplot, sys, and solve_iv be imported. This can be done by 
+The code also requires that numpy, matplotlib.pyplot, sys, and solve_iv be imported. This can be done by [THIS IS UNFINISHED HERE] 
 
 # How to Get This Code
 To run the code on your computer, pull the p2-kinetics repository from github by cloning it, or fork the repository and pull the code from your own personal repository. 
@@ -67,6 +67,8 @@ concentration of A is A/(A+B+C), and the concentration of B is B/(A+B+C)
 
 k1 and k2 are our reaction constants - what do they mean?
 
+# Conclusion
+This is where we talk about what this data means for us. What are the next steps we need to take? Should we continue social distancing? Comment on how well the state is handling it. Etc...
 
 # References
 1. Idaho Division of Public Health - https://public.tableau.com/profile/idaho.division.of.public.health#
