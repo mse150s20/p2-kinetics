@@ -8,11 +8,11 @@ import sys
 maxtime = 365
 # people in Idaho
 pop = 1754000 # Population of Idaho according to U.S. Census
-def kinetics(rInfect, k2, h_0, i_0, r_0):
+def kinetics(rInfect, rRecover, h_0, i_0, r_0):
 	#rInfect = the rate at which healthy people contract the virus.
 	#rInfect units = people/day    
-	#k2 = the rate at which infected people recover from the virus.
-	#k2 units = people/day
+	#rRecover = the rate at which infected people recover from the virus.
+	#rRecover units = people/day
     def abc(t, y):
         ''' System of differential equations: y(t) = [H(t),I(t),R(t)]
             returns:
@@ -22,7 +22,7 @@ def kinetics(rInfect, k2, h_0, i_0, r_0):
 	#H = the number of healthy people who have never contracted the virus.
         #I = the number of people who have become infected due to the virus.
 	#R = the number of people who have recoverd from the virus.
-        return [-rInfect*H*I/(H+I+R), rInfect*H*I/(H+I+R)-k2*I, k2*I]
+        return [-rInfect*H*I/(H+I+R), rInfect*H*I/(H+I+R)-rRecover*I, rRecover*I]
 	#The equation for Dead will just be (k3*I) where k3 is the death rate, we will have to add (-k3*I) to the infected part of the graph.
     return solve_ivp(abc, [0, maxtime], [h_0,i_0,r_0], t_eval=np.arange(0, maxtime, 1),method='Radau')
 filename = sys.argv[1]
