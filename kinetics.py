@@ -59,7 +59,7 @@ plt.grid()
 plt.legend(loc='best')
 plt.show()
 #Break in graphs
-plt.plot(solution.t,solution.y[0],label='Model Healthy',linestyle='-.-')
+plt.plot(solution.t,solution.y[0],label='Model Healthy')
 plt.plot(solution.t,solution.y[1],label='Model Infected',linestyle='dashed')
 plt.plot(solution.t,solution.y[2],label='Model Recovered',linestyle='dotted')
 
