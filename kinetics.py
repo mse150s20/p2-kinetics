@@ -46,4 +46,31 @@ plt.grid()
 plt.legend(loc='best')
 plt.show()
 plt.title('Number Infected vs. Time in Idaho') 
+#Break between graphs
+plt.plot(time, dead, label='Real Dead', color = 'k')
+plt.plot(time,infected, label='Real Infections')
+plt.plot(time,recovered, label='Real Recovered', color = 'm')
+plt.xlabel('Time [days]')
+plt.ylabel('Population infected')
+
+plt.title('Real Infection Rate of COVID-19 in Idaho:\nModel VS Data')
+plt.grid()
+
+plt.legend(loc='best')
+plt.show()
+#Break in graphs
+plt.plot(solution.t,solution.y[0],label='Model Healthy',linestyle='-.-')
+plt.plot(solution.t,solution.y[1],label='Model Infected',linestyle='dashed')
+plt.plot(solution.t,solution.y[2],label='Model Recovered',linestyle='dotted')
+
+
+plt.xlabel('Time [days]')
+plt.ylabel('Population infected')
+
+plt.title('Real Infection Rate of COVID-19 in Idaho:\nModel VS Data')
+plt.grid()
+
+plt.legend(loc='best')
+plt.show()
+
 
