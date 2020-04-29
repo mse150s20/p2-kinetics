@@ -1,0 +1,15 @@
+Summary of Playing.py with changing k1, and k2
+- Transmissability factor above 3 but below 5 (https://www.sciencedirect.com/science/article/pii/S1286457920300265)
+- CDC site shoes peak of new cases around day 10 (https://www.nytimes.com/interactive/2020/us/idaho-coronavirus-cases.html)
+- Analyzed data from factor of 3-5
+  - Max day was from 4-6 with this k1 value
+-Analyzed data with k1 4-5
+  - Max day was 4-6
+-Analyzed k1 2-3
+  - k1 value matched a better to cdc graph
+  -Max day around 9-10
+  -values of k1 2-2.1 matches peak
+
+
+Random helpful Information
+-a ratio of k1/k2 which is called R_0 above 1 indicates an increase in cases, whereas one which remains between 0 and 1 it is a sign of decline which is a good sign for the virus, meaning less than one person would have it.
