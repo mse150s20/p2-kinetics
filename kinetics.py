@@ -16,9 +16,6 @@ def kinetics(rateInfect, rateRecover, h_0, i_0, r_0):
                 A list containing [dH/dt, dI/dt, dR/dt]
         '''
         healthy,infected,recovered = y
-	#H = the number of healthy people who have never contracted the virus.
-        #I = the number of people who have become infected due to the virus.
-	#R = the number of people who have recoverd from the virus.
         return [-rateInfect*healthy*infected/(healthy+infected+recovered), rateInfect*healthy*infected/(healthy+infected+recovered)-rateRecover*infected, rateRecover*infected]
 	#The equation for Dead will just be (k3*I) where k3 is the death rate, we will have to add (-k3*I) to the infected part of the graph.
     return solve_ivp(abc, [0, maxtime], [h_0,i_0,r_0], t_eval=np.arange(0, maxtime, 1),method='Radau')
