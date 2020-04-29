@@ -13,7 +13,7 @@ The code also requires that numpy, matplotlib.pyplot, sys, and solve_iv to be im
 To run the code on your computer, pull the p2-kinetics repository from github by cloning it, or fork the repository and pull the code from your own personal repository. 
 
 ## Example of how to get code
-`$ git clone git@github.com:mse150s20/p2-kinetics.git 
+`$ git clone git@github.com:mse150s20/p2-kinetics.git` 
 
 # How to Use This Code
 
@@ -47,26 +47,7 @@ This graph shows the infection rate and the amount of dead people over the cours
 
 ### kinetics-copy.py
 
-# Playing team findings
-
-### kinetics-copy.py
-A higher k1 is required to get the infection to ramp up in a similar timeframe to the real infections (i.e. smaller k1 = later beginning of mass infection). However, a k2 is needed to control the k1; it can't be too big or too small as to squash the infected graph, or to let it grow exponentially large. Finer tuning needed.
-
-
-# References
-1. Idaho Division of Public Health - https://public.tableau.com/profile/idaho.division.of.public.health#
-
-1. New York Times GitHub Repo -  https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv
-
-1. Idaho Statesman - https://www.idahostatesman.com/news/coronavirus/article242127516.html
-
-1. KTVB 7 - https://www.ktvb.com/article/news/health/coronavirus/idaho-confirms-first-covid-19-coronavirus-case/277-262de30b-ef00-40a2-b40e-43e26f0bb99b
-
-1. Centers for Disease Control and Prevention - https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/summary.html#:~:text=On%20March%2011%2C%20the,of%20novel%20influenza%20viruses.
-
-
-
-# Info copy pasted from info.txt - should be cleaned up
+### info.txt - SHOULD BE CLEANED UP
 Project 2 descriptions:
     Modeling kinetics: rate of change between things!
 
@@ -93,22 +74,21 @@ k1 and k2 are our reaction constants - what do they mean?
 # Conclusion
 This is where we talk about what this data means for us. What are the next steps we need to take? Should we continue social distancing? Comment on how well the state is handling it. Etc...
 
-### Results from playing with parameters
-The most apparent effect of decreasing k1 was delaying the "ramping up" of the population
-
+### Playing team findings - NEED TO ELABORATE ON k1 and k2
+A higher k1 is required to get the infection to ramp up in a similar timeframe to the real infections (i.e. smaller k1 = later beginning of mass infection). However, a k2 is needed to control the k1; it can't be too big or too small as to squash the infected graph, or to let it grow exponentially large. Finer tuning needed.
 
 # References
 1. Idaho Division of Public Health - https://public.tableau.com/profile/idaho.division.of.public.health#
-..* This source contains data on the statewide cases in Idaho. It contains information on recovered, hospitalized, ICU admittances, and cases among health care workers. It also contains data on COVID-19 demographics and county data.
+  * This source contains data on the statewide cases in Idaho. It contains information on recovered, hospitalized, ICU admittances, and cases among health care workers. It also contains data on COVID-19 demographics and county data.
 
 1. New York Times GitHub Repo -  https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv
-..*
+  * 
 
 1. Idaho Statesman - https://www.idahostatesman.com/news/coronavirus/article242127516.html
-..*
+  * 
 
 1. KTVB 7 - https://www.ktvb.com/article/news/health/coronavirus/idaho-confirms-first-covid-19-coronavirus-case/277-262de30b-ef00-40a2-b40e-43e26f0bb99b
-..*
+  * 
 
 1. Centers for Disease Control and Prevention - https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/summary.html#:~:text=On%20March%2011%2C%20the,of%20novel%20influenza%20viruses.
-
+  * The CDC provides one of the most up to date information regarding the COVID-19 situation in the United States. It provides recommendations for what individuals and businesses should do as well as information on the risk and severity of COVID-19
