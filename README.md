@@ -7,7 +7,7 @@ It models the pandemic in Idaho as a kinetic function of time in days, with equa
 This code requires access to a command line terminal and to have a github account to access the p2-kinetics repository and to be able to track and collaborate with other researchers on this topic. For this program to run, python must be installed on the local machine. To download Python, go to terminal, type in the command line "apt-get install python". This will start 
 downloading Python onto the local machine. Your computer will ask a few permission questions and you will have to let it install Python onto the local machine.
 
-The code also requires that numpy, matplotlib.pyplot, sys, and solve_iv be imported. This can be done by [THIS IS UNFINISHED HERE] 
+The code also requires that numpy, matplotlib.pyplot, sys, and solve_iv to be imported. All the previously mentioned functions and numpy are part of bash and will run when the code is initiated. 
 
 # How to Get This Code
 To run the code on your computer, pull the p2-kinetics repository from github by cloning it, or fork the repository and pull the code from your own personal repository. 
@@ -36,14 +36,31 @@ A graph of the number of infections vs time on a logarithmic scale.
 The idaho_infections.csv file contains the reported numbers of the total reported infected people, deaths, and recoveries in Idaho. The file starts on the first day of reported cases in the state. It also includes the number of new cases of each designation. This csv file works in conjunction with kinetics.py as it will show the comparison of the reported data alongside with the projected data. 
 
 ### kinetics.py
-
+This graph shows a prediction as well as the actual numbers of healthy, infected, recovered, and dead people.
 ### finding.py
 
 ### kinetics-dead.py
+This graph shows a prediction of the number of healthy, infected, recovered, and dead people given constants of infection rate, recovery rate, and death rate.
 
 ### plot-infections.py
+This graph shows the infection rate and the amount of dead people over the course of a year.
 
-### info.txt - SHOULD BE CLEANED UP
+# References
+1. Idaho Division of Public Health - https://public.tableau.com/profile/idaho.division.of.public.health#
+
+1. New York Times GitHub Repo -  https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv
+
+1. Idaho Statesman - https://www.idahostatesman.com/news/coronavirus/article242127516.html
+
+1. KTVB 7 - https://www.ktvb.com/article/news/health/coronavirus/idaho-confirms-first-covid-19-coronavirus-case/277-262de30b-ef00-40a2-b40e-43e26f0bb99b
+
+1. Centers for Disease Control and Prevention - https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/summary.html#:~:text=On%20March%2011%2C%20the,of%20novel%20influenza%20viruses.
+
+
+# Results from playing with parameters
+The most apparent effect of decreasing k1 was delaying the "ramping up" of the population
+
+# Info copy pasted from info.txt - should be cleaned up
 Project 2 descriptions:
     Modeling kinetics: rate of change between things!
 
