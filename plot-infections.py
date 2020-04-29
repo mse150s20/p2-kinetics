@@ -26,7 +26,7 @@ plt.savefig(filename + ".png")
 
 
 log_infected = np.log(infected_people)
-plt.plot(day, log_infected, color='green', linestyle='--')
+plt.plot(day, log_infected, color='green', linestyle='--', label = 'Logarithm of infected people')
 plt.xlabel('Time [days]')
 plt.ylabel('log(Number of People)')
 plt.grid()
