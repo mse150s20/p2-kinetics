@@ -76,6 +76,13 @@ k1 and k2 are our reaction constants - what do they mean?
 # Conclusion
 This is where we talk about what this data means for us. What are the next steps we need to take? Should we continue social distancing? Comment on how well the state is handling it. Etc...
 
+There are a lot of variables to consider when deciding on the future of virus precautions. The idaho_infections.csv data with our higher k1 variable to more closely represent the standard curve indicates the virus is not spreading as quickly as predicted. Somethting else to consider is the likelyhood that a vaccine will not be ready within the year, and minimal, gradual re-introduction of people into society to start building immunity may be the best option.
+
+
+### Results from playing with parameters
+The most apparent effect of decreasing k1 was delaying the "ramping up" of the population
+
+
 ### Playing team findings - NEED TO ELABORATE ON k1 and k2
 A higher k1 is required to get the infection to ramp up in a similar timeframe to the real infections (i.e. smaller k1 = later beginning of mass infection). However, a k2 is needed to control the k1; it can't be too big or too small as to squash the infected graph, or to let it grow exponentially large. Finer tuning needed.
 
