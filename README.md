@@ -12,6 +12,8 @@ The code also requires that numpy, matplotlib.pyplot, sys, and solve_iv be impor
 # How to Get This Code
 To run the code on your computer, pull the p2-kinetics repository from github class master to your terminal, or fork the repository and pull the code from your own personal repository. 
 
+`$ git clone git@github.com:mse150s20/p2-kinetics.git 
+
 # How to Use This Code
 
 To use this code you must be in the directory that contains the code. Type "$ python kinetics.py" + the path to the file that contains the data. 
