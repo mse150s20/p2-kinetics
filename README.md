@@ -70,6 +70,10 @@ k1 and k2 are our reaction constants - what do they mean?
 # Conclusion
 This is where we talk about what this data means for us. What are the next steps we need to take? Should we continue social distancing? Comment on how well the state is handling it. Etc...
 
+### Results from playing with parameters
+The most apparent effect of decreasing k1 was delaying the "ramping up" of the population
+
+
 # References
 1. Idaho Division of Public Health - https://public.tableau.com/profile/idaho.division.of.public.health#
 ..* This source contains data on the statewide cases in Idaho. It contains information on recovered, hospitalized, ICU admittances, and cases among health care workers. It also contains data on COVID-19 demographics and county data.
@@ -85,6 +89,3 @@ This is where we talk about what this data means for us. What are the next steps
 
 1. Centers for Disease Control and Prevention - https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/summary.html#:~:text=On%20March%2011%2C%20the,of%20novel%20influenza%20viruses.
 
-
-# Results from playing with parameters
-The most apparent effect of decreasing k1 was delaying the "ramping up" of the population
