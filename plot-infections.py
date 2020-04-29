@@ -4,7 +4,7 @@ import sys
 
 filename= sys.argv[1]
 
-infected= np.loadtxt(filename, skiprows =8, delimiter = ',', usecols=(0,2))
+infected = np.loadtxt(filename, skiprows =8, delimiter = ',', usecols=(0,2))
 infected_people= infected[:,1]
 day= infected[:,0]
 log_infected = np.log(infected_people)
