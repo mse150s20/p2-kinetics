@@ -53,7 +53,7 @@ plt.plot(time,recovered, label='Real Recovered', color = 'm')
 plt.xlabel('Time [days]')
 plt.ylabel('Population infected')
 
-plt.title('Real Infection Rate of COVID-19 in Idaho:\nModel VS Data')
+plt.title('Real Infection Rate of COVID-19 in Idaho:\nGiven Data')
 plt.grid()
 
 plt.legend(loc='best')
