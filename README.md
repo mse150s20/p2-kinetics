@@ -43,7 +43,7 @@ This graph shows a prediction as well as the actual numbers of healthy, infected
 This graph shows a prediction of the number of healthy, infected, recovered, and dead people given constants of infection rate, recovery rate, and death rate.
 
 ### plot-infections.py
-This graph shows the infection rate and the amount of dead people over the course of a year.
+This graph plots the data of infected and dead people in the state of Idaho from day 0 as the first person was infected to most current update of covid-19 statistics. 
 
 ### kinetics-copy.py
 
