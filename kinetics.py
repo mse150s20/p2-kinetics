@@ -14,15 +14,15 @@ def kinetics(rInfect, rRecover, h_0, i_0, r_0):
 	#rRecover = the rate at which infected people recover from the virus.
 	#rRecover units = people/day
     def abc(t, y):
-        ''' System of differential equations: y(t) = [Healthy(t),I(t),R(t)]
+        ''' System of differential equations: y(t) = [Healthy(t),Infected(t),R(t)]
             returns:
-                A list containing [dHealthy/dt, dI/dt, dR/dt]
+                A list containing [dHealthy/dt, dInfected/dt, dR/dt]
         '''
-        Healthy,I,R = y
+        Healthy,Infected,R = y
 	#Healthy = the number of healthy people who have never contracted the virus.
-        #I = the number of people who have become infected due to the virus.
+        #Infected = the number of people who have become infected due to the virus.
 	#R = the number of people who have recoverd from the virus.
-        return [-rInfect*Healthy*I/(Healthy+I+R), rInfect*Healthy*I/(Healthy+I+R)-rRecover*I, rRecover*I]
+        return [-rInfect*Healthy*Infected/(Healthy+Infected+R), rInfect*Healthy*Infected/(Healthy+Infected+R)-rRecover*Infected, rRecover*Infected]
 	#The equation for Dead will just be (k3*I) where k3 is the death rate, we will have to add (-k3*I) to the infected part of the graph.
     return solve_ivp(abc, [0, maxtime], [h_0,i_0,r_0], t_eval=np.arange(0, maxtime, 1),method='Radau')
 filename = sys.argv[1]
