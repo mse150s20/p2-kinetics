@@ -45,6 +45,14 @@ This graph shows a prediction of the number of healthy, infected, recovered, and
 ### plot-infections.py
 This graph shows the infection rate and the amount of dead people over the course of a year.
 
+### kinetics-copy.py
+
+# Playing team findings
+
+### kinetics-copy.py
+A higher k1 is required to get the infection to ramp up in a similar timeframe to the real infections (i.e. smaller k1 = later beginning of mass infection). However, a k2 is needed to control the k1; it can't be too big or too small as to squash the infected graph, or to let it grow exponentially large. Finer tuning needed.
+
+
 # References
 1. Idaho Division of Public Health - https://public.tableau.com/profile/idaho.division.of.public.health#
 
@@ -57,8 +65,6 @@ This graph shows the infection rate and the amount of dead people over the cours
 1. Centers for Disease Control and Prevention - https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/summary.html#:~:text=On%20March%2011%2C%20the,of%20novel%20influenza%20viruses.
 
 
-# Results from playing with parameters
-The most apparent effect of decreasing k1 was delaying the "ramping up" of the population
 
 # Info copy pasted from info.txt - should be cleaned up
 Project 2 descriptions:
