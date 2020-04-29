@@ -10,15 +10,16 @@ downloading Python onto the local machine. Your computer will ask a few permissi
 The code also requires that numpy, matplotlib.pyplot, sys, and solve_iv be imported. This can be done by 
 
 # How to Get This Code
-To run the code on your computer, pull the p2-kinetics repository from github class master to your terminal, or fork the repository and pull the code from your own personal repository. 
+To run the code on your computer, pull the p2-kinetics repository from github by cloning it, or fork the repository and pull the code from your own personal repository. 
 
+## Example of how to get code
 `$ git clone git@github.com:mse150s20/p2-kinetics.git 
 
 # How to Use This Code
 
 To use this code you must be in the directory that contains the code. Type "$ python kinetics.py" + the path to the file that contains the data. 
 
-# Example of how to run this code
+# Example of how to use this code
 `$ cd p2-kinetics/`
 
 `$ python kinetics.py Data/idaho_infections.csv`
@@ -44,6 +45,7 @@ The idaho_infections.csv file contains the reported numbers of the total reporte
 
 # References
 1. Idaho Division of Public Health - https://public.tableau.com/profile/idaho.division.of.public.health#
+
 
 1. New York Times GitHub Repo -  https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv
 
