@@ -33,7 +33,7 @@ A graph of the number of infections vs time on a logarithmic scale.
 The idaho_infections.csv file contains the reported numbers of the total reported infected people, deaths, and recoveries in Idaho. The file starts on the first day of reported cases in the state. It also includes the number of new cases of each designation. This csv file works in conjunction with kinetics.py as it will show the comparison of the reported data alongside with the projected data. 
 
 ### kinetics.py
-This graph shows a prediction as well as the actual numbers of Healthy, Infected, Dead, and Dead people.
+This graph shows a prediction as well as the actual numbers of healthy, infected, dead, and dead people.
 ### finding.py
 
 ### kinetics-dead.py
