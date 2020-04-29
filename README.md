@@ -39,7 +39,7 @@ This graph shows a prediction as well as the actual numbers of Healthy, Infected
 ### kinetics-dead.py
 This graph shows a prediction of the number of healthy, infected, recovered, and dead people given constants of infection rate, recovery rate, and death rate.
 ### plot-infections.py
-
+This graph shows the infection rate and the amount of dead people over the course of a year.
 # References
 1. Idaho Division of Public Health - https://public.tableau.com/profile/idaho.division.of.public.health#
 
