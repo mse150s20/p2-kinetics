@@ -51,9 +51,9 @@ This graph shows the infection rate and the amount of dead people over the cours
 Project 2 descriptions:
     Modeling kinetics: rate of change between things!
 
-    A -> B -> C
+    Healthy -> Infected -> Recovered
 
-The rates of change between A->B and B->C Determine when we will see a certain concentration, AND the initial conditions.
+The rates of change between Healthy->Infected and Infected->Recovered Determine when we will see a certain concentration, AND the initial conditions.
 
 Species C:
     comes from a reaction from B->C
@@ -63,11 +63,11 @@ Species C:
     That means: Amount of C goes up over time, depending on how much B there is.
     k2 is a CONSTANT for this project
 
-Species A:
-    dA/dt is in the first element of the list returned on line 14
-    dA/dt = -k1\*A*B/(A+B+C)
-This reaction depends on the concentration of A and the concentration of B
-concentration of A is A/(A+B+C), and the concentration of B is B/(A+B+C)
+Species Healthy:
+    dHealthy/dt is in the first element of the list returned on line 14
+    dHealthy/dt = -k1\*Healthy*B/(Healthy+B+C)
+This reaction depends on the concentration of Healthy and the concentration of B
+concentration of Healthy is Healthy/(Healthy+B+C), and the concentration of B is B/(Healthy+B+C)
 
 k1 and k2 are our reaction constants - what do they mean?
 
