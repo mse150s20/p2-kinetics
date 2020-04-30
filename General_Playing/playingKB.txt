@@ -4,6 +4,6 @@ As Eric mentioned in class, the real infection rate of COVID-19 in idaho has wee
 
 I played specifically with the idaho_infections.csv data
 
-with the base parameters( ), the model infected peak reaches ~1.25 million at ~60 days
+with the base parameters(0.3,0.04), the model infected peak reaches ~1.25 million at ~60 days
 
 
