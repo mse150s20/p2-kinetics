@@ -73,3 +73,5 @@ plt.grid()
 plt.legend(loc='best')
 plt.show()
 
+plt.savefig('Log Real Data' + '.png')
+
