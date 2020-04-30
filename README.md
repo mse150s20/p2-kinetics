@@ -53,7 +53,7 @@ Project 2 descriptions:
 
     Healthy -> Infected -> Recovered
 
-The rates of change between Healthy->Infected and Infected->Recovered Determine when we will see a certain concentration, AND the initial conditions.
+The rates of change between Healthy->Infected and Infected->Recovered will show us how quickly COVID-19 spreads and how quickly people can recover from COVID-19.
 
 Species Recovered:
     comes from a reaction from Infected->Recovered
