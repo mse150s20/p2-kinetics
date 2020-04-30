@@ -14,3 +14,5 @@ Parameters(0.15,0.04), tried these to get closer to the graph of real data, push
 
 Parameters(0.15, 0.04) but changed initial people infected to 3.Pushed peak to ~680,000 at ~130 days. Model still doesn't grow fast enough initially and peaks very fast. This may represent what would happen if social distancing efforts were lifted too early but the efforts were effective initially.
 
+Parameters(0.15, 0.04) and started with 3 people initially infected and a shortened max time to 180 days.
+
