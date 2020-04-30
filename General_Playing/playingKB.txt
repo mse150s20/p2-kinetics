@@ -10,5 +10,5 @@ Parameters (0.4,0.04), mildly increasing infection rate with same recovery rate,
 
 Parameters (0.1,0.02), tried these to make closer to graph of current real data, pushed the peak to ~800,000 at ~200 days. Didn't move fast enough initially to match the outbreak.
 
-Parameters(0.15,0.04), tried these to get closer to the graph
+Parameters(0.15,0.04), tried these to get closer to the graph of real data,
 
