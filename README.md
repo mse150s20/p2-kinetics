@@ -48,30 +48,6 @@ This graph shows the infection rate and the amount of dead people over the cours
 ### kinetics-copy.py
 This is a copy of kinetics.py with the healthy individuals hidden, so that the modelled rate of infection can be more easily compared to the actual data. This is to get a more accurate k1 and k2
 
-### info.txt - SHOULD BE CLEANED UP
-Project 2 descriptions:
-    Modeling kinetics: rate of change between things!
-
-    A -> B -> C
-
-The rates of change between A->B and B->C Determine when we will see a certain concentration, AND the initial conditions.
-
-Species C:
-    comes from a reaction from B->C
-
-    Line 14 has k2*B in that big list that's returned
-    That MEANS: dC/dt = k2 * B
-    That means: Amount of C goes up over time, depending on how much B there is.
-    k2 is a CONSTANT for this project
-
-Species A:
-    dA/dt is in the first element of the list returned on line 14
-    dA/dt = -k1\*A*B/(A+B+C)
-This reaction depends on the concentration of A and the concentration of B
-concentration of A is A/(A+B+C), and the concentration of B is B/(A+B+C)
-
-k1 and k2 are our reaction constants - what do they mean?
-
 # Conclusion
 This is where we talk about what this data means for us. What are the next steps we need to take? Should we continue social distancing? Comment on how well the state is handling it. Etc...
 
