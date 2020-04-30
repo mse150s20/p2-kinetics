@@ -12,3 +12,5 @@ Parameters (0.1,0.02), tried these to make closer to graph of current real data,
 
 Parameters(0.15,0.04), tried these to get closer to the graph of real data, pushed the peak to ~675,000 at ~140 days. Growth still doesnt match very close initially.
 
+Parameters(0.15, 0.04)
+
