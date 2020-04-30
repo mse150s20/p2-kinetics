@@ -65,11 +65,11 @@ Species Recovered:
 
 Species Healthy:
     dHealthy/dt is in the first element of the list returned on line 14
-    dHealthy/dt = -k1\*Healthy*Infected/(Healthy+Infected+Recovered)
+    dHealthy/dt = -rInfect\*Healthy*Infected/(Healthy+Infected+Recovered)
 This reaction depends on the concentration of Healthy and the concentration of Infected
 concentration of Healthy is Healthy/(Healthy+Infected+Recovered), and the concentration of Infected is Infected/(Healthy+Infected+Recovered)
 
-k1 and k2 are our reaction constants - what do they mean?
+rInfect and k2 are our reaction constants - what do they mean?
 
 # Conclusion
 This is where we talk about what this data means for us. What are the next steps we need to take? Should we continue social distancing? Comment on how well the state is handling it. Etc...
