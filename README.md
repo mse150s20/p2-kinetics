@@ -65,6 +65,8 @@ Recovered: This is the number of people who have recovered from a COVID-19 infec
 
 rInfect: This is a constant that is multiplied by the number of Healthy people. The product of Healthy times rInfect gives us the number of new Infections per day.
 
+rRecover: This is a constant that is multiplied by the number of Inffected people. The product of Infected time rRecover gives us the number of new Recovered people per day.
+
 
     Line 14 has rRecover*Infected in that big list that's returned
     That MEANS: dRecovered/dt = rRecover*Infected
