@@ -56,18 +56,18 @@ Project 2 descriptions:
 The rates of change between Healthy->Infected and Infected->Recovered Determine when we will see a certain concentration, AND the initial conditions.
 
 Species C:
-    comes from a reaction from B->C
+    comes from a reaction from Infected->C
 
-    Line 14 has k2*B in that big list that's returned
-    That MEANS: dC/dt = k2 * B
-    That means: Amount of C goes up over time, depending on how much B there is.
+    Line 14 has k2*Infected in that big list that's returned
+    That MEANS: dC/dt = k2*Infected
+    That means: Amount of C goes up over time, depending on how much Infected there is.
     k2 is a CONSTANT for this project
 
 Species Healthy:
     dHealthy/dt is in the first element of the list returned on line 14
-    dHealthy/dt = -k1\*Healthy*B/(Healthy+B+C)
-This reaction depends on the concentration of Healthy and the concentration of B
-concentration of Healthy is Healthy/(Healthy+B+C), and the concentration of B is B/(Healthy+B+C)
+    dHealthy/dt = -k1\*Healthy*Infected/(Healthy+Infected+C)
+This reaction depends on the concentration of Healthy and the concentration of Infected
+concentration of Healthy is Healthy/(Healthy+Infected+C), and the concentration of Infected is Infected/(Healthy+Infected+C)
 
 k1 and k2 are our reaction constants - what do they mean?
 
