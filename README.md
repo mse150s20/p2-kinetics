@@ -29,15 +29,15 @@ OR
 A plot will appear if everything is working correctly.
 
 ## Figures Showing Code Output
-![Model VS Real Data](/Model Vs Real Data.png)
+![Model VS Real Data](/Model_Vs_Real_Data.png)
 
 A graph that displays a model of the data and the data that has already been collected.
 
-![Real Data](/Real Data.png)
+![Real Data](/Real_Data.png)
 
 A graph that displays the collected data.
 
-![Log Real Data](/Log Real Data.png)
+![Log Real Data](/Log_Real_Data.png)
 
 A graph that displays the collected data in a logarithmic format.
 
