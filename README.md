@@ -53,25 +53,23 @@ This graph plots the data of infected and dead people in the state of Idaho from
 Project 2 descriptions:
     Modeling kinetics: rate of change between things!
 
-    A -> B -> C
+    Healthy -> Infected -> Recovered
 
-The rates of change between A->B and B->C Determine when we will see a certain concentration, AND the initial conditions.
+The rates of change between Healthy->Infected and Infected->Recovered will show us how quickly COVID-19 spreads and how quickly people can recover from COVID-19.
 
-Species C:
-    comes from a reaction from B->C
+rInfect is the rate of Infection and rRecover is the rate of Recovery from Infection
 
-    Line 14 has k2*B in that big list that's returned
-    That MEANS: dC/dt = k2 * B
-    That means: Amount of C goes up over time, depending on how much B there is.
-    k2 is a CONSTANT for this project
+Healthy: This is how many healthy uninfected people there are in Idaho.
 
-Species A:
-    dA/dt is in the first element of the list returned on line 14
-    dA/dt = -k1\*A*B/(A+B+C)
-This reaction depends on the concentration of A and the concentration of B
-concentration of A is A/(A+B+C), and the concentration of B is B/(A+B+C)
+Infected: This is the number of COVID-19 positive people there are in Idaho.
 
-k1 and k2 are our reaction constants - what do they mean?
+Recovered: This is the number of people who have recovered from a COVID-19 infection.
+
+rInfect: This is a constant that is multiplied by the number of Healthy people. The product of Healthy times rInfect gives us the number of new Infections per day.
+The equation for finding how many new infections per day is (rInfect*Healthy*Infected)/(Healthy+Infected+Recovered). Applying this tells us that initially when almost everyone is Healthy and very few are infected, the growth of infected is very slow. When Healthy and Infected are equal to each other is when the growth of infected is at its peak.
+
+rRecover: This is a constant that is multiplied by the number of Infected people. The product of Infected time rRecover gives us the number of new Recovered people per day.
+The rate at which people recover is completely dependent on how many infected people there are thus the equation for new Recovered is (rRecovered*Infected*). Applying this information tells us as the number of Infected people goes up, the number ofnew Recovered people will also go up. The peak of Recoveries will be when there the greatest number of Infected people.
 
 # Conclusion
 This is where we talk about what this data means for us. What are the next steps we need to take? Should we continue social distancing? Comment on how well the state is handling it. Etc...
