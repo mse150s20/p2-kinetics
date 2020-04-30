@@ -44,6 +44,7 @@ plt.legend(loc='best')
 plt.show()
 
 plt.savefig('Model VS Real Data' + 'png')
+
 #Break between graphs
 
 
@@ -56,6 +57,8 @@ plt.title('Real Infection Rate of COVID-19 in Idaho:\nGiven Data')
 plt.grid()
 plt.legend(loc='best')
 plt.show()
+
+plt.savefig('Real Data' + '.png')
 
 #Break between graphs
 
