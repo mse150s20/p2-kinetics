@@ -63,6 +63,9 @@ Infected: This is the number of COVID-19 positive people there are in Idaho.
 
 Recovered: This is the number of people who have recovered from a COVID-19 infection.
 
+rInfect: This is a constant that is multiplied by the number of Healthy people. The product of Healthy times rInfect gives us the number of new Infections per day.
+
+
     Line 14 has rRecover*Infected in that big list that's returned
     That MEANS: dRecovered/dt = rRecover*Infected
     That means: Amount of Recovered goes up over time, depending on how much Infected there are.
