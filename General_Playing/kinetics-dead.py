@@ -7,7 +7,7 @@ import numpy as np
 maxtime = 65
 # people in Idaho
 N = 1754000
-def kinetics(rateInfect, rateRecover, k3, a_0, b_0, c_0, d_0):
+def kinetics(rateInfect, rateRecover, rateDie, a_0, b_0, c_0, d_0):
     def abc(t, y):
         ''' System of differential equations: y(t) = [A(t),B(t),C(t)]
             returns:
@@ -15,7 +15,7 @@ def kinetics(rateInfect, rateRecover, k3, a_0, b_0, c_0, d_0):
         '''
 # where A is uninfected, B is infected, C is recovered, and D is dead
         A,B,C,D = y
-        return [-rateInfect*A*B/(A+B+C+D), rateInfect*A*B/(A+B+C+D)-rateRecover*B-k3*B, rateRecover*B, k3*B]
+        return [-rateInfect*A*B/(A+B+C+D), rateInfect*A*B/(A+B+C+D)-rateRecover*B-rateDie*B, rateRecover*B, rateDie*B]
     return solve_ivp(abc, [0, maxtime], [a_0,b_0,c_0,d_0], t_eval=np.arange(0, maxtime, 1),method='Radau')
 
 solution = kinetics(0.139,0.02,0.003167, N-1,1,0,0) # The numbers are 56 dead over 1768 infected currently as of 04-26-20 if there is a findings team member who has the actual death rate, go ahead and change it. Infection rate from www.worldometers.info/coronavirus.
