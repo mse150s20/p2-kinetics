@@ -20,8 +20,8 @@ solution = kinetics(0.07,0.02, N-1000,1000,0) #ONE infected person on day0
 
 #Code will evaluate k1 (infection rate) and k2 (recovery rate) values from 0 to 1, finding the index of the max value of B, this will then copy the code to a text file which is separated commas.
 num=5
-k1s=np.linspace(1,5,num)
-k2s=np.linspace(0,1,num)
+k1s=np.linspace(1,2,num)
+k2s=np.linspace(1,2,num)
 plot_array=np.empty((num,num))
 
 with open("maxday_vs_k1k2.txt","w") as f:  #copies to maxday_vs_k1k2.txt file
