@@ -6,4 +6,7 @@ I played specifically with the idaho_infections.csv data
 
 with the base parameters(0.3,0.04), the model infected peak reaches just over 1 million at ~60 days
 
-Parameters (0.4,0.04), mildly increasing infection rate with same recovery rate,results in a higher spike in infections (~1.2 mil) sooner at ~49 days.This model seems to progress much too fast compared to the data of the past month in ID
+Parameters (0.4,0.04), mildly increasing infection rate with same recovery rate,results in a higher spike in infections (~1.2 mil) sooner at ~49 days.This model seems to progress much too fast compared to the data of the past month in ID.
+
+Parameters (0.1,0.02)
+
