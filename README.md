@@ -58,10 +58,10 @@ The rates of change between Healthy->Infected and Infected->Recovered Determine 
 Species Recovered:
     comes from a reaction from Infected->Recovered
 
-    Line 14 has k2*Infected in that big list that's returned
-    That MEANS: dRecovered/dt = k2*Infected
+    Line 14 has rRecover*Infected in that big list that's returned
+    That MEANS: dRecovered/dt = rRecover*Infected
     That means: Amount of Recovered goes up over time, depending on how much Infected there is.
-    k2 is a CONSTANT for this project
+    rRecover is a CONSTANT for this project
 
 Species Healthy:
     dHealthy/dt is in the first element of the list returned on line 14
@@ -69,7 +69,7 @@ Species Healthy:
 This reaction depends on the concentration of Healthy and the concentration of Infected
 concentration of Healthy is Healthy/(Healthy+Infected+Recovered), and the concentration of Infected is Infected/(Healthy+Infected+Recovered)
 
-rInfect and k2 are our reaction constants - what do they mean?
+rInfect and rRecover are our reaction constants - what do they mean?
 
 # Conclusion
 This is where we talk about what this data means for us. What are the next steps we need to take? Should we continue social distancing? Comment on how well the state is handling it. Etc...
