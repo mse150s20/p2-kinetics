@@ -43,7 +43,7 @@ plt.title('Number Infected vs. Time in Idaho')
 plt.legend(loc='best')
 plt.show()
 
-plt.savefig('Model VS Real Data' + 'png')
+plt.savefig('Model VS Real Data' + '.png')
 
 #Break between graphs
 
