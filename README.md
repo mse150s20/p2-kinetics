@@ -23,6 +23,8 @@ To use this code you must be in the directory that contains the code. Type "$ py
 `$ cd p2-kinetics/`
 
 `$ python kinetics.py Data/idaho_infections.csv`
+OR
+`$ python kinetics-dead.py Data/idaho_infections.csv`
 
 A plot will appear if everything is working correctly.
 
@@ -74,6 +76,14 @@ k1 and k2 are our reaction constants - what do they mean?
 # Conclusion
 This is where we talk about what this data means for us. What are the next steps we need to take? Should we continue social distancing? Comment on how well the state is handling it. Etc...
 
+There are a lot of variables to consider when deciding on the future of virus precautions. The idaho_infections.csv data with our higher k1 variable to more closely represent the standard curve indicates the virus is not spreading as quickly as predicted. Somethting else to consider is the likelyhood that a vaccine will not be ready within the year, and minimal, gradual re-introduction of people into society to start building immunity may be the best option.
+
+### Results from playing with parameters
+The most apparent effect of decreasing k1 was delaying the "ramping up" of the population
+
+### Visualizing the results of playing with the parameters
+Within the General_PLaying Folder, there is a file named "playing.py". By using vim to access the file, the variables k1 and k2 can be changed. Then, the playing.py file can be graphed be using the python command. The results of this graph will display the day in which there are the maximum number of cases. The color bar on the side can be used to indicate what conditions of k1 and k2 will produce the days of maximum cases.
+
 ### Playing team findings - NEED TO ELABORATE ON k1 and k2
 A higher k1 is required to get the infection to ramp up in a similar timeframe to the real infections (i.e. smaller k1 = later beginning of mass infection). However, a k2 is needed to control the k1; it can't be too big or too small as to squash the infected graph, or to let it grow exponentially large. Finer tuning needed.
 
@@ -85,7 +95,7 @@ A higher k1 is required to get the infection to ramp up in a similar timeframe t
   * 
 
 1. Idaho Statesman - https://www.idahostatesman.com/news/coronavirus/article242127516.html
-  * 
+  * This article by the Idaho Stateman provides a recent chart of new virus cases vs. confirmed cases in Idaho, as of May 13th, 2020, as well as providing demographics of the majority groups that are being affected, and in what counties. This provides insight into how population denisty and relative exposure to the virus in a given profession can influence infection/death rates.
 
 1. KTVB 7 - https://www.ktvb.com/article/news/health/coronavirus/idaho-confirms-first-covid-19-coronavirus-case/277-262de30b-ef00-40a2-b40e-43e26f0bb99b
   * 
