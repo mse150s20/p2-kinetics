@@ -46,6 +46,7 @@ This graph shows a prediction of the number of healthy, infected, recovered, and
 This graph shows the infection rate and the amount of dead people over the course of a year.
 
 ### kinetics-copy.py
+This is a copy of kinetics.py with the healthy individuals hidden, so that the modelled rate of infection can be more easily compared to the actual data. This is to get a more accurate k1 and k2
 
 ### info.txt - SHOULD BE CLEANED UP
 Project 2 descriptions:
