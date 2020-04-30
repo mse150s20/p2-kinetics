@@ -55,12 +55,12 @@ Project 2 descriptions:
 
 The rates of change between Healthy->Infected and Infected->Recovered will show us how quickly COVID-19 spreads and how quickly people can recover from COVID-19.
 
-Species Recovered:
-    comes from a reaction from Infected->Recovered
+Recovered:
+    Increases as people who were Infected fight off COVID-19 and survive.
 
     Line 14 has rRecover*Infected in that big list that's returned
     That MEANS: dRecovered/dt = rRecover*Infected
-    That means: Amount of Recovered goes up over time, depending on how much Infected there is.
+    That means: Amount of Recovered goes up over time, depending on how much Infected there are.
     rRecover is a CONSTANT for this project
 
 Species Healthy:
