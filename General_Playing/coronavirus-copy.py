@@ -1,4 +1,7 @@
+<<<<<<< HEAD:General_Playing/coronavirus-copy.py
 # Purpose of this is to reduce the maxtime to get a better look at the graph and figure out what k1 and k2 best match the current data 
+=======
+>>>>>>> be493b75df56605ec26644f5866673607a5e51bc:kinetics.py
 from scipy.integrate import solve_ivp
 import matplotlib.pyplot as plt
 import numpy as np
@@ -29,15 +32,46 @@ solution = kinetics(0.4,0.2, pop-1,1,0) #ONE infected person on day0
 plt.plot(time, dead, label='Real Dead', color = 'k')
 plt.plot(time,infected, label='Real Infections')
 plt.plot(time,recovered, label='Real Recovered', color = 'm')
-#plt.plot(solution.t,solution.y[0],label='Model Healthy')
+plt.plot(solution.t,solution.y[0],label='Model Healthy')
 plt.plot(solution.t,solution.y[1],label='Model Infected',linestyle='dashed')
 plt.plot(solution.t,solution.y[2],label='Model Recovered',linestyle='dotted')
-
 plt.xlabel('Time [days]')
 plt.ylabel('Population infected')
-
 plt.title('Infection Rate of COVID-19 in Idaho:\nModel VS Data')
 plt.grid() 
-
+plt.title('Number Infected vs. Time in Idaho')
 plt.legend(loc='best')
 plt.show()
+
+plt.savefig('Model_VS_Real_Data.png')
+
+#Break between graphs
+
+
+plt.plot(time, dead, label='Real Dead', color = 'k')
+plt.plot(time,infected, label='Real Infections')
+plt.plot(time,recovered, label='Real Recovered', color = 'm')
+plt.xlabel('Time [days]')
+plt.ylabel('Population infected')
+plt.title('Real Infection Rate of COVID-19 in Idaho:\nGiven Data')
+plt.grid()
+plt.legend(loc='best')
+plt.show()
+
+plt.savefig('Real_Data.png')
+
+#Break between graphs
+
+plt.plot(time, dead, label='Real Dead', color = 'k')
+plt.plot(time,infected, label='Real Infections')
+plt.plot(time,recovered, label='Real Recovered', color = 'm')
+plt.xlabel('Time [days]')
+plt.ylabel('Population infected [log scale]')
+plt.yscale('log')
+plt.title('Logarithmic Scale of Real Infection Rate of COVID-19 in Idaho:\nGiven Data')
+plt.grid()
+plt.legend(loc='best')
+plt.show()
+
+plt.savefig('Log_Real_Data.png')
+
