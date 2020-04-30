@@ -67,19 +67,7 @@ rInfect: This is a constant that is multiplied by the number of Healthy people. 
 The equation for finding how many new infections per day is (rInfect*Healthy*Infected)/(Healthy+Infected+Recovered). Applying this tells us that initially when almost everyone is Healthy and very few are infected, the growth of infected is very slow. When Healthy and Infected are equal to each other is when the growth of infected is at its peak.
 
 rRecover: This is a constant that is multiplied by the number of Infected people. The product of Infected time rRecover gives us the number of new Recovered people per day.
-Applying this information tells us as the number of Infected people goes up, the number ofnew Recovered people will also go up.
-
-
-    Line 14 has rRecover*Infected in that big list that's returned
-    That MEANS: dRecovered/dt = rRecover*Infected
-    That means: Amount of Recovered goes up over time, depending on how much Infected there are.
-    rRecover is a CONSTANT for this project
-
-Species Healthy:
-    dHealthy/dt is in the first element of the list returned on line 14
-    dHealthy/dt = -rInfect\*Healthy*Infected/(Healthy+Infected+Recovered)
-This reaction depends on the concentration of Healthy and the concentration of Infected
-concentration of Healthy is Healthy/(Healthy+Infected+Recovered), and the concentration of Infected is Infected/(Healthy+Infected+Recovered)
+The rate at which people recover is completely dependent on how many infected people there are thus the equation for new Recovered is (rRecovered*Infected*). Applying this information tells us as the number of Infected people goes up, the number ofnew Recovered people will also go up. The peak of Recoveries will be when there the greatest number of Infected people.
 
 # Conclusion
 This is where we talk about what this data means for us. What are the next steps we need to take? Should we continue social distancing? Comment on how well the state is handling it. Etc...
