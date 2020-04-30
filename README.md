@@ -29,11 +29,16 @@ OR
 A plot will appear if everything is working correctly.
 
 ## Figures Showing Code Output
-![infections vs time](Data/Model Vs Real Data.png)
+![(Data/Model Vs Real Data.png)]
+
 A graph that displays a model of the data and the data that has already been collected.
-![infections vs time](Data/Real Data.png)
+
+![(Data/Real Data.png)]
+
 A graph that displays the collected data.
-![infections vs time](Data/Log Real Data.png)
+
+![(Data/Log Real Data.png)]
+
 A graph that displays the collected data in a logarithmic format.
 
 # File Descriptions
