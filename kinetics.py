@@ -1,4 +1,3 @@
-  
 from scipy.integrate import solve_ivp
 import matplotlib.pyplot as plt
 import numpy as np
@@ -33,29 +32,26 @@ solution = kinetics(0.3,0.04, pop-1,1,0) #ONE infected person on day0
 plt.plot(time, dead, label='Real Dead', color = 'k')
 plt.plot(time,infected, label='Real Infections')
 plt.plot(time,recovered, label='Real Recovered', color = 'm')
-#plt.plot(solution.t,solution.y[0],label='Model Healthy')
+plt.plot(solution.t,solution.y[0],label='Model Healthy')
 plt.plot(solution.t,solution.y[1],label='Model Infected',linestyle='dashed')
 plt.plot(solution.t,solution.y[2],label='Model Recovered',linestyle='dotted')
-
 plt.xlabel('Time [days]')
 plt.ylabel('Population infected')
-
 plt.title('Infection Rate of COVID-19 in Idaho:\nModel VS Data')
 plt.grid() 
-
+plt.title('Number Infected vs. Time in Idaho')
 plt.legend(loc='best')
 plt.show()
-plt.title('Number Infected vs. Time in Idaho') 
+
 #Break between graphs
+
 plt.plot(time, dead, label='Real Dead', color = 'k')
 plt.plot(time,infected, label='Real Infections')
 plt.plot(time,recovered, label='Real Recovered', color = 'm')
 plt.xlabel('Time [days]')
 plt.ylabel('Population infected')
-
 plt.title('Real Infection Rate of COVID-19 in Idaho:\nGiven Data')
 plt.grid()
-
 plt.legend(loc='best')
 plt.show()
 
