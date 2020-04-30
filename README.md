@@ -29,9 +29,17 @@ OR
 A plot will appear if everything is working correctly.
 
 ## Figures Showing Code Output
-![infections vs time](Data/infections.png)
+![Model VS Real Data](/Model_Vs_Real_Data.png)
 
-A graph of the number of infections vs time on a logarithmic scale. 
+A graph that displays a model of the data and the data that has already been collected.
+
+![Real Data](/Real_Data.png)
+
+A graph that displays the collected data.
+
+![Log Real Data](/Log_Real_Data.png)
+
+A graph that displays the collected data in a logarithmic format.
 
 # File Descriptions
 ### idaho_infections.csv
