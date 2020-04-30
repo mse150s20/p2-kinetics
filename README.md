@@ -57,8 +57,11 @@ The rates of change between Healthy->Infected and Infected->Recovered will show 
 
 rInfect is the rate of Infection and rRecover is the rate of Recovery from Infection
 
-Recovered:
-    Increases as people who were Infected fight off COVID-19 and survive.
+Healthy: This is how many healthy uninfected people there are in Idaho.
+
+Infected: This is the number of COVID-19 positive people there are in Idaho.
+
+Recovered: This is the number of people who have recovered from a COVID-19 infection.
 
     Line 14 has rRecover*Infected in that big list that's returned
     That MEANS: dRecovered/dt = rRecover*Infected
