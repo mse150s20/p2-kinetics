@@ -1,3 +1,4 @@
+# For simulating deaths in addition to infected and recovered
 from scipy.integrate import solve_ivp
 import matplotlib.pyplot as plt
 import numpy as np
