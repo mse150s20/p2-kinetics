@@ -55,6 +55,8 @@ Project 2 descriptions:
 
 The rates of change between Healthy->Infected and Infected->Recovered will show us how quickly COVID-19 spreads and how quickly people can recover from COVID-19.
 
+rInfect is the rate of Infection and rRecover is the rate of Recovery from Infection
+
 Recovered:
     Increases as people who were Infected fight off COVID-19 and survive.
 
@@ -68,8 +70,6 @@ Species Healthy:
     dHealthy/dt = -rInfect\*Healthy*Infected/(Healthy+Infected+Recovered)
 This reaction depends on the concentration of Healthy and the concentration of Infected
 concentration of Healthy is Healthy/(Healthy+Infected+Recovered), and the concentration of Infected is Infected/(Healthy+Infected+Recovered)
-
-rInfect and rRecover are our reaction constants - what do they mean?
 
 # Conclusion
 This is where we talk about what this data means for us. What are the next steps we need to take? Should we continue social distancing? Comment on how well the state is handling it. Etc...
