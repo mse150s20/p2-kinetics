@@ -17,12 +17,12 @@ To run the code on your computer, pull the p2-kinetics repository from github by
 
 # How to Use This Code
 
-To use this code you must be in the directory that contains the code. Type "$ python kinetics.py" + the path to the file that contains the data. 
+To use this code you must be in the directory that contains the code. Type "$ python coronavirus.py" + the path to the file that contains the data. 
 
 # Example of how to use this code
 `$ cd p2-kinetics/`
 
-`$ python kinetics.py Data/idaho_infections.csv`
+`$ python coronavirus.py Data/idaho_infections.csv`
 
 A plot will appear if everything is working correctly.
 
@@ -35,18 +35,18 @@ A graph of the number of infections vs time on a logarithmic scale.
 ### idaho_infections.csv
 The idaho_infections.csv file contains the reported numbers of the total reported infected people, deaths, and recoveries in Idaho. The file starts on the first day of reported cases in the state. It also includes the number of new cases of each designation. This csv file works in conjunction with kinetics.py as it will show the comparison of the reported data alongside with the projected data. 
 
-### kinetics.py
+### coronavirus.py
 This graph shows a prediction as well as the actual numbers of healthy, infected, recovered, and dead people.
 ### finding.py
 
-### kinetics-dead.py
+### coronavirus-dead.py
 This graph shows a prediction of the number of healthy, infected, recovered, and dead people given constants of infection rate, recovery rate, and death rate.
 
 ### plot-infections.py
 This graph shows the infection rate and the amount of dead people over the course of a year.
 
-### kinetics-copy.py
-This is a copy of kinetics.py with the healthy individuals hidden, so that the modelled rate of infection can be more easily compared to the actual data. This is to get a more accurate k1 and k2
+### coronavirus-copy.py
+This is a copy of coronavirus.py with the healthy individuals hidden, so that the modelled rate of infection can be more easily compared to the actual data. This is to get a more accurate k1 and k2
 
 # Conclusion
 This is where we talk about what this data means for us. What are the next steps we need to take? Should we continue social distancing? Comment on how well the state is handling it. Etc...
