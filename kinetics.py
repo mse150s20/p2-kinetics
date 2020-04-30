@@ -45,6 +45,18 @@ plt.show()
 
 #Break between graphs
 
+
+plt.plot(time, dead, label='Real Dead', color = 'k')
+plt.plot(time,infected, label='Real Infections')
+plt.plot(time,recovered, label='Real Recovered', color = 'm')
+plt.xlabel('Time [days]')
+plt.ylabel('Population infected')
+plt.title('Real Infection Rate of COVID-19 in Idaho:\nGiven Data')
+plt.grid()
+plt.legend(loc='best')
+plt.show()
+
+
 plt.plot(time, dead, label='Real Dead', color = 'k')
 plt.plot(time,infected, label='Real Infections')
 plt.plot(time,recovered, label='Real Recovered', color = 'm')
