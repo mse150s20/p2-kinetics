@@ -111,7 +111,7 @@ There are a lot of variables to consider when deciding on the future of virus pr
 The most apparent effect of decreasing k1 was delaying the "ramping up" of the population.
 
 ### Visualizing the results of playing with the parameters
-Within the General_PLaying Folder, there is a file named "playing.py". By using vim to access the file, the variables k1 and k2 can be changed. From there the playing.py file can be graphed by using the python command. The results of this graph will display the day in which there are the maximum number of cases. The color bar on the side can be used to indicate what conditions of k1 and k2 will produce the days of maximum cases.
+Within the General_PLaying Folder, there is a file named "playing.py". By using vim to access this file, the variables k1 and k2 can be changed. From there the playing.py file can be graphed by using the python command. The results of this graph will display the day in which there are the maximum number of cases. The color bar on the side can be used to indicate what conditions of k1 and k2 will produce the days of maximum cases.
 
 ### Playing team findings - NEED TO ELABORATE ON k1 and k2
 A higher k1 is required to get the infection to ramp up in a similar timeframe to the real infections (i.e. smaller k1 = later beginning of mass infection). However, a k2 is needed to control the k1; it can't be too big or too small as to squash the infected graph, or to let it grow exponentially large. Finer tuning needed.
