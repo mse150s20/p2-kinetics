@@ -1,7 +1,7 @@
 # Overview of Code
 This code describes and models the current coronavirus (COVID-19) pandemic in the state of Idaho. With this, we hope to provide information on how well Idaho is dealing with COVID-19.
 
-It models the pandemic in Idaho as a kinetics function of time in days, with equations that model the uninfected, infected, recovered, and dead populations in Idaho.
+It models the pandemic in Idaho as a kinetics function of time in days, with equations that model the uninfected, infected, recovered, and fatalities in Idaho.
 
 # Software Requirements
 This code requires access to a command line terminal and to have a github account to access the p2-kinetics repository, for the purpose of collaboration. For this program to run, python must be installed on the local machine. To download Python, go to terminal, type in the command line "apt-get install python". This will start downloading Python onto the local machine. Your computer will ask a few permission questions and you will have to let it install Python onto the local machine.
@@ -52,17 +52,17 @@ A graph that displays the collected data in a logarithmic format.
 
 # File Descriptions
 ### idaho_infections.csv
-The idaho_infections.csv file contains the reported numbers of the total reported infected people, deaths, and recoveries in Idaho. The file starts on the first day of reported cases in the state. It also includes the number of new cases of each designation. This csv file works in conjunction with kinetics.py as it will show the comparison of the reported data alongside the projected data. 
+The idaho_infections.csv file contains the reported numbers of the total reported infections, fatalities, and recoveries in Idaho. The file starts on the first day of reported cases in the state. It also includes the number of new cases of each designation. This csv file works in conjunction with kinetics.py as it will show the comparison of the reported data alongside the projected data. 
 
 ### coronavirus.py
 This graph shows a prediction as well as the actual numbers of healthy, infected, recovered, and dead people.
 ### finding.py
 
 ### coronavirus-dead.py
-This graph shows a prediction of the number of healthy, infected, recovered, and dead people given constants of infection rate, recovery rate, and death rate.
+This graph shows a prediction of the number of healthy, infected, recovered, and deaths given constants of infection rate, recovery rate, and death rate.
 
 ### plot-infections.py
-This graph plots the data of infected and dead people in the state of Idaho from day 0 as the first person was infected to most current update of covid-19 statistics. 
+This graph plots the data of infected and deaths in the state of Idaho from day 0 as the first person was infected to most current update of covid-19 statistics. 
 
 ### coronavirus-copy.py
 This is a copy of coronavirus.py with the healthy individuals hidden, so that the modeled rate of infection can be easily compared to the actual data. This is to get a more accurate k1 and k2
