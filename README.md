@@ -83,7 +83,7 @@ Project 2 descriptions:
 
     Healthy -> Infected -> Recovered
 
-The rates of change between Healthy->Infected and Infected->Recovered will show us how quickly COVID-19 spreads and how quickly people can recover from COVID-19.
+The rates of change between Healthy->Infected and Infected->Recovered will show us how quickly COVID-19 spreads and how quickly people are recovering.
 
 Healthy: This is how many healthy, uninfected people there are in Idaho.
 
