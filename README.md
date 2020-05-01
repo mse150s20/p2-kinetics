@@ -160,24 +160,20 @@ As it stands the way that the graphs are generated it is not likely we will be a
 
 11. International Journal of Infections Diseases
     website: https://www.ijidonline.com/article/S1201-9712(20)30182-X/fulltext
-  *
+   * A journal article that details the transmissibility and mortality of COVID-19 in Europe
  
 12. Institute for Health Metrics and Evaluation
     website: https://covid19.healthdata.org/united-states-of-america/idaho
-  *
+   * This website provide plots of reported and projected number of deaths and hospital resources used in the state of Idaho.
  
 13. Covid Act Now
     website: https://covidactnow.org/us/id
-  *
+   * Another website that provides additional information on COVID-19 infections rates and projections in the state of Idaho and the strain on hospitals.
  
 14. Our World in Data
     website: https://ourworldindata.org/coronavirus
-  *
+   * A series of plots that show the total global death toll from COVID-19 and the comparisons between countries. 
 
 15. Science Direct
     website: https://www.sciencedirect.com/science/article/pii/S1286457920300265
-  *
- 
-16. New York Times
-    website: https://www.nytimes.com/interactive/2020/us/idaho-coronavirus-cases.html
-  * 
+   * A scientific article that compares the transmission and mortality of COVID-19 to other diseases. 
