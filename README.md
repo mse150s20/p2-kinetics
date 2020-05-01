@@ -62,7 +62,7 @@ The idaho_infections.csv file contains the reported numbers of the total infecte
 
 ### Data
 The data directory contains text files and .csv files from group research sources. Our working model pulls data from this directory when generating our model.
-idaho_infections.csv is one example of the files contained in this directory. The idaho_infections.csv file contains the reported numbers of the total reported infections, fatalities, and recoveries in Idaho. The file starts on the first day of reported cases in the state. It also includes the number of new cases of each designation. This csv file works in conjunction with Model_VS_Real_Data.py as it will show the comparison of the reported data alongside the projected data of the model. 
+idaho_infections.csv is one example of the files contained in this directory. The idaho_infections.csv file contains the reported numbers of the total reported infections, fatalities, and recoveries in Idaho. The file starts on March 13th, the first day of reported cases in the state. It also includes the number of new cases of each designation. This csv file works in conjunction with Model_VS_Real_Data.py as it will show the comparison of the reported data alongside the projected data of the model. 
 
 ### General_Playing
 The General_Playing directory contains several working models to be manipulated in order to determine the best fit for the k1 and k2 values of the final predictive model. These models cover varying infection rates, recovery rates, and comparisons to the current to-date data from our sources.  
