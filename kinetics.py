@@ -37,16 +37,15 @@ plt.plot(solution.t,solution.y[1],label='Model Infected',linestyle='dashed')
 plt.plot(solution.t,solution.y[2],label='Model Recovered',linestyle='dotted')
 plt.xlabel('Time [days]')
 plt.ylabel('Population infected')
-plt.title('Infection Rate of COVID-19 in Idaho:\nModel VS Data')
+plt.title('Infection Rate of COVID-19 in Idaho:\nModel')
 plt.grid() 
 plt.title('Number Infected vs. Time in Idaho')
 plt.legend(loc='best')
 plt.show()
 
-plt.savefig('Model_VS_Real_Data.png')
+plt.savefig('Model_Data.png')
 
 #Break between graphs
-
 
 plt.plot(time, dead, label='Real Dead', color = 'k')
 plt.plot(time,infected, label='Real Infections')
@@ -86,10 +85,10 @@ plt.plot(solution.t,solution.y[2],label='Model Recovered',linestyle='dotted')
 plt.xlabel('Time [days]')
 plt.ylabel('Population infected [log scale]')
 plt.yscale('log')
-plt.title('Logarithmic Scale of Real Infection Rate of COVID-19 in Idaho:\nGiven Data')
+plt.title('Logarithmic Scale of Infection Rate of COVID-19 in Idaho:\nCombined model and Given')
 plt.grid()
 plt.legend(loc='best')
 plt.show()
 
-plt.savefig('Log_Real_Data.png')
+plt.savefig('Log_Model_VS_Real_Data.png')
 
