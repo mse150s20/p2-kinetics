@@ -58,7 +58,7 @@ A graph that displays the model of the data.
 ###Images
 The Images Directory is the place where all the graphs are saved to so they are in a centeralized location.
 ### idaho_infections.csv
-The idaho_infections.csv file contains the reported numbers of the total infected people, deaths, and recoveries in the state of Idaho. The file starts on the first day of reported cases in the state. It also includes the number of new cases of each designation. This csv file works in conjunction with kinetics.py as it will show the comparison of the reported data alongside with the projected data. 
+The idaho_infections.csv file contains the reported numbers of the total infected people, deaths, and recoveries in the state of Idaho. The file starts on March 13th, the first day of reported cases in the state. It also includes the number of new cases of each designation. This csv file works in conjunction with kinetics.py as it will show the comparison of the reported data alongside with the projected data. 
 
 ### Data
 The data directory contains text files and .csv files from group research sources. Our working model pulls data from this directory when generating our model.
