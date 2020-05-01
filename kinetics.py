@@ -43,7 +43,7 @@ plt.title('Number Infected vs. Time in Idaho')
 plt.legend(loc='best')
 plt.show()
 
-plt.savefig('Model_Data.png')
+plt.savefig('Images/Model_Data.png')
 
 #Break between graphs
 
@@ -57,7 +57,7 @@ plt.grid()
 plt.legend(loc='best')
 plt.show()
 
-plt.savefig('/Images/Real_Data.png')
+plt.savefig('Images/Real_Data.png')
 
 #Break between graphs
 
@@ -72,7 +72,7 @@ plt.grid()
 plt.legend(loc='best')
 plt.show()
 
-plt.savefig('Log_Real_Data.png')
+plt.savefig('Images/Log_Real_Data.png')
 
 #Break between graphs
 
@@ -90,5 +90,5 @@ plt.grid()
 plt.legend(loc='best')
 plt.show()
 
-plt.savefig('Log_Model_VS_Real_Data.png')
+plt.savefig('Images/Log_Model_VS_Real_Data.png')
 
