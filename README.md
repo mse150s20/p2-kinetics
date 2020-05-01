@@ -131,5 +131,5 @@ As it stands the way that the graphs are generated it is not likely we will be a
 
 6. Wikipedia Contributors. 2019-20 Coronavirus Pandemic. *Wikipedia.* 15 April, 2020. (Web) https://en.wikipedia.org/w/index.php?title=2019%E2%80%9320_coronavirus_pandemic&oldid=951160943
 
-
+7. Wikipedia Contributors. 2020 Coronavirus Pandemic in Idaho. *Wikipedia.* Retrieved 15 April, 2020. (Web) https://en.wikipedia.org/w/index.php?title=2020_coronavirus_pandemic_in_Idaho&oldid=950859214
 
