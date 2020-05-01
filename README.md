@@ -91,7 +91,7 @@ Infected: This is the number of COVID-19 positive people there are in Idaho.
 
 Recovered: This is the number of people who have recovered from a COVID-19 infection.
 
-The equation for finding how many new infections per day is (rInfect\*Healthy\*Infected)/(Healthy+Infected+Recovered). Applying this tells us that initially when almost everyone is Healthy and very few are infected, the growth of infected is very slow. When Healthy and Infected are equal to each other is when the growth of infected is at its peak.
+The equation for finding how many new infections per day is (rInfect\*Healthy\*Infected)/(Healthy+Infected+Recovered). Applying this tells us that initially when almost everyone is Healthy and very few are infected, the growth of infection is very slow. When Healthy and Infected are equal to each other is when the growth of infected is at its peak.
 
 rInfect: This is a constant that is multiplied by the number of Healthy people. The product of Healthy times rInfect gives us the number of new Infections per day.
 
