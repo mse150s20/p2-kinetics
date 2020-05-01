@@ -128,3 +128,8 @@ As it stands the way that the graphs are generated it is not likely we will be a
 
 5. Coronavirus Disease 2019 Situation Summary. *Centers for Disease Control and Prevention* 19 April, 2020. (Web)  - https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/summary.html#:~:text=On%20March%2011%2C%20the,of%20novel%20influenza%20viruses.
   * The CDC provides one of the most up to date information regarding the COVID-19 situation in the United States. It provides recommendations for what individuals and businesses should do as well as information on the risk and severity of COVID-19
+
+6. Wikipedia Contributors. 2019-20 Coronavirus Pandemic. *Wikipedia.* 15 April, 2020. (Web) https://en.wikipedia.org/w/index.php?title=2019%E2%80%9320_coronavirus_pandemic&oldid=951160943
+
+
+
