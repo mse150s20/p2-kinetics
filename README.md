@@ -29,7 +29,7 @@ OR
 A plot will appear if everything is working correctly.
 
 ## Figures Showing Code Output
-![Log Model VS Real Data](Images/Log_Model_Vs_Real_Data.png)
+![Log Model VS Real Data](Images/Log_Model_VS_Real_Data.png)
 
 A graph that displays a model of the data and the data that has already been collected.
 
