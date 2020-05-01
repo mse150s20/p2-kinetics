@@ -66,7 +66,8 @@ This graph plots the data of infected and deaths in the state of Idaho from day 
 ### coronavirus-copy.py
 This is a copy of coronavirus.py with the healthy individuals hidden, so that the modeled rate of infection can be easily compared to the actual data. This is to get a more accurate k1 and k2
 
-### info.txt - SHOULD BE CLEANED UP
+
+## Project Info
 Project 2 descriptions:
     Modeling kinetics: rate of change between things!
 
