@@ -58,10 +58,10 @@ idaho_infections.csv is one example of the files contained in this directory. Th
 ### General_Playing
 The General_Playing directory contains several working models to be manipulated in order to determine the best fit for the k1 and k2 values of the final predictive model. These models cover varying infection rates, recovery rates, and comparisons to the current to-date data from our sources.  
 
-### finding.py
+### finding.py - Still needs defined
 
 ### plot-infections.py
-This graph plots actual numbers of infections and fatalities in the state of Idaho from day 0, as the first person was infected, to most current update of covid-19 statistics.
+This graph, when pulling from Data/idaho_infections.csv, plots actual numbers of infections and fatalities in the state of Idaho from day 0, as the first person was infected, to most current update of covid-19 statistics.
 
 ### Real_Data.py
 
