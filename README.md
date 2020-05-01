@@ -37,7 +37,7 @@ A graph that displays a model of the data and the data that has already been col
 
 A graph that displays the collected data.
 
-![Log Real Data]('Log_Real_Data.png')
+![Log Real Data]('Images/Log_Real_Data.png')
 
 A graph that displays the collected data in a logarithmic format.
 
