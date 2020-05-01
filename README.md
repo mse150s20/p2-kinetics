@@ -43,7 +43,7 @@ A graph that displays the collected data in a logarithmic format.
 
 # File Descriptions
 #Images
-The Images Directory is the place where all the graphs are saved to
+The Images Directory is the place where all the graphs are saved to so they are in a centeralized location.
 ### idaho_infections.csv
 The idaho_infections.csv file contains the reported numbers of the total reported infected people, deaths, and recoveries in Idaho. The file starts on the first day of reported cases in the state. It also includes the number of new cases of each designation. This csv file works in conjunction with kinetics.py as it will show the comparison of the reported data alongside with the projected data. 
 
