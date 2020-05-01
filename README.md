@@ -129,17 +129,21 @@ As it stands the way that the graphs are generated it is not likely we will be a
 5. Centers for Disease Control and Prevention - https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/summary.html#:~:text=On%20March%2011%2C%20the,of%20novel%20influenza%20viruses.
   * The CDC provides one of the most up to date information regarding the COVID-19 situation in the United States. It provides recommendations for what individuals and businesses should do as well as information on the risk and severity of COVID-19
 
-6. https://labblog.uofmhealth.org/rounds/how-scientists-quantify-intensity-of-an-outbreak-like-covid-19
-  *
+6. University of Michigan - Health Lab Blog  
+   website: https://labblog.uofmhealth.org/rounds/how-scientists-quantify-intensity-of-an-outbreak-like-covid-19
+  * A blog post that explains the term R0 and its context in epidemiology and the current COVID-19 pandemic.
 
-7. https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv
-  * 
+7. John Hopkins Whiting School of Engineering github repository
+   website:  https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv
+  * This repository is the data that John Hopkins has gathered about the COVID-19 pandemic in the United States. 
 
-8. https://www.nytimes.com/interactive/2020/us/idaho-coronavirus-cases.html
-  *
+8. New York Times
+   website: https://www.nytimes.com/interactive/2020/us/idaho-coronavirus-cases.html
+  * This article has COVID-19 related data about Idaho and its counties.
 
-9. https://coronavirus.jhu.edu/us-map
-  *
+9. John Hopkins University and Medicine
+   website: https://coronavirus.jhu.edu/us-map
+  * A map of COVID-19 cases and related data on a global scale, country scale, state, and counties.
 
 10. Medium: Towards Data Science
   a. https://towardsdatascience.com/infectious-disease-modelling-part-i-understanding-sir-28d60e29fdfc
