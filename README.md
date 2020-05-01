@@ -33,15 +33,15 @@ A plot will appear if everything is working correctly.
 
 A graph that displays a model of the data and the data that has already been collected.
 
-![Real Data](Images/Real_Data.png)
+![Real Data]('Real_Data.png')
 
 A graph that displays the collected data.
 
-![Log Real Data](Images/Log_Real_Data.png)
+![Log Real Data]('Log_Real_Data.png')
 
 A graph that displays the collected data in a logarithmic format.
 
-![Model Data]('Images/Model_Data.png')
+![Model Data]('Model_Data.png')
 
 A graph that displays the model of the data.
 # File Descriptions
