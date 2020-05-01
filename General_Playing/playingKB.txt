@@ -4,6 +4,16 @@ As Eric mentioned in class, the real infection rate of COVID-19 in idaho has wee
 
 I played specifically with the idaho_infections.csv data
 
-with the base parameters( ), the model infected peak reaches ~1.25 million at ~60 days
+with the base parameters(0.3,0.04), the model infected peak reaches just over 1 million at ~60 days
 
+Parameters (0.4,0.04), mildly increasing infection rate with same recovery rate,results in a higher spike in infections (~1.2 mil) sooner at ~49 days.This model seems to progress much too fast compared to the data of the past month in ID.
+
+Parameters (0.1,0.02), tried these to make closer to graph of current real data, pushed the peak to ~800,000 at ~200 days. Didn't move fast enough initially to match the outbreak.
+
+Parameters(0.15,0.04), tried these to get closer to the graph of real data, pushed the peak to ~675,000 at ~140 days. Growth still doesnt match very close initially.
+
+Parameters(0.15, 0.04) but changed initial people infected to 3.Pushed peak to ~680,000 at ~130 days. Model still doesn't grow fast enough initially and peaks very fast. This may represent what would happen if social distancing efforts were lifted too early but the efforts were effective initially.
+
+Parameters(0.15, 0.04) and started with 3 people initially infected and a shortened max time to 180 days.Trying to find something that would represent conditions that give us a flattened curve.
+Results: shortening max time helped bring estimated infections closer to real infections at beginning of curve. Peak at ~675,000 people and ~130 days. In this setup the recovery rate seems to follow the curve of the model infected during peak growth.
 
