@@ -16,13 +16,16 @@ To run the code on your computer, pull the p2-kinetics repository from github by
 
 2. Click on "Clone or download" tab and click on the copy button next to the github address.
 
-3. It is recommended to clone with SSH
+3. It is recommended to clone with SSH.
 
-4. Go back to your terminal and enter: "$ git clone git@github.com:mse150s20/p2-kinetics.git"
+4. In your own terminal enter: "$ git clone git@github.com:mse150s20/p2-kinetics.git"
+
+The directory and all it's contents shoudl now be clond to your machine. 
 
 # How to Use This Code
 
-To use this code you must be in the directory that contains the code. i.e. p2-kinetics. Type "$ python plot-infections.py" + the path to the file that contains the data. 
+To use this code you must be in the directory that contains the code, p2-kinetics.
+Once in the "p2-kinetics" directory type "$ python plot-infections.py" + the path to the file to the .csv file containing the data to be evaluated. 
 
 # Example of how to use this code
 `$ cd p2-kinetics/`
