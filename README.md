@@ -24,7 +24,7 @@ The directory and all it's contents should now be cloned to your machine.
 
 # How to Use This Code
 
-To use this code you must be in the p2-kinetics directory that contains the code.
+To use this code you must be in the "p2-kinetics" directory that contains the code.
 Once in the "p2-kinetics" directory type "$ python plot-infections.py" + the path to the file to the .csv file containing the data to be evaluated. 
 
 # Example of how to use this code
