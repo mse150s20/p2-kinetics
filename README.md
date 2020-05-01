@@ -37,19 +37,26 @@ OR
 A plot will appear if everything is working correctly.
 
 ## Figures Showing Code Output
-![Model VS Real Data](/Model_Vs_Real_Data.png)
+![Log Model VS Real Data](Images/Log_Model_VS_Real_Data.png)
 
 A graph that displays a model of the data and the data that has already been collected.
 
-![Real Data](/Real_Data.png)
+![Real Data](Images/Real_Data.png)
 
 A graph that displays the collected data.
 
-![Log Real Data](/Log_Real_Data.png)
+![Log Real Data](Images/Log_Real_Data.png)
 
 A graph that displays the collected data in a logarithmic format.
 
+![Model Data](Images/Model_Data.png)
+
+A graph that displays the model of the data.
 # File Descriptions
+###Images
+The Images Directory is the place where all the graphs are saved to so they are in a centeralized location.
+### idaho_infections.csv
+The idaho_infections.csv file contains the reported numbers of the total reported infected people, deaths, and recoveries in Idaho. The file starts on the first day of reported cases in the state. It also includes the number of new cases of each designation. This csv file works in conjunction with kinetics.py as it will show the comparison of the reported data alongside with the projected data. 
 
 ### Data
 The data directory contains text files and .csv files from group research sources. Our working model pulls data from this directory when generating our model.
@@ -76,21 +83,23 @@ Project 2 descriptions:
 
 The rates of change between Healthy->Infected and Infected->Recovered will show us how quickly COVID-19 spreads and how quickly people can recover from COVID-19.
 
-rInfect is the rate of Infection and rRecover is the rate of Recovery from Infection
-
 Healthy: This is how many healthy, uninfected people there are in Idaho.
 
 Infected: This is the number of COVID-19 positive people there are in Idaho.
 
 Recovered: This is the number of people who have recovered from a COVID-19 infection.
 
+The equation for finding how many new infections per day is (rInfect\*Healthy\*Infected)/(Healthy+Infected+Recovered). Applying this tells us that initially when almost everyone is Healthy and very few are infected, the growth of infected is very slow. When Healthy and Infected are equal to each other is when the growth of infected is at its peak.
+
 rInfect: This is a constant that is multiplied by the number of Healthy people. The product of Healthy times rInfect gives us the number of new Infections per day.
-The equation for finding how many new infections per day is (rInfect**Healthy**Infected)/(Healthy+Infected+Recovered). Applying this tells us that initially when most of the population is Healthy and few are infected the growth of infected is very slow. When Healthy and Infected are equal to each other is when the growth of infected is at its peak.
 
 rRecover: This is a constant that is multiplied by the number of Infected people. The product of Infected time rRecover gives us the number of new Recovered people per day.
-The rate at which people recover is completely dependent on how many infected people there are, thus the equation for new Recovered is (rRecovered**Infected). Applying this information tells us as the number of Infected people goes up, the number of new Recovered people will also go up. The peak of Recoveries will be when there is the greatest number of Infected people.
+The rate at which people recover is completely dependent on how many infected people there are thus the equation for new Recovered is (rRecovered**Infected). Applying this information tells us as the number of Infected people goes up, the number of new Recovered people will also go up. The peak of Recoveries will be when there the greatest number of Infected people.
 
 # Conclusion
+Our data shows a spike in the beginning when we were not prepared or taking the steps to prevent the virus spreading. Since the social distancing, it has flattened a little so we should continue to distance as much as possible until we have more information or more recovered people so we have a better chance of overcoming this.
+#This is where we talk about what this data means for us. What are the next steps we need to take? Should we continue social distancing? Comment on how well the state is handling it. Etc...
+
 There are a lot of variables to consider when deciding on the future of virus precautions. The idaho_infections.csv data with our higher k1 variable to more closely represent the standard curve indicates the virus is not spreading as quickly as predicted. Something else to consider is due to the likelihood that a vaccine will not be ready within the year, gradual re-introduction of people into society to start building immunity may be the best option.
 
 ### Results from playing with parameters
