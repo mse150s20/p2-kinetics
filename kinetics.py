@@ -34,7 +34,7 @@ solution = kinetics(0.3,0.04, pop-1,1,0) #ONE infected person on day0
 #plt.plot(time,recovered, label='Real Recovered', color = 'm')
 #plt.plot(solution.t,solution.y[0],label='Model Healthy') #this one doesnt seem to work that well in the graph
 plt.plot(solution.t,solution.y[1],label='Model Infected')
-plt.plot(solution.t,solution.y[2],label='Model Recovered',linestyle='dotted')
+plt.plot(solution.t,solution.y[2],label='Model Recovered',linestyle='dashed')
 plt.xlabel('Time [days]')
 plt.ylabel('Population infected')
 plt.title('Infection Rate of COVID-19 in Idaho:\nModel')
