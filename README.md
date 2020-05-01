@@ -120,7 +120,7 @@ As it stands the way that the graphs are generated it is not likely we will be a
 
 2. New York Times GitHub Repo
    website https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv
-  * 
+  * a csv file from New York Times github respository that details the COVID-19 infections and deaths by date and state. 
 
 3. Idaho Statesman
    website: https://www.idahostatesman.com/news/coronavirus/article242127516.html
