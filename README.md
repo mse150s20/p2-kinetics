@@ -28,7 +28,7 @@ To use this code you must be in the directory that contains the code, p2-kinetic
 Once in the "p2-kinetics" directory type "$ python plot-infections.py" + the path to the file to the .csv file containing the data to be evaluated. 
 
 # Example of how to use this code
-Enter the following lines in your terminal
+Enter the following lines in your terminal:
 
 `$ cd p2-kinetics/`
 
