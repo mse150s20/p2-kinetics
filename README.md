@@ -166,4 +166,3 @@ As it stands the way that the graphs are generated it is not likely we will be a
 15. Science Direct - https://www.sciencedirect.com/science/article/pii/S1286457920300265
   * 
 16. New York Times - https://www.nytimes.com/interactive/2020/us/idaho-coronavirus-cases.html
-  * 
