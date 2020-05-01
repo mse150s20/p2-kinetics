@@ -20,7 +20,7 @@ To run the code on your computer, pull the p2-kinetics repository from github by
 
 4. In your own terminal enter: "$ git clone git@github.com:mse150s20/p2-kinetics.git"
 
-The directory and all it's contents shoudl now be clond to your machine. 
+The directory and all it's contents should now be clond to your machine. 
 
 # How to Use This Code
 
