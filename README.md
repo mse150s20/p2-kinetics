@@ -4,7 +4,7 @@ The purpose of this code is to describe and model the current coronavirus (COVID
 It models the pandemic in Idaho as a kinetics function of time in days, with equations that model the uninfected, infected, recovered, and fatalities in Idaho.
 
 # Software Requirements
-This code requires access to a command line terminal and to have a github account to access the p2-kinetics repository for the purpose of collaboration. For this program to run python must be installed on the local machine. To download Python; go to terminal, type in the command line "apt-get install python". This will start downloading Python onto your local machine. Your computer will ask a few permission questions and you will have to let it install Python onto the local machine.
+This code requires access to a command line terminal and to have a github account to access the p2-kinetics repository for the purpose of collaboration. For this program to run python must be installed on the local machine. To download Python; go to terminal, type in the command line "apt-get install python". This will start downloading Python onto your local machine. Your computer will ask a few permission questions and you will have to let it install Python onto your local machine.
 
 The code also requires that numpy, matplotlib.pyplot, sys, and solve_ivp to be imported. All the previously mentioned functions and numpy are part of bash and will run when the code is initiated. 
 
