@@ -57,7 +57,7 @@ plt.grid()
 plt.legend(loc='best')
 plt.show()
 
-plt.savefig('Real_Data.png')
+plt.savefig('/Images/Real_Data.png')
 
 #Break between graphs
 
