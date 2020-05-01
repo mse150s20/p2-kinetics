@@ -9,7 +9,7 @@ This code requires access to a command line terminal and to have a github accoun
 The code also requires that numpy, matplotlib.pyplot, sys, and solve_ivp to be imported. All the previously mentioned functions and numpy are part of bash and will run when the code is initiated. 
 
 # How to Get This Code
-To run the code on your computer, pull the p2-kinetics repository from github by cloning it, or fork the repository and pull the code from your own personal repository. 
+To run the code on your computer, pull the p2-kinetics repository from github by cloning it or fork the repository and pull the code from your own personal repository. 
 
 ## Example of how to get code
 1. Go to github.com/mse150s20/p2-kinetics
