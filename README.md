@@ -114,7 +114,7 @@ A higher k1 is required to get the infection to ramp up in a similar timeframe t
 As it stands the way that the graphs are generated it is not likely we will be able to make an accurate model. The data is still too young, and has too many outside factors; the current trend of the infections also does not match up with the form that the model graph takes.  
 
 # References
-1. Idaho Division of Public Health - https://public.tableau.com/profile/idaho.division.of.public.health#
+1. COVID-19 in Idaho. *Idaho Division of Public Health* 30 April, 2020 (Web) - https://public.tableau.com/profile/idaho.division.of.public.health#
   * This source contains data on the statewide cases in Idaho. It contains information on recovered, hospitalized, ICU admittances, and cases among health care workers. It also contains data on COVID-19 demographics and county data.
 
 2. New York Times GitHub Repo -  https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv
