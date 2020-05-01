@@ -128,3 +128,25 @@ As it stands the way that the graphs are generated it is not likely we will be a
 
 5. Centers for Disease Control and Prevention - https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/summary.html#:~:text=On%20March%2011%2C%20the,of%20novel%20influenza%20viruses.
   * The CDC provides one of the most up to date information regarding the COVID-19 situation in the United States. It provides recommendations for what individuals and businesses should do as well as information on the risk and severity of COVID-19
+
+6. https://labblog.uofmhealth.org/rounds/how-scientists-quantify-intensity-of-an-outbreak-like-covid-19
+
+7. https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv
+
+8. https://www.nytimes.com/interactive/2020/us/idaho-coronavirus-cases.html
+
+9. https://coronavirus.jhu.edu/us-map
+
+10. Medium: Towards Data Science
+	a. https://towardsdatascience.com/infectious-disease-modelling-part-i-understanding-sir-28d60e29fdfc
+	b. https://towardsdatascience.com/infectious-disease-modelling-beyond-the-basic-sir-model-216369c584c4
+	c. https://towardsdatascience.com/infectious-disease-modelling-fit-your-model-to-coronavirus-data-2568e672dbc7
+	d. https://github.com/hf2000510/infectious_disease_modelling/blob/master/part_two.ipynb0
+
+11. International Journal of Infections Diseases - https://www.ijidonline.com/article/S1201-9712(20)30182-X/fulltext
+
+12. Institute for Health Metrics and Evaluation - https://covid19.healthdata.org/united-states-of-america/idaho
+
+13. Covid Act Now - https://covidactnow.org/us/id
+
+14. Our World in Data - https://ourworldindata.org/coronavirus
