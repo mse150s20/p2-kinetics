@@ -58,18 +58,11 @@ idaho_infections.csv is one example of the files contained in this directory. Th
 ###General_Playing
 The General_Playing directory contains several working models to be manipulated in order to determine the best fit for the k1 and k2 values of the final predictive model. These models cover varying infection rates, recovery rates, and comparisons to the current to-date data from our sources.  
 
-### coronavirus.py
-This graph shows a prediction as well as the actual numbers of healthy, infected, recovered, and dead people.
 ### finding.py
-
-### coronavirus-dead.py
-This graph shows a prediction of the number of healthy, infected, recovered, and deaths given constants of infection rate, recovery rate, and death rate.
 
 ### plot-infections.py
 This graph plots the data of infected and deaths in the state of Idaho from day 0 as the first person was infected to most current update of covid-19 statistics. 
 
-### coronavirus-copy.py
-This is a copy of coronavirus.py with the healthy individuals hidden, so that the modeled rate of infection can be easily compared to the actual data. This is to get a more accurate k1 and k2
 
 
 ## Project Info
