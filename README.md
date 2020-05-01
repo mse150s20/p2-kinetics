@@ -1,13 +1,13 @@
 # Overview of Code
 This code describes and models the current coronavirus (COVID-19) pandemic in the state of Idaho. With this, we hope to provide information on how well Idaho is dealing with COVID-19.
 
-It models the pandemic in Idaho as a kinetic function of time in days, with equations that model the uninfected, infected, recovered, and deaths in Idaho.
+It models the pandemic in Idaho as a kinetics function of time in days, with equations that model the uninfected, infected, recovered, and dead populations in Idaho.
 
 # Software Requirements
-This code requires access to a command line terminal and to have a github account to access the p2-kinetics repository and to be able to track and collaborate with other researchers on this topic. For this program to run, python must be installed on the local machine. To download Python, go to terminal, type in the command line "apt-get install python". This will start 
+This code requires access to a command line terminal and to have a github account to access the p2-kinetics repository, for the purpose of collaboration. For this program to run, python must be installed on the local machine. To download Python, go to terminal, type in the command line "apt-get install python". This will start 
 downloading Python onto the local machine. Your computer will ask a few permission questions and you will have to let it install Python onto the local machine.
 
-The code also requires that numpy, matplotlib.pyplot, sys, and solve_iv to be imported. All the previously mentioned functions and numpy are part of bash and will run when the code is initiated. 
+The code also requires that numpy, matplotlib.pyplot, sys, and solve_ivp to be imported. All the previously mentioned functions and numpy are part of bash and will run when the code is initiated. 
 
 # How to Get This Code
 To run the code on your computer, pull the p2-kinetics repository from github by cloning it, or fork the repository and pull the code from your own personal repository. 
@@ -17,14 +17,18 @@ To run the code on your computer, pull the p2-kinetics repository from github by
 
 # How to Use This Code
 
-To use this code you must be in the directory that contains the code. Type "$ python kinetics.py" + the path to the file that contains the data. 
+To use this code you must be in the directory that contains the code. Type "$ python coronavirus.py" + the path to the file that contains the data. 
 
 # Example of how to use this code
 `$ cd p2-kinetics/`
 
+<<<<<<< HEAD
+`$ python coronavirus.py Data/idaho_infections.csv`
+=======
 `$ python kinetics.py Data/idaho_infections.csv`
 OR
 `$ python kinetics-dead.py Data/idaho_infections.csv`
+>>>>>>> be493b75df56605ec26644f5866673607a5e51bc
 
 A plot will appear if everything is working correctly.
 
@@ -45,17 +49,18 @@ A graph that displays the collected data in a logarithmic format.
 ### idaho_infections.csv
 The idaho_infections.csv file contains the reported numbers of the total reported infected people, deaths, and recoveries in Idaho. The file starts on the first day of reported cases in the state. It also includes the number of new cases of each designation. This csv file works in conjunction with kinetics.py as it will show the comparison of the reported data alongside with the projected data. 
 
-### kinetics.py
+### coronavirus.py
 This graph shows a prediction as well as the actual numbers of healthy, infected, recovered, and dead people.
 ### finding.py
 
-### kinetics-dead.py
+### coronavirus-dead.py
 This graph shows a prediction of the number of healthy, infected, recovered, and dead people given constants of infection rate, recovery rate, and death rate.
 
 ### plot-infections.py
 This graph plots the data of infected and dead people in the state of Idaho from day 0 as the first person was infected to most current update of covid-19 statistics. 
 
-### kinetics-copy.py
+### coronavirus-copy.py
+This is a copy of coronavirus.py with the healthy individuals hidden, so that the modelled rate of infection can be more easily compared to the actual data. This is to get a more accurate k1 and k2
 
 ### info.txt - SHOULD BE CLEANED UP
 Project 2 descriptions:
@@ -92,6 +97,8 @@ Within the General_PLaying Folder, there is a file named "playing.py". By using 
 
 ### Playing team findings - NEED TO ELABORATE ON k1 and k2
 A higher k1 is required to get the infection to ramp up in a similar timeframe to the real infections (i.e. smaller k1 = later beginning of mass infection). However, a k2 is needed to control the k1; it can't be too big or too small as to squash the infected graph, or to let it grow exponentially large. Finer tuning needed.
+
+As it stands the way that the graphs are generated, it is not likely we will be able to make an accurate model. The data is still too young, and has too many outside factors; the current trend of the infections also does not match up with the form that the model graph takes.  
 
 # References
 1. Idaho Division of Public Health - https://public.tableau.com/profile/idaho.division.of.public.health#

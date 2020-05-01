@@ -1,21 +1,21 @@
+<<<<<<< HEAD:General_Playing/coronavirus-copy.py
+# Purpose of this is to reduce the maxtime to get a better look at the graph and figure out what k1 and k2 best match the current data 
+=======
+>>>>>>> be493b75df56605ec26644f5866673607a5e51bc:kinetics.py
 from scipy.integrate import solve_ivp
 import matplotlib.pyplot as plt
 import numpy as np
 import sys
 
 # the maximum time of virus in days
-maxtime = 365
+maxtime = 65
 pop = 1754000 # Population of Idaho according to U.S. Census
 def kinetics(rateInfect, rateRecover, h_0, i_0, r_0):
 	#Rates in individuals per day    
-	#rateInfect = the rate at which healthy people contract the virus.
-	#rateInfect units = people/day    
-	#rateRecover = the rate at which infected people recover from the virus.
-	#rateRecover units = people/day
     def abc(t, y):
-        ''' System of differential equations: y(t) = [Healthy(t),Infected(t),Recovered(t)]
+        ''' System of differential equations: y(t) = [H(t),I(t),R(t)]
             returns:
-                A list containing [dHealthy/dt, dInfected/dt, dRecovered/dt]
+                A list containing [dH/dt, dI/dt, dR/dt]
         '''
         healthy,infected,recovered = y
         return [-rateInfect*healthy*infected/(healthy+infected+recovered), rateInfect*healthy*infected/(healthy+infected+recovered)-rateRecover*infected, rateRecover*infected]
@@ -27,7 +27,7 @@ time = np.loadtxt(filename, skiprows = 8, delimiter = ',', usecols = (0))
 infected = np.loadtxt(filename, skiprows = 8, delimiter = ',', usecols = (2))
 dead = np.loadtxt(filename, skiprows = 8, delimiter = ',', usecols = (4))
 recovered = np.loadtxt(filename, skiprows = 8,  delimiter = ',', usecols = (6))
-solution = kinetics(0.3,0.04, pop-1,1,0) #ONE infected person on day0
+solution = kinetics(0.4,0.2, pop-1,1,0) #ONE infected person on day0
 
 plt.plot(time, dead, label='Real Dead', color = 'k')
 plt.plot(time,infected, label='Real Infections')
