@@ -70,7 +70,7 @@ The General_Playing directory contains several working models to be manipulated 
 ### finding.py - Still needs defined
 
 ### plot-infections.py
-This graph, when pulling from Data/idaho_infections.csv, plots actual numbers of infections and fatalities in the state of Idaho from day 0, as the first person was infected, to most current update of covid-19 statistics.
+When pulling from Data/idaho_infections.csv, this graph plots actual numbers of infections and fatalities in the state of Idaho from day 0, as the first person was infected, to most current update of covid-19 statistics.
 
 ### Real_Data.py
 
