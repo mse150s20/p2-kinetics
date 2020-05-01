@@ -137,7 +137,7 @@ As it stands the way that the graphs are generated it is not likely we will be a
 
 9. Sewell, Cynthia. Conservative Groups Plan to Violate Stay-Home Order With Friday at Idaho Capitol. *Idaho Statesman.* 16, April 2020. (Web) https://www.idahostatesman.com/news/politics-government/state-politics/article242061306.html
 
-
+10. Taylor, Derrick. How the Coronavirus Pandemic Unfolded: a Timeline. *New York Times.* 28 April, 2020. (Web) https://www.nytimes.com/article/coronavirus-timeline.html
 
 
 
