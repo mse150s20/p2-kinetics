@@ -61,7 +61,7 @@ The General_Playing directory contains several working models to be manipulated 
 ### finding.py
 
 ### plot-infections.py
-This graph plots the data of infected and deaths in the state of Idaho from day 0 as the first person was infected to most current update of covid-19 statistics. 
+This graph plots actual numbers of infections and fatalities in the state of Idaho from day 0, as the first person was infected, to most current update of covid-19 statistics.
 
 
 
