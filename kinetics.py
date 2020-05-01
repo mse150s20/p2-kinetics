@@ -5,7 +5,7 @@ import sys
 
 # the maximum time of virus in days
 maxtime = 365
-pop = 1754000 # Population of Idaho according to U.S. Census
+pop = 1826156 # Population of Idaho according to U.S. Census
 def kinetics(rateInfect, rateRecover, h_0, i_0, r_0):
 	#Rates in individuals per day    
 	#rateInfect = the rate at which healthy people contract the virus.
