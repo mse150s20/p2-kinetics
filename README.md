@@ -139,7 +139,7 @@ As it stands the way that the graphs are generated it is not likely we will be a
 
 10. Taylor, Derrick. How the Coronavirus Pandemic Unfolded: a Timeline. *New York Times.* 28 April, 2020. (Web) https://www.nytimes.com/article/coronavirus-timeline.html
 
-
+11. Coronavirus in Idaho Live Blog: Resources & News. *Boise State Public Radio.* (Web) https://www.boisestatepublicradio.org/post/coronavirus-idaho-live-blog-resources-news#stream/0
 
 
 
