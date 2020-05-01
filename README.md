@@ -94,7 +94,7 @@ The equation for finding how many new infections per day is (rInfect\*Healthy\*I
 rInfect: This is a constant that is multiplied by the number of Healthy people. The product of Healthy times rInfect gives us the number of new Infections per day.
 
 rRecover: This is a constant that is multiplied by the number of Infected people. The product of Infected time rRecover gives us the number of new Recovered people per day.
-The rate at which people recover is completely dependent on how many infected people there are thus the equation for new Recovered is (rRecovered**Infected). Applying this information tells us as the number of Infected people goes up, the number of new Recovered people will also go up. The peak of Recoveries will be when there the greatest number of Infected people.
+The rate at which people recover is completely dependent on how many infected people there are thus the equation for new Recovered is (rRecovered\*Infected). Applying this information tells us as the number of Infected people goes up, the number of new Recovered people will also go up. The peak of Recoveries will be when there the greatest number of Infected people.
 
 # Conclusion
 Our data shows a spike in the beginning when we were not prepared or taking the steps to prevent the virus spreading. Since the social distancing, it has flattened a little so we should continue to distance as much as possible until we have more information or more recovered people so we have a better chance of overcoming this.
@@ -130,23 +130,36 @@ As it stands the way that the graphs are generated it is not likely we will be a
   * The CDC provides one of the most up to date information regarding the COVID-19 situation in the United States. It provides recommendations for what individuals and businesses should do as well as information on the risk and severity of COVID-19
 
 6. https://labblog.uofmhealth.org/rounds/how-scientists-quantify-intensity-of-an-outbreak-like-covid-19
+  *
 
 7. https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv
+  * 
 
 8. https://www.nytimes.com/interactive/2020/us/idaho-coronavirus-cases.html
+  *
 
 9. https://coronavirus.jhu.edu/us-map
+  *
 
 10. Medium: Towards Data Science
-	a. https://towardsdatascience.com/infectious-disease-modelling-part-i-understanding-sir-28d60e29fdfc
-	b. https://towardsdatascience.com/infectious-disease-modelling-beyond-the-basic-sir-model-216369c584c4
-	c. https://towardsdatascience.com/infectious-disease-modelling-fit-your-model-to-coronavirus-data-2568e672dbc7
-	d. https://github.com/hf2000510/infectious_disease_modelling/blob/master/part_two.ipynb0
+  a. https://towardsdatascience.com/infectious-disease-modelling-part-i-understanding-sir-28d60e29fdfc
+    *
+  b. https://towardsdatascience.com/infectious-disease-modelling-beyond-the-basic-sir-model-216369c584c4
+    *
+  c. https://towardsdatascience.com/infectious-disease-modelling-fit-your-model-to-coronavirus-data-2568e672dbc7
+    *
+  d. https://github.com/hf2000510/infectious_disease_modelling/blob/master/part_two.ipynb0
+    *
 
 11. International Journal of Infections Diseases - https://www.ijidonline.com/article/S1201-9712(20)30182-X/fulltext
-
+  * 
 12. Institute for Health Metrics and Evaluation - https://covid19.healthdata.org/united-states-of-america/idaho
-
+  * 
 13. Covid Act Now - https://covidactnow.org/us/id
-
+  * 
 14. Our World in Data - https://ourworldindata.org/coronavirus
+  *
+15. Science Direct - https://www.sciencedirect.com/science/article/pii/S1286457920300265
+  * 
+16. New York Times - https://www.nytimes.com/interactive/2020/us/idaho-coronavirus-cases.html
+  * 
