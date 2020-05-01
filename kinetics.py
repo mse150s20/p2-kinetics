@@ -48,7 +48,7 @@ plt.savefig('Images/Model_Data.png')
 #Break between graphs
 
 plt.plot(time, dead, label='Real Dead', color = 'k',linestyle='dotted')
-plt.plot(time,infected, label='Real Infections',linestyle='-')
+plt.plot(time,infected, label='Real Infections',color = 'l', linestyle='-')
 plt.plot(time,recovered, label='Real Recovered', color = 'm',linestyle ='dashed')
 plt.xlabel('Time [days]')
 plt.ylabel('Population infected')
@@ -62,7 +62,7 @@ plt.savefig('Images/Real_Data.png')
 #Break between graphs
 
 plt.plot(time, dead, label='Real Dead', color = 'k',linestyle='dotted')
-plt.plot(time,infected, label='Real Infections')
+plt.plot(time,infected, label='Real Infections', color = 'l', linestyle='-')
 plt.plot(time,recovered, label='Real Recovered', color = 'm',linestyle='dashed')
 plt.xlabel('Time [days]')
 plt.ylabel('Population infected [log scale]')
@@ -78,7 +78,7 @@ plt.savefig('Images/Log_Real_Data.png')
 
 
 plt.plot(time, dead, label='Real Dead', color = 'k',linestyle='dotted')
-plt.plot(time,infected, label='Real Infections',linestyle='-')
+plt.plot(time,infected, label='Real Infections',color='l',linestyle='-')
 plt.plot(time,recovered, label='Real Recovered', color = 'm',linestyle='dashed')
 plt.plot(solution.t,solution.y[1],label='Model Infected',linestyle='-')
 plt.plot(solution.t,solution.y[2],label='Model Recovered',linestyle='dashed')
