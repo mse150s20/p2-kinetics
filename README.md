@@ -41,7 +41,7 @@ A graph that displays the collected data.
 
 A graph that displays the collected data in a logarithmic format.
 
-![Model Data](Images/Model_Data.png)
+![Model Data]('Images/Model_Data.png')
 
 A graph that displays the model of the data.
 # File Descriptions
