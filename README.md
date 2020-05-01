@@ -123,7 +123,7 @@ As it stands the way that the graphs are generated it is not likely we will be a
   * This source contains data on the statewide cases in Idaho. It contains information on recovered, hospitalized, ICU admittances, and cases among health care workers. It also contains data on COVID-19 demographics and county data.
 
 2. New York Times GitHub Repo -  https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv
-  * This is an ongoing repository that lists daily statistics by state. 
+  * This is an on-going repository that lists daily statistics by state. 
 
 3. Idaho Statesman - https://www.idahostatesman.com/news/coronavirus/article242127516.html
   * This article by the Idaho Stateman provides a recent chart of new virus cases vs. confirmed cases in Idaho, as of May 13th, 2020, as well as providing demographics of the majority groups that are being affected, and in what counties. This provides insight into how population denisty and relative exposure to the virus in a given profession can influence infection/death rates.
