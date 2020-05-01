@@ -22,18 +22,14 @@ To run the code on your computer, pull the p2-kinetics repository from github by
 
 # How to Use This Code
 
-To use this code you must be in the directory that contains the code. Type "$ python coronavirus.py" + the path to the file that contains the data. 
+To use this code you must be in the directory that contains the code. i.e. p2-kinetics. Type "$ python plot-infections.py" + the path to the file that contains the data. 
 
 # Example of how to use this code
 `$ cd p2-kinetics/`
 
-<<<<<<< HEAD
-`$ python coronavirus.py Data/idaho_infections.csv`
-=======
-`$ python kinetics.py Data/idaho_infections.csv`
+`$ python plot-infections.py Data/idaho_infections.csv`
 OR
-`$ python kinetics-dead.py Data/idaho_infections.csv`
->>>>>>> be493b75df56605ec26644f5866673607a5e51bc
+`$ python Real_Data.py Data/idaho_infections.csv`
 
 A plot will appear if everything is working correctly.
 
