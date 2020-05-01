@@ -4,7 +4,7 @@ This code describes and models the current coronavirus (COVID-19) pandemic in th
 It models the pandemic in Idaho as a kinetics function of time in days, with equations that model the uninfected, infected, recovered, and fatalities in Idaho.
 
 # Software Requirements
-This code requires access to a command line terminal and to have a github account to access the p2-kinetics repository, for the purpose of collaboration. For this program to run, python must be installed on the local machine. To download Python, go to terminal, type in the command line "apt-get install python". This will start downloading Python onto the local machine. Your computer will ask a few permission questions and you will have to let it install Python onto the local machine.
+This code requires access to a command line terminal and to have a github account to access the p2-kinetics repository, for the purpose of collaboration. For this program to run, python must be installed on the local machine. To download Python, go to terminal, type in the command line `apt-get install python`. This will start downloading Python onto the local machine. Your computer will ask a few permission questions and you will have to let it install Python onto the local machine.
 
 The code also requires that numpy, matplotlib.pyplot, sys, and solve_ivp to be imported. All the previously mentioned functions and numpy are part of bash and will run when the code is initiated. 
 
@@ -18,14 +18,14 @@ To run the code on your computer, pull the p2-kinetics repository from github by
 
 3. It is recommended to clone with SSH.
 
-4. In your own terminal enter: "$ git clone git@github.com:mse150s20/p2-kinetics.git"
+4. In your own terminal enter: `$ git clone git@github.com:mse150s20/p2-kinetics.git`
 
 The directory and all it's contents shoudl now be clond to your machine. 
 
 # How to Use This Code
 
 To use this code you must be in the directory that contains the code, p2-kinetics.
-Once in the "p2-kinetics" directory type "$ python plot-infections.py" + the path to the file to the .csv file containing the data to be evaluated. 
+Once in the "p2-kinetics" directory type `$ python plot-infections.py` + the path to the file to the .csv file containing the data to be evaluated. 
 
 # Example of how to use this code
 `$ cd p2-kinetics/`
@@ -56,7 +56,7 @@ A graph that displays the model of the data.
 ###Images
 The Images Directory is the place where all the graphs are saved to so they are in a centeralized location.
 ### idaho_infections.csv
-The idaho_infections.csv file contains the reported numbers of the total reported infected people, deaths, and recoveries in Idaho. The file starts on the first day of reported cases in the state. It also includes the number of new cases of each designation. This csv file works in conjunction with kinetics.py as it will show the comparison of the reported data alongside with the projected data. 
+The idaho_infections.csv file contains the reported numbers of the total reported infected people, deaths, and recoveries in Idaho. The file starts on the first day of reported cases in the state. It also includes the number of new cases of each designation. This csv file works in conjunction with Real_Data.py as it will show the comparison of the reported data alongside with the projected data. 
 
 ### Data
 The data directory contains text files and .csv files from group research sources. Our working model pulls data from this directory when generating our model.
