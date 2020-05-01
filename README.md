@@ -50,8 +50,10 @@ A graph that displays the collected data.
 A graph that displays the collected data in a logarithmic format.
 
 # File Descriptions
-### idaho_infections.csv
-The idaho_infections.csv file contains the reported numbers of the total reported infections, fatalities, and recoveries in Idaho. The file starts on the first day of reported cases in the state. It also includes the number of new cases of each designation. This csv file works in conjunction with kinetics.py as it will show the comparison of the reported data alongside the projected data. 
+
+###Data
+The data directory contains text files and .csv files from group research sources. Our working model pulls data from this directory when generating our model.
+idaho_infections.csv is one example of the files contained in this directory. The idaho_infections.csv file contains the reported numbers of the total reported infections, fatalities, and recoveries in Idaho. The file starts on the first day of reported cases in the state. It also includes the number of new cases of each designation. This csv file works in conjunction with Model_VS_Real_Data.py as it will show the comparison of the reported data alongside the projected data of the model. 
 
 ### coronavirus.py
 This graph shows a prediction as well as the actual numbers of healthy, infected, recovered, and dead people.
