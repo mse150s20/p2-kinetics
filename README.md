@@ -33,7 +33,7 @@ A plot will appear if everything is working correctly.
 
 A graph that displays a model of the data and the data that has already been collected.
 
-![Real Data]('Real_Data.png')
+![Real Data](Images/Real_Data.png)
 
 A graph that displays the collected data.
 
