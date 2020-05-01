@@ -47,9 +47,9 @@ plt.savefig('Images/Model_Data.png')
 
 #Break between graphs
 
-plt.plot(time, dead, label='Real Dead', color = 'k')
-plt.plot(time,infected, label='Real Infections')
-plt.plot(time,recovered, label='Real Recovered', color = 'm')
+plt.plot(time, dead, label='Real Dead', color = 'k'linestyle'dotted')
+plt.plot(time,infected, label='Real Infections',linestyle='-')
+plt.plot(time,recovered, label='Real Recovered', color = 'm',linestyle ='dashed')
 plt.xlabel('Time [days]')
 plt.ylabel('Population infected')
 plt.title('Real Infection Rate of COVID-19 in Idaho:\nGiven Data')
