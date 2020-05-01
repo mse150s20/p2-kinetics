@@ -114,13 +114,13 @@ A higher k1 is required to get the infection to ramp up in a similar timeframe t
 As it stands the way that the graphs are generated it is not likely we will be able to make an accurate model. The data is still too young, and has too many outside factors; the current trend of the infections also does not match up with the form that the model graph takes.  
 
 # References
-1. COVID-19 in Idaho. *Idaho Division of Public Health* 30 April, 2020 (Web) - https://public.tableau.com/profile/idaho.division.of.public.health#
+1. COVID-19 in Idaho. *Idaho Division of Public Health.* 30 April, 2020 (Web) - https://public.tableau.com/profile/idaho.division.of.public.health#
   * This source contains data on the statewide cases in Idaho. It contains information on recovered, hospitalized, ICU admittances, and cases among health care workers. It also contains data on COVID-19 demographics and county data.
 
 2. New York Times GitHub Repo -  https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv
   * 
 
-3. Idaho Statesman - https://www.idahostatesman.com/news/coronavirus/article242127516.html
+3. Blanchard, Nicole. Coronavirus Cases in Idaho. *Idaho Statesman.* 19 April, 2020. (Web) - https://www.idahostatesman.com/news/coronavirus/article242127516.html
   * This article by the Idaho Stateman provides a recent chart of new virus cases vs. confirmed cases in Idaho, as of May 13th, 2020, as well as providing demographics of the majority groups that are being affected, and in what counties. This provides insight into how population denisty and relative exposure to the virus in a given profession can influence infection/death rates.
 
 4. KTVB 7 - https://www.ktvb.com/article/news/health/coronavirus/idaho-confirms-first-covid-19-coronavirus-case/277-262de30b-ef00-40a2-b40e-43e26f0bb99b
