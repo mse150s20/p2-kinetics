@@ -80,10 +80,10 @@ Infected: This is the number of COVID-19 positive people there are in Idaho.
 Recovered: This is the number of people who have recovered from a COVID-19 infection.
 
 rInfect: This is a constant that is multiplied by the number of Healthy people. The product of Healthy times rInfect gives us the number of new Infections per day.
-The equation for finding how many new infections per day is (rInfect*Healthy*Infected)/(Healthy+Infected+Recovered). Applying this tells us that initially when almost everyone is Healthy and very few are infected, the growth of infected is very slow. When Healthy and Infected are equal to each other is when the growth of infected is at its peak.
+The equation for finding how many new infections per day is (rInfect**Healthy**Infected)/(Healthy+Infected+Recovered). Applying this tells us that initially when almost everyone is Healthy and very few are infected, the growth of infected is very slow. When Healthy and Infected are equal to each other is when the growth of infected is at its peak.
 
 rRecover: This is a constant that is multiplied by the number of Infected people. The product of Infected time rRecover gives us the number of new Recovered people per day.
-The rate at which people recover is completely dependent on how many infected people there are thus the equation for new Recovered is (rRecovered*Infected*). Applying this information tells us as the number of Infected people goes up, the number ofnew Recovered people will also go up. The peak of Recoveries will be when there the greatest number of Infected people.
+The rate at which people recover is completely dependent on how many infected people there are thus the equation for new Recovered is (rRecovered**Infected). Applying this information tells us as the number of Infected people goes up, the number of new Recovered people will also go up. The peak of Recoveries will be when there the greatest number of Infected people.
 
 # Conclusion
 This is where we talk about what this data means for us. What are the next steps we need to take? Should we continue social distancing? Comment on how well the state is handling it. Etc...
@@ -91,7 +91,7 @@ This is where we talk about what this data means for us. What are the next steps
 There are a lot of variables to consider when deciding on the future of virus precautions. The idaho_infections.csv data with our higher k1 variable to more closely represent the standard curve indicates the virus is not spreading as quickly as predicted. Somethting else to consider is the likelyhood that a vaccine will not be ready within the year, and minimal, gradual re-introduction of people into society to start building immunity may be the best option.
 
 ### Results from playing with parameters
-The most apparent effect of decreasing k1 was delaying the "ramping up" of the population
+The most apparent effect of decreasing k1 was delaying the "ramping up" of the population.
 
 ### Visualizing the results of playing with the parameters
 Within the General_PLaying Folder, there is a file named "playing.py". By using vim to access the file, the variables k1 and k2 can be changed. Then, the playing.py file can be graphed be using the python command. The results of this graph will display the day in which there are the maximum number of cases. The color bar on the side can be used to indicate what conditions of k1 and k2 will produce the days of maximum cases.
