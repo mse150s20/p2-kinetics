@@ -1,11 +1,10 @@
 # Overview of Code
 This code describes and models the current coronavirus (COVID-19) pandemic in the state of Idaho. With this, we hope to provide information on how well Idaho is dealing with COVID-19.
 
-It models the pandemic in Idaho as a kinetics function of time in days, with equations that model the uninfected, infected, recovered, and dead populations in Idaho.
+It models the pandemic in Idaho as a kinetics function of time in days, with equations that model the uninfected, infected, recovered, and fatalities in Idaho.
 
 # Software Requirements
-This code requires access to a command line terminal and to have a github account to access the p2-kinetics repository, for the purpose of collaboration. For this program to run, python must be installed on the local machine. To download Python, go to terminal, type in the command line "apt-get install python". This will start 
-downloading Python onto the local machine. Your computer will ask a few permission questions and you will have to let it install Python onto the local machine.
+This code requires access to a command line terminal and to have a github account to access the p2-kinetics repository, for the purpose of collaboration. For this program to run, python must be installed on the local machine. To download Python, go to terminal, type in the command line "apt-get install python". This will start downloading Python onto the local machine. Your computer will ask a few permission questions and you will have to let it install Python onto the local machine.
 
 The code also requires that numpy, matplotlib.pyplot, sys, and solve_ivp to be imported. All the previously mentioned functions and numpy are part of bash and will run when the code is initiated. 
 
@@ -17,24 +16,23 @@ To run the code on your computer, pull the p2-kinetics repository from github by
 
 2. Click on "Clone or download" tab and click on the copy button next to the github address.
 
-3. It is recommended to clone with SSH
+3. It is recommended to clone with SSH.
 
-4. Go back to your terminal and enter: "$ git clone git@github.com:mse150s20/p2-kinetics.git"
+4. In your own terminal enter: "$ git clone git@github.com:mse150s20/p2-kinetics.git"
+
+The directory and all it's contents shoudl now be clond to your machine. 
 
 # How to Use This Code
 
-To use this code you must be in the directory that contains the code. Type "$ python coronavirus.py" + the path to the file that contains the data. 
+To use this code you must be in the directory that contains the code, p2-kinetics.
+Once in the "p2-kinetics" directory type "$ python plot-infections.py" + the path to the file to the .csv file containing the data to be evaluated. 
 
 # Example of how to use this code
 `$ cd p2-kinetics/`
 
-<<<<<<< HEAD
-`$ python coronavirus.py Data/idaho_infections.csv`
-=======
-`$ python kinetics.py Data/idaho_infections.csv`
+`$ python plot-infections.py Data/idaho_infections.csv`
 OR
-`$ python kinetics-dead.py Data/idaho_infections.csv`
->>>>>>> be493b75df56605ec26644f5866673607a5e51bc
+`$ python Real_Data.py Data/idaho_infections.csv`
 
 A plot will appear if everything is working correctly.
 
@@ -52,23 +50,25 @@ A graph that displays the collected data.
 A graph that displays the collected data in a logarithmic format.
 
 # File Descriptions
-### idaho_infections.csv
-The idaho_infections.csv file contains the reported numbers of the total reported infected people, deaths, and recoveries in Idaho. The file starts on the first day of reported cases in the state. It also includes the number of new cases of each designation. This csv file works in conjunction with kinetics.py as it will show the comparison of the reported data alongside with the projected data. 
 
-### coronavirus.py
-This graph shows a prediction as well as the actual numbers of healthy, infected, recovered, and dead people.
-### finding.py
+### Data
+The data directory contains text files and .csv files from group research sources. Our working model pulls data from this directory when generating our model.
+idaho_infections.csv is one example of the files contained in this directory. The idaho_infections.csv file contains the reported numbers of the total reported infections, fatalities, and recoveries in Idaho. The file starts on the first day of reported cases in the state. It also includes the number of new cases of each designation. This csv file works in conjunction with Model_VS_Real_Data.py as it will show the comparison of the reported data alongside the projected data of the model. 
 
-### coronavirus-dead.py
-This graph shows a prediction of the number of healthy, infected, recovered, and dead people given constants of infection rate, recovery rate, and death rate.
+### General_Playing
+The General_Playing directory contains several working models to be manipulated in order to determine the best fit for the k1 and k2 values of the final predictive model. These models cover varying infection rates, recovery rates, and comparisons to the current to-date data from our sources.  
+
+### finding.py - Still needs defined
 
 ### plot-infections.py
-This graph plots the data of infected and dead people in the state of Idaho from day 0 as the first person was infected to most current update of covid-19 statistics. 
+This graph, when pulling from Data/idaho_infections.csv, plots actual numbers of infections and fatalities in the state of Idaho from day 0, as the first person was infected, to most current update of covid-19 statistics.
 
-### coronavirus-copy.py
-This is a copy of coronavirus.py with the healthy individuals hidden, so that the modelled rate of infection can be more easily compared to the actual data. This is to get a more accurate k1 and k2
+### Real_Data.py
 
-### info.txt - SHOULD BE CLEANED UP
+### Contributors.txt
+Lists all contributors to the project with contact info. 
+
+## Project Info
 Project 2 descriptions:
     Modeling kinetics: rate of change between things!
 
@@ -78,33 +78,31 @@ The rates of change between Healthy->Infected and Infected->Recovered will show 
 
 rInfect is the rate of Infection and rRecover is the rate of Recovery from Infection
 
-Healthy: This is how many healthy uninfected people there are in Idaho.
+Healthy: This is how many healthy, uninfected people there are in Idaho.
 
 Infected: This is the number of COVID-19 positive people there are in Idaho.
 
 Recovered: This is the number of people who have recovered from a COVID-19 infection.
 
 rInfect: This is a constant that is multiplied by the number of Healthy people. The product of Healthy times rInfect gives us the number of new Infections per day.
-The equation for finding how many new infections per day is (rInfect**Healthy**Infected)/(Healthy+Infected+Recovered). Applying this tells us that initially when almost everyone is Healthy and very few are infected, the growth of infected is very slow. When Healthy and Infected are equal to each other is when the growth of infected is at its peak.
+The equation for finding how many new infections per day is (rInfect**Healthy**Infected)/(Healthy+Infected+Recovered). Applying this tells us that initially when most of the population is Healthy and few are infected the growth of infected is very slow. When Healthy and Infected are equal to each other is when the growth of infected is at its peak.
 
 rRecover: This is a constant that is multiplied by the number of Infected people. The product of Infected time rRecover gives us the number of new Recovered people per day.
-The rate at which people recover is completely dependent on how many infected people there are thus the equation for new Recovered is (rRecovered**Infected). Applying this information tells us as the number of Infected people goes up, the number of new Recovered people will also go up. The peak of Recoveries will be when there the greatest number of Infected people.
+The rate at which people recover is completely dependent on how many infected people there are, thus the equation for new Recovered is (rRecovered**Infected). Applying this information tells us as the number of Infected people goes up, the number of new Recovered people will also go up. The peak of Recoveries will be when there is the greatest number of Infected people.
 
 # Conclusion
-This is where we talk about what this data means for us. What are the next steps we need to take? Should we continue social distancing? Comment on how well the state is handling it. Etc...
-
-There are a lot of variables to consider when deciding on the future of virus precautions. The idaho_infections.csv data with our higher k1 variable to more closely represent the standard curve indicates the virus is not spreading as quickly as predicted. Somethting else to consider is the likelyhood that a vaccine will not be ready within the year, and minimal, gradual re-introduction of people into society to start building immunity may be the best option.
+There are a lot of variables to consider when deciding on the future of virus precautions. The idaho_infections.csv data with our higher k1 variable to more closely represent the standard curve indicates the virus is not spreading as quickly as predicted. Something else to consider is due to the likelihood that a vaccine will not be ready within the year, gradual re-introduction of people into society to start building immunity may be the best option.
 
 ### Results from playing with parameters
 The most apparent effect of decreasing k1 was delaying the "ramping up" of the population.
 
 ### Visualizing the results of playing with the parameters
-Within the General_PLaying Folder, there is a file named "playing.py". By using vim to access the file, the variables k1 and k2 can be changed. Then, the playing.py file can be graphed be using the python command. The results of this graph will display the day in which there are the maximum number of cases. The color bar on the side can be used to indicate what conditions of k1 and k2 will produce the days of maximum cases.
+Within the General_PLaying Folder, there is a file named "playing.py". By using vim to access the file, the variables k1 and k2 can be changed. Then, the playing.py file can be graphed by using the python command. The results of this graph will display the day in which there are the maximum number of cases. The color bar on the side can be used to indicate what conditions of k1 and k2 will produce the days of maximum cases.
 
 ### Playing team findings - NEED TO ELABORATE ON k1 and k2
 A higher k1 is required to get the infection to ramp up in a similar timeframe to the real infections (i.e. smaller k1 = later beginning of mass infection). However, a k2 is needed to control the k1; it can't be too big or too small as to squash the infected graph, or to let it grow exponentially large. Finer tuning needed.
 
-As it stands the way that the graphs are generated, it is not likely we will be able to make an accurate model. The data is still too young, and has too many outside factors; the current trend of the infections also does not match up with the form that the model graph takes.  
+As it stands the way that the graphs are generated it is not likely we will be able to make an accurate model. The data is still too young, and has too many outside factors; the current trend of the infections also does not match up with the form that the model graph takes.  
 
 # References
 1. Idaho Division of Public Health - https://public.tableau.com/profile/idaho.division.of.public.health#
