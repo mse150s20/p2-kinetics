@@ -142,7 +142,7 @@ Within the General_PLaying Folder, there is a file named "playing.py". By using 
 
 ### Playing Team Findings 
 A higher k1 is required to get the infection to ramp up in a similar timeframe to the real infections (i.e. smaller k1 = later beginning of mass infection). However, a k2 is needed to control the k1; it can't be too big or too small as to squash the infected graph, or to let it grow exponentially large. Finer tuning needed.
-=======
+
 ### Results from playing with parameters
 The most apparent effect of decreasing k1 was delaying the "ramping up" of the population.
 
@@ -153,7 +153,6 @@ Within the General_PLaying Folder, there is a file named "playing.py". By using 
 A higher k1 is required to get the infection to ramp up in a similar timeframe to the real infections (i.e. smaller k1 = later beginning of mass infection). However, a k2 is needed to control the k1; it can't be too big or too small as to squash the infected graph or to let it grow exponentially large. Finer tuning needed.
 
 As it stands the way that the graphs are generated it is not likely we will be able to make an accurate model. The data is still too young, and has too many outside factors; the current trend of the infections also does not match up with the form that the model graph takes.  
->>>>>>> 7984554e3f648dee1f75cf32638de8416a53391c
 
 # References
 1. Idaho Division of Public Health
