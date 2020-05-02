@@ -8,7 +8,7 @@ Summary of Playing.py with changing k1, and k2
 -Analyzed k1 2-3
   - k1 value matched a better to cdc graph
   -Max day around 9-10
-  -values of k1 2-2.1 matches peak
+  -Values of k1 2-2.1 matches peak
 
 Random helpful Information
--a ratio of k1/k2 which is called R_0 above 1 indicates an increase in cases, whereas one which remains between 0 and 1 it is a sign of decline which is a good sign for the virus, meaning less than one person would have it.
+-A ratio of k1/k2 which is called R_0 above 1 indicates an increase in cases, whereas one which remains between 0 and 1 it is a sign of decline which is a good sign for the virus, meaning less than one person would have it.
