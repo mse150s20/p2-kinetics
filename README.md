@@ -114,6 +114,8 @@ Govenor Little's 4-stage plan to reopen the state of Idaho is a good step toward
 
 As data continues to collect during this plan our model will capture any impact of this plan. Action can be taken to reduce the speed of reintroduction if infections begin to spiral out of control. 
 
+Personal safety is everyones responsibility and social distancing and good hygiene is strongly encouraged. 
+
 ### Results from playing with parameters
 The most apparent effect of decreasing k1 was delaying the "ramping up" of the population.
 
