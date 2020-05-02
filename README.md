@@ -112,6 +112,8 @@ Govenor Little of Idaho has introduced a 4-stage plan to reopen the state of Ida
 
 Govenor Little's 4-stage plan to reopen the state of Idaho is a good step towards public re-introduction. As numbers in Idaho have still not peaked we may see an initial increase in the number of confirmed cases. This may reoccur at every stage of reopening as social distancing becomes less prevalent.   
 
+As data continues to collect during this plan our model will capture any impact of this plan. Action can be taken to reduce the speed of reintroduction if infections begin to spiral out of control. 
+
 ### Results from playing with parameters
 The most apparent effect of decreasing k1 was delaying the "ramping up" of the population.
 
