@@ -1,4 +1,4 @@
-information I found while playing with the kinetics.py parameters
+Information I found while playing with the kinetics.py parameters
 
 As Eric mentioned in class, the real infection rate of COVID-19 in idaho has weekly cyclical spike due to testing results from weekends. This must be kept in mind while playing with the model.
 
