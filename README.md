@@ -120,19 +120,24 @@ A higher k1 is required to get the infection to ramp up in a similar timeframe t
 As it stands the way that the graphs are generated it is not likely we will be able to make an accurate model. The data is still too young, and has too many outside factors; the current trend of the infections also does not match up with the form that the model graph takes.  
 
 # References
-1. Idaho Division of Public Health - https://public.tableau.com/profile/idaho.division.of.public.health#
+1. Idaho Division of Public Health
+   website:  https://public.tableau.com/profile/idaho.division.of.public.health#
   * This source contains data on the statewide cases in Idaho. It contains information on recovered, hospitalized, ICU admittances, and cases among health care workers. It also contains data on COVID-19 demographics and county data.
 
-2. New York Times GitHub Repo -  https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv
-  * This is an on-going repository that lists daily statistics by state. 
+2. New York Times GitHub Repo
+   website https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv
+  * a csv file from New York Times github respository that details the COVID-19 infections and deaths by date and state. 
 
-3. Idaho Statesman - https://www.idahostatesman.com/news/coronavirus/article242127516.html
+3. Idaho Statesman
+   website: https://www.idahostatesman.com/news/coronavirus/article242127516.html
   * This article by the Idaho Stateman provides a recent chart of new virus cases vs. confirmed cases in Idaho, as of May 13th, 2020, as well as providing demographics of the majority groups that are being affected, and in what counties. This provides insight into how population denisty and relative exposure to the virus in a given profession can influence infection/death rates.
 
-4. KTVB 7 - https://www.ktvb.com/article/news/health/coronavirus/idaho-confirms-first-covid-19-coronavirus-case/277-262de30b-ef00-40a2-b40e-43e26f0bb99b
+4. KTVB 7
+   website: https://www.ktvb.com/article/news/health/coronavirus/idaho-confirms-first-covid-19-coronavirus-case/277-262de30b-ef00-40a2-b40e-43e26f0bb99b
   * This article by KTVB 7 provides a visual representation of the spread of the virus in Idaho with an interactive map and timelines. Numbers of confirmed cases, deaths, and recoveries are displayed by county on a map as well as on a timeline, showing the curves for each situation to more easily visualize how many people are recovering/dying once infected. 
 
-5. Centers for Disease Control and Prevention - https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/summary.html#:~:text=On%20March%2011%2C%20the,of%20novel%20influenza%20viruses.
+5. Centers for Disease Control and Prevention
+   website: https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/summary.html#:~:text=On%20March%2011%2C%20the,of%20novel%20influenza%20viruses.
   * The CDC provides one of the most up to date information regarding the COVID-19 situation in the United States. It provides recommendations for what individuals and businesses should do as well as information on the risk and severity of COVID-19
 
 6. University of Michigan - Health Lab Blog  
@@ -153,22 +158,28 @@ As it stands the way that the graphs are generated it is not likely we will be a
 
 10. Medium: Towards Data Science
   a. https://towardsdatascience.com/infectious-disease-modelling-part-i-understanding-sir-28d60e29fdfc
-    *
   b. https://towardsdatascience.com/infectious-disease-modelling-beyond-the-basic-sir-model-216369c584c4
-    *
   c. https://towardsdatascience.com/infectious-disease-modelling-fit-your-model-to-coronavirus-data-2568e672dbc7
-    *
+    * A collection of articles that explains the background behind SIR modelling and how it models the current COVID-19 pandemic. 
   d. https://github.com/hf2000510/infectious_disease_modelling/blob/master/part_two.ipynb0
-    *
+    * A github repository that contains the modelling data that was used in the articles to help explain the SIR model.
 
-11. International Journal of Infections Diseases - https://www.ijidonline.com/article/S1201-9712(20)30182-X/fulltext
-  * 
-12. Institute for Health Metrics and Evaluation - https://covid19.healthdata.org/united-states-of-america/idaho
-  * 
-13. Covid Act Now - https://covidactnow.org/us/id
-  * 
-14. Our World in Data - https://ourworldindata.org/coronavirus
-  *
-15. Science Direct - https://www.sciencedirect.com/science/article/pii/S1286457920300265
-  * 
-16. New York Times - https://www.nytimes.com/interactive/2020/us/idaho-coronavirus-cases.html
+11. International Journal of Infections Diseases
+    website: https://www.ijidonline.com/article/S1201-9712(20)30182-X/fulltext
+   * A journal article that details the transmissibility and mortality of COVID-19 in Europe
+ 
+12. Institute for Health Metrics and Evaluation
+    website: https://covid19.healthdata.org/united-states-of-america/idaho
+   * This website provide plots of reported and projected number of deaths and hospital resources used in the state of Idaho.
+ 
+13. Covid Act Now
+    website: https://covidactnow.org/us/id
+   * Another website that provides additional information on COVID-19 infections rates and projections in the state of Idaho and the strain on hospitals.
+ 
+14. Our World in Data
+    website: https://ourworldindata.org/coronavirus
+   * A series of plots that show the total global death toll from COVID-19 and the comparisons between countries. 
+
+15. Science Direct
+    website: https://www.sciencedirect.com/science/article/pii/S1286457920300265
+   * A scientific article that compares the transmission and mortality of COVID-19 to other diseases. 
