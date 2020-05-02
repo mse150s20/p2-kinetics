@@ -121,13 +121,11 @@ Recovered: This is the number of people who have recovered from a COVID-19 infec
 
 rInfect: This is a constant that is multiplied by the number of Healthy people. The product of Healthy times rInfect gives us the number of new Infections per day.
 
-<<<<<<< HEAD
 Recover: This is a constant that is multiplied by the number of Infected people. The product of Infected time rRecover gives us the number of new Recovered people per day.
 The rate at which people recover is completely dependent on how many infected people there are thus the equation for new Recovered is (rRecovered*Infected*). Applying this information tells us as the number of Infected people goes up, the number ofnew Recovered people will also go up. The peak of Recoveries will be when there the greatest number of Infected people.
-=======
+
 rRecover: This is a constant that is multiplied by the number of Infected people. The product of Infected time rRecover gives us the number of new Recovered people per day.
 The rate at which people recover is completely dependent on how many infected people there are thus the equation for new Recovered is (rRecovered\*Infected). Applying this information tells us as the number of Infected people goes up, the number of new Recovered people will also go up. The peak of Recoveries will be when there the greatest number of Infected people.
->>>>>>> 7984554e3f648dee1f75cf32638de8416a53391c
 
 # Conclusion
 Our data shows a spike in the beginning when we were not prepared or taking the necessary steps to prevent COVID-19 from spreading. Since the social distancing order was put into place, the curve has flattened a little so we should continue to distance as much as possible until we have more information or more people have recovered so we have a better chance of overcoming this virus.
@@ -136,7 +134,6 @@ Our data shows a spike in the beginning when we were not prepared or taking the 
 
 There are a lot of variables to consider when deciding on the future of virus precautions. The idaho_infections.csv data, with our higher k1 variable to more closely represent the standard curve, indicates the virus is not spreading as quickly as predicted. Something else to consider is, due to the likelihood that a vaccine will not be ready within the year, gradual re-introduction of people into society to start building immunity may be the best option.
 
-<<<<<<< HEAD
 ### Results From Playing With Parameters
 The most apparent effect of decreasing k1 was delaying the "ramping up" of the population
 
