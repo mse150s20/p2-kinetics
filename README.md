@@ -9,7 +9,7 @@ This code requires access to a commandline terminal and to have a github account
 
 # How to Get This Code
 To run the code on your computer, pull the p2-kinetics repository from github class master to your terminal, or fork the repository and pull the code from your own personal repository. Once you've done this you can now access all files needed. This code should give you the ability to graph the data colected as well as access the idaho_infections.csv file in order to view the raw data yourself. An example would be `$ git clone git@github.com:mse150s20/p2-kinetics.git`. 
-=======
+
 It models the pandemic in Idaho as a kinetics function of time in days, with equations that model the uninfected, infected, recovered, and fatalities in Idaho.
 
 # Software Requirements
