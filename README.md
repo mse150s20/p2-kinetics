@@ -6,7 +6,7 @@ The idaho_infections.csv file can be found under the data directory. This file c
 
 
 # Software Requirements
-This code requires access to a commandline terminal and to have a github account to access the p2-kinetics repository and to be able to track and collaborate with other researchers on this topic. For this program to run, python must be installed on the local machine. To download Python go to terminal, type in the command line "apt-get install python". This will start downloading Python onto the local machine. It will ask a few permission questions and you will have to let it install Python onto the local machine. Depending on the machine you are using you may have do download an additional program in the same mannor. Mac users, such as myself, running older operating systems have to download XQuartz. Without it my code ran but there was no visual graph of the data, but with XQuartz downloaded it worked as it should. The code also requires that numpy, matplotlib.pyplot, sys, and solve_iv to be imported. All the previously mentioned functions and numpy are part of bash and will run when the code is initiated. 
+This code requires access to a commandline terminal and to have a github account to access the p2-kinetics repository and to be able to track and collaborate with other researchers on this topic. For this program to run, python must be installed on the local machine. To download Python go to terminal, type in the command line "apt-get install python". This will start downloading Python onto the local machine. It will ask a few permission questions and you will have to let it install Python onto the local machine. Depending on the machine you are using you may have do download an additional program in the same mannor. Mac users, such as myself, running older operating systems have to download XQuartz. Without it my code ran but there was no visual graph of the data, but with XQuartz downloaded it worked as it should. The code also requires that numpy, matplotlib.pyplot, sys, and scipy (for solve_ivp) to be imported. All the previously mentioned modules will run when the code is initiated. 
 
 # How to Get This Code
 To run the code on your computer, pull the p2-kinetics repository from github class master to your terminal, or fork the repository and pull the code from your own personal repository. Once you've done this you can now access all files needed. This code should give you the ability to graph the data colected as well as access the idaho_infections.csv file in order to view the raw data yourself. An example would be `$ git clone git@github.com:mse150s20/p2-kinetics.git`. 
@@ -37,9 +37,9 @@ The directory and all it's contents should now be cloned to your machine.
 To use this code you must be in the directory that contains the code. Type "$ python kinetics.py " + the path to the file that contains the data. To run the code, type python (filename.py) in your command line. For examples we'll move to the next section.
 
 # Example of How to Use This Code
-$ cd p2-kinetics/
+`$ cd p2-kinetics/`
 
-$ python kinetics.py Data/idaho_infections.csv
+`$ python kinetics.py Data/idaho_infections.csv`
 
 <<<<<<< HEAD
 A plot of the data from the data idaho_indections.csv will appear if everything is working correctly.
