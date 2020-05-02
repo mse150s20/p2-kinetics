@@ -106,7 +106,11 @@ Our data shows a spike in the beginning when we were not prepared or taking the 
 
 There are a lot of variables to consider when deciding on the future of virus precautions. The idaho_infections.csv data, with our higher k1 variable to more closely represent the standard curve, indicates the virus is not spreading as quickly as predicted. Something else to consider is, due to the likelihood that a vaccine will not be ready within the year, gradual re-introduction of people into society to start building immunity may be the best option.
 
-Due to economic reasons the state of Idaho cannot remain closed until the curve begins to flatten. Govenor Little's 4-stage plan to reopen the state of Idaho is a good step towards public re-introduction. As numbers in Idaho have still not peaked we may see an initial increase in the number of confirmed cases. This may reoccur at every stage of reopening as social distancing becomes less prevalent.   
+Due to economic reasons the state of Idaho cannot remain closed until the curve begins to flatten.
+
+Govenor Little of Idaho has introduced a 4-stage plan to reopen the state of Idaho. Each stage is to be carried out at 2-week increments and allow businesses to open up based on category. 
+
+Govenor Little's 4-stage plan to reopen the state of Idaho is a good step towards public re-introduction. As numbers in Idaho have still not peaked we may see an initial increase in the number of confirmed cases. This may reoccur at every stage of reopening as social distancing becomes less prevalent.   
 
 ### Results from playing with parameters
 The most apparent effect of decreasing k1 was delaying the "ramping up" of the population.
