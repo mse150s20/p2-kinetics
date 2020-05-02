@@ -45,7 +45,7 @@ A plot of the data from the data idaho_indections.csv will appear if everything 
 # Information About Idaho Infection Data
 The file idaho_infections.csv is the location where we're consolidating the infection vs. time data.
 The data used to plot the graph contains information from idaho division of health resource (Link 1). Additional links used for additional information and further understanding of the virus can be found below under references.
-=======
+
 To use this code you must be in the "p2-kinetics" directory that contains the code.
 Once in the "p2-kinetics" directory type "$ python plot-infections.py" + the path to the file to the .csv file containing the data to be evaluated. 
 
@@ -57,7 +57,6 @@ Enter the following lines in your terminal:
 `$ python plot-infections.py Data/idaho_infections.csv`
 OR
 `$ python Real_Data.py Data/idaho_infections.csv`
->>>>>>> 7984554e3f648dee1f75cf32638de8416a53391c
 
 
 ## Figures Showing Code Output
@@ -100,11 +99,9 @@ When pulling from Data/idaho_infections.csv, this graph plots actual numbers of 
 ### Contributors.txt
 Lists all contributors to the project with contact info. 
 
-<<<<<<< HEAD
 ### info.txt 
-=======
+
 ## Project Info
->>>>>>> 7984554e3f648dee1f75cf32638de8416a53391c
 Project 2 descriptions:
     Modeling kinetics: rate of change between things!
 
