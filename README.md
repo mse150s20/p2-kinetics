@@ -30,7 +30,6 @@ To run the code on your computer, pull the p2-kinetics repository from github by
 4. In your own terminal enter: `$ git clone git@github.com:mse150s20/p2-kinetics.git`
 
 The directory and all it's contents should now be cloned to your machine. 
->>>>>>> 7984554e3f648dee1f75cf32638de8416a53391c
 
 # How to Use This Code
 To use this code you must be in the directory that contains the code. Type "$ python kinetics.py " + the path to the file that contains the data. To run the code, type python (filename.py) in your command line. For examples we'll move to the next section.
@@ -40,7 +39,6 @@ To use this code you must be in the directory that contains the code. Type "$ py
 
 `$ python kinetics.py Data/idaho_infections.csv`
 
-<<<<<<< HEAD
 A plot of the data from the data idaho_indections.csv will appear if everything is working correctly.
 
 
