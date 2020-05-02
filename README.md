@@ -4,7 +4,7 @@ The purpose of this code is to describe and model the current coronavirus (COVID
 It models the pandemic in Idaho as a kinetics function of time in days, with equations that model the uninfected, infected, recovered, and fatalities in Idaho.
 
 # Software Requirements
-This code requires access to a command line terminal and to have a github account to access the p2-kinetics repository for the purpose of collaboration. For this program to run python must be installed on the local machine. To download Python; go to terminal, type in the command line "apt-get install python". This will start downloading Python onto your local machine. Your computer will ask a few permission questions and you will have to let it install Python onto your local machine.
+This code requires access to a command line terminal and to have a github account to access the p2-kinetics repository, for the purpose of collaboration. For this program to run, python must be installed on the local machine. To download Python, go to terminal, type in the command line `apt-get install python`. This will start downloading Python onto the local machine. Your computer will ask a few permission questions and you will have to let it install Python onto the local machine.
 
 The code also requires that numpy, matplotlib.pyplot, sys, and solve_ivp to be imported. All the previously mentioned functions and numpy are part of bash and will run when the code is initiated. 
 
@@ -18,7 +18,7 @@ To run the code on your computer, pull the p2-kinetics repository from github by
 
 3. It is recommended to clone with SSH.
 
-4. In your own terminal enter: "$ git clone git@github.com:mse150s20/p2-kinetics.git"
+4. In your own terminal enter: `$ git clone git@github.com:mse150s20/p2-kinetics.git`
 
 The directory and all it's contents should now be cloned to your machine. 
 
@@ -58,6 +58,7 @@ A graph that displays the model of the data.
 ###Images
 The Images Directory is the place where all the graphs are saved to so they are in a centeralized location.
 ### idaho_infections.csv
+
 The idaho_infections.csv file contains the reported numbers of the total infected people, deaths, and recoveries in the state of Idaho. The file starts on March 13th, the first day of reported cases in the state. It also includes the number of new cases of each designation. This csv file works in conjunction with kinetics.py as it will show the comparison of the reported data alongside with the projected data. 
 
 ### Data
@@ -98,7 +99,7 @@ Recovered: This is the number of people who have recovered from a COVID-19 infec
 rInfect: This is a constant that is multiplied by the number of Healthy people. The product of Healthy times rInfect gives us the number of new Infections per day.
 
 rRecover: This is a constant that is multiplied by the number of Infected people. The product of Infected time rRecover gives us the number of new Recovered people per day.
-The rate at which people recover is completely dependent on how many infected people there are thus the equation for new Recovered is (rRecovered**Infected). Applying this information tells us as the number of Infected people goes up, the number of new Recovered people will also go up. The peak of Recoveries will be when there the greatest number of Infected people.
+The rate at which people recover is completely dependent on how many infected people there are thus the equation for new Recovered is (rRecovered\*Infected). Applying this information tells us as the number of Infected people goes up, the number of new Recovered people will also go up. The peak of Recoveries will be when there the greatest number of Infected people.
 
 # Conclusion
 Our data shows a spike in the beginning when we were not prepared or taking the necessary steps to prevent COVID-19 from spreading. Since the social distancing order was put into place, the curve has flattened a little so we should continue to distance as much as possible until we have more information or more people have recovered so we have a better chance of overcoming this virus.
@@ -133,3 +134,41 @@ As it stands the way that the graphs are generated it is not likely we will be a
 
 5. Centers for Disease Control and Prevention - https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/summary.html#:~:text=On%20March%2011%2C%20the,of%20novel%20influenza%20viruses.
   * The CDC provides one of the most up to date information regarding the COVID-19 situation in the United States. It provides recommendations for what individuals and businesses should do as well as information on the risk and severity of COVID-19
+
+6. University of Michigan - Health Lab Blog  
+   website: https://labblog.uofmhealth.org/rounds/how-scientists-quantify-intensity-of-an-outbreak-like-covid-19
+  * A blog post that explains the term R0 and its context in epidemiology and the current COVID-19 pandemic.
+
+7. John Hopkins Whiting School of Engineering github repository
+   website:  https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv
+  * This repository is the data that John Hopkins has gathered about the COVID-19 pandemic in the United States. 
+
+8. New York Times
+   website: https://www.nytimes.com/interactive/2020/us/idaho-coronavirus-cases.html
+  * This article has COVID-19 related data about Idaho and its counties.
+
+9. John Hopkins University and Medicine
+   website: https://coronavirus.jhu.edu/us-map
+  * A map of COVID-19 cases and related data on a global scale, country scale, state, and counties.
+
+10. Medium: Towards Data Science
+  a. https://towardsdatascience.com/infectious-disease-modelling-part-i-understanding-sir-28d60e29fdfc
+    *
+  b. https://towardsdatascience.com/infectious-disease-modelling-beyond-the-basic-sir-model-216369c584c4
+    *
+  c. https://towardsdatascience.com/infectious-disease-modelling-fit-your-model-to-coronavirus-data-2568e672dbc7
+    *
+  d. https://github.com/hf2000510/infectious_disease_modelling/blob/master/part_two.ipynb0
+    *
+
+11. International Journal of Infections Diseases - https://www.ijidonline.com/article/S1201-9712(20)30182-X/fulltext
+  * 
+12. Institute for Health Metrics and Evaluation - https://covid19.healthdata.org/united-states-of-america/idaho
+  * 
+13. Covid Act Now - https://covidactnow.org/us/id
+  * 
+14. Our World in Data - https://ourworldindata.org/coronavirus
+  *
+15. Science Direct - https://www.sciencedirect.com/science/article/pii/S1286457920300265
+  * 
+16. New York Times - https://www.nytimes.com/interactive/2020/us/idaho-coronavirus-cases.html

@@ -1,7 +1,8 @@
 #Write any relevent data related to the coronavirus.
 - Summary of data (citation - include link to source)
 
-1. R0 value of COVID-19 is between 1.5 and 3.5 
+1. 
+ R0 value of COVID-19 is between 1.5 and 3.5 
 	(https://labblog.uofmhealth.org/rounds/how-scientists-quantify-intensity-of-an-outbreak-like-covid-19)
 
 2. Infection data from Johns Hopkins University both world wide data and data by state (on their git hub)
@@ -26,7 +27,7 @@
 	(https://towardsdatascience.com/infectious-disease-modelling-fit-your-model-to-coronavirus-data-2568e672dbc7)
 	(https://github.com/hf2000510/infectious_disease_modelling/blob/master/part_two.ipynb0)
 
-8. International Journal of Infections Dieseases. Monitoring Transmissibility and Mortality of COVID-19 in Europe: Table of R(t) values over time in different European countries, including Italy
+8. International Journal of Infections Diseases. Monitoring Transmissibility and Mortality of COVID-19 in Europe: Table of R(t) values over time in different European countries, including Italy
 	(https://www.ijidonline.com/article/S1201-9712(20)30182-X/fulltext)
 
 9. KTVB 7 - Has data on the number of recoveries on their reported dates. 
