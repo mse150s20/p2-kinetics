@@ -1,7 +1,6 @@
 # Overview of Code
 The purpose of this code is to describe and model the current coronavirus (COVID-19) pandemic in the state of Idaho. With this, we hope to provide information on how well Idaho is dealing with COVID-19.
 
-<<<<<<< HEAD
 The idaho_infections.csv file can be found under the data directory. This file contains data from the sources provided below. It models the pandemic in Idaho as kinetic function of time in days, with equations that model the uninfected, infected, recovered, and deaths in Idaho. This file is probably the most important and valuable file in this project! 
 
 
