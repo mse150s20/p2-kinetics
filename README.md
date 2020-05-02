@@ -90,7 +90,7 @@ The equation for finding how many new infections per day is (rInfect\*Healthy\*I
 
 Healthy: This is how many healthy, uninfected people there are in Idaho.
 
-Infected: This is the number of COVID-19 positive people there are in Idaho.
+Infected: This is the number of documented COVID-19 positive people there are in Idaho.
 
 Recovered: This is the number of people who have recovered from a COVID-19 infection.
 
