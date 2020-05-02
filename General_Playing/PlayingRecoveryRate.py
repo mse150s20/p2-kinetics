@@ -34,13 +34,3 @@ with open("maxday_vs_k1k2.txt","w") as f:  #copies to maxday_vs_k1k2.txt file
 
 #k1 is infection rate, k2 is recovery rate, prints amount of time in  days until infected is at the maximum
 
-#plt.plot(solution.t,solution.y[0],label='Uninfected')
-#plt.plot(solution.t,solution.y[1],label='Infected',linestyle='dashed')
-#plt.plot(solution.t,solution.y[2],label='Recovered',linestyle='dotted')
-#plt.xlabel('Time [days]')
-#plt.ylabel('Population infected')
-#plt.grid() 
-#plt.legend()
-#plt.show()
-
-
