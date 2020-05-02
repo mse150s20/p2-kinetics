@@ -55,7 +55,8 @@ A graph that displays the collected data in a logarithmic format.
 
 A graph that displays the model of the data.
 # File Descriptions
-###Images
+
+### Images
 The Images Directory is the place where all the graphs are saved to so they are in a centeralized location.
 
 ### Data
