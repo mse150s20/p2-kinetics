@@ -28,7 +28,7 @@ To use this code you must be in the directory that contains the code, p2-kinetic
 Once in the "p2-kinetics" directory type `$ python plot-infections.py` + the path to the file to the .csv file containing the data to be evaluated. 
 
 # Example of how to use this code
-`$ cd p2-kinetics/`
+`$ cd p2-kinetics/` 
 
 `$ python plot-infections.py Data/idaho_infections.csv`
 OR
@@ -166,4 +166,3 @@ As it stands the way that the graphs are generated it is not likely we will be a
 15. Science Direct - https://www.sciencedirect.com/science/article/pii/S1286457920300265
   * 
 16. New York Times - https://www.nytimes.com/interactive/2020/us/idaho-coronavirus-cases.html
-  * 

@@ -1,4 +1,3 @@
-
 from scipy.integrate import solve_ivp
 import matplotlib.pyplot as plt
 import numpy as np
@@ -33,11 +32,9 @@ plt.plot(solution.t,solution.y[0],label='Model Uninfected')
 plt.plot(solution.t,solution.y[1],label='Model Infected',linestyle='dashed')
 plt.plot(solution.t,solution.y[2],label='Model Recovered',linestyle='dotted')
 
-
 plt.xlabel('Time [days]')
 plt.ylabel('Population infected')
 plt.ylim(0,2000)
 plt.grid()
 plt.legend(loc='best')
 plt.show()
-

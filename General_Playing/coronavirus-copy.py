@@ -1,7 +1,5 @@
 <<<<<<< HEAD:General_Playing/coronavirus-copy.py
 # Purpose of this is to reduce the maxtime to get a better look at the graph and figure out what k1 and k2 best match the current data 
-=======
->>>>>>> be493b75df56605ec26644f5866673607a5e51bc:kinetics.py
 from scipy.integrate import solve_ivp
 import matplotlib.pyplot as plt
 import numpy as np
