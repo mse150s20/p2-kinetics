@@ -1,49 +1,62 @@
 #Write any relevent data related to the coronavirus.
 - Summary of data (citation - include link to source)
 
-1. R0 value of COVID-19 is between 1.5 and 3.5 
-	(https://labblog.uofmhealth.org/rounds/how-scientists-quantify-intensity-of-an-outbreak-like-covid-19)
+1. University of Michigan 
+   * R0 value of COVID-19 is between 1.5 and 3.5 
+   website: (https://labblog.uofmhealth.org/rounds/how-scientists-quantify-intensity-of-an-outbreak-like-covid-19)
 
-2. Infection data from Johns Hopkins University both world wide data and data by state (on their git hub)
- 	(https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv)
+2. John Hopkins University Whiting School of Engineering 
+   * Infection data from Johns Hopkins University both world wide data and data by state (on their git hub)
+   website: (https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv)
 
-3. Infection Data for Idaho that includes total death,total cases, per capita, and new cases
- 	(https://www.nytimes.com/interactive/2020/us/idaho-coronavirus-cases.html)
+3. New York Times
+   * Infection Data for Idaho that includes total death,total cases, per capita, and new cases
+   website: (https://www.nytimes.com/interactive/2020/us/idaho-coronavirus-cases.html)
 
-4. Data on the total number of deaths and deaths that occured each day 
-	(https://www.idahostatesman.com/news/coronavirus/article242127516.html)
+4. Idaho Statesman
+   * Data on the total number of deaths and deaths that occured each day 
+   website(https://www.idahostatesman.com/news/coronavirus/article242127516.html)
 
-5. The collection of data of all of Idaho on the number of confirmed COVID-19 cases. Includes data on the number of confirmed cases that occur each day, by age group, by sex, etc. 
-	(https://public.tableau.com/profile/idaho.division.of.public.health#!/vizhome/DPHIdahoCOVID-19Dashboard_V2/Story1)
+5. Idaho Division of Public Health
+   * The collection of data of all of Idaho on the number of confirmed COVID-19 cases. Includes data on the number of confirmed cases that occur each day, by age group, by sex, etc. 
+   website: (https://public.tableau.com/profile/idaho.division.of.public.health#!/vizhome/DPHIdahoCOVID-19Dashboard_V2/Story1)
 
-6. COVID-19 data based on each countryin every state has reported 
-	(https://coronavirus.jhu.edu/us-map)
+6. John Hopkins University and Medicine 
+   * COVID-19 data based on each countryin every state has reported 
+   website: (https://coronavirus.jhu.edu/us-map)
 
 7. Medium: Towards Data Science
-	A series of articles that explains SIR equations that are used to model the COVID-19 pandemic. The article also attached a link to github to generate the same plots on python.	
-	(https://towardsdatascience.com/infectious-disease-modelling-part-i-understanding-sir-28d60e29fdfc)
- 	(https://towardsdatascience.com/infectious-disease-modelling-beyond-the-basic-sir-model-216369c584c4)
-	(https://towardsdatascience.com/infectious-disease-modelling-fit-your-model-to-coronavirus-data-2568e672dbc7)
-	(https://github.com/hf2000510/infectious_disease_modelling/blob/master/part_two.ipynb0)
+   * A series of articles that explains SIR equations that are used to model the COVID-19 pandemic. The article also attached a link to github to generate the same plots on python.	
+   website: (https://towardsdatascience.com/infectious-disease-modelling-part-i-understanding-sir-28d60e29fdfc)
+ 	    (https://towardsdatascience.com/infectious-disease-modelling-beyond-the-basic-sir-model-216369c584c4)
+	    (https://towardsdatascience.com/infectious-disease-modelling-fit-your-model-to-coronavirus-data-2568e672dbc7)
+	    (https://github.com/hf2000510/infectious_disease_modelling/blob/master/part_two.ipynb0)
 
-8. International Journal of Infections Dieseases. Monitoring Transmissibility and Mortality of COVID-19 in Europe: Table of R(t) values over time in different European countries, including Italy
-	(https://www.ijidonline.com/article/S1201-9712(20)30182-X/fulltext)
+8. International Journal of Infections Diseases
+   *  Monitoring Transmissibility and Mortality of COVID-19 in Europe: Table of R(t) values over time in different European countries, including Italy
+   website: (https://www.ijidonline.com/article/S1201-9712(20)30182-X/fulltext)
 
-9. KTVB 7 - Has data on the number of recoveries on their reported dates. 
-	(https://www.ktvb.com/article/news/health/coronavirus/idaho-confirms-first-covid-19-coronavirus-case/277-262de30b-ef00-40a2-b40e-43e26f0bb99b)
+9. KTVB 7
+   * Has data on the number of recoveries on their reported dates. 
+   website: (https://www.ktvb.com/article/news/health/coronavirus/idaho-confirms-first-covid-19-coronavirus-case/277-262de30b-ef00-40a2-b40e-43e26f0bb99b)
 
-10. Institute for Health Metrics and Evaluation - contains plots of reported and projected number of deaths up to August 
-	(https://covid19.healthdata.org/united-states-of-america/idaho)
+10. Institute for Health Metrics and Evaluation
+    *  contains plots of reported and projected number of deaths up to August 
+   website: (https://covid19.healthdata.org/united-states-of-america/idaho)
 
-11. Covid Act Now - website has a plot of reported and projected numbers of hospitalizations 
-	(https://covidactnow.org/us/id)
+11. Covid Act Now
+    *  Website has a plot of reported and projected numbers of hospitalizations 
+    website: (https://covidactnow.org/us/id)
 
-12. The Center for Disease Control and Prevention has up to date data visualitations which include data from the global map
-	(https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/world-map.html)
-	(https://www.cdc.gov/coronavirus/2019-ncov/covid-data/data-visualization.htm)
+12. The Center for Disease Control and Prevention
+    * Up to date data visualitations which include data from the global map
+    website: (https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/world-map.html)
+	     (https://www.cdc.gov/coronavirus/2019-ncov/covid-data/data-visualization.htm)
 
-13. The website Our World in Data  includes interactive graphs from around the world by country for the total number of deaths, daily number of deaths, and a global comparision by day.
- (https://ourworldindata.org/coronavirus)
+13. Our World in Data
+    * includes interactive graphs from around the world by country for the total number of deaths, daily number of deaths, and a global comparision by day.
+    website: (https://ourworldindata.org/coronavirus)
 
-14. The Centers for Disease Control and Prevention updates the number of infected people every day, and gives estimates for future cases by state and demographic.
- (https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html)
+14. The Centers for Disease Control and Prevention
+    * updates the number of infected people every day, and gives estimates for future cases by state and demographic.
+    website: (https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html)
