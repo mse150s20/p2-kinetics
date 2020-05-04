@@ -1,37 +1,37 @@
 
 12/31/2019
-Date that an unknown pneumonia detected in Wuhan, China was reported to the World Health Organization (WHO). (1)
+Date that an unknown pneumonia detected in Wuhan, China was reported to the World Health Organization (WHO). (6)
 
 1/20/2019
-Date that testing confirmed the first case of COVID-19 in the United States. (1)
+Date that testing confirmed the first case of COVID-19 in the United States. (6)
 
 2/29/2020
-Date the United States first reports a coronavirus death and announces travel restrictions. (5)
+Date the United States first reports a coronavirus death and announces travel restrictions. (10)
 
 3/11/2020
-The World Health Organization officially names the disease and classifies COVID-19 as a pandemic. (5)
+The World Health Organization officially names the disease and classifies COVID-19 as a pandemic. (10)
 
 3/13/2020
-Date that testing confirmed the first case of COVID-19 in the state of Idaho. (2)
+Date that testing confirmed the first case of COVID-19 in the state of Idaho. (7)
 
 3/13/2020
-Date that the decision was made to deliver all BSU classes remotely, which began the following Monday. (3)
+Date that the decision was made to deliver all BSU classes remotely, which began the following Monday. (7)
 
 3/25/2020
-Date that Governor Brad Little issued a statewide stay-at-home order till Apri 30, 2020. (2)
+Date that Governor Brad Little issued a statewide stay-at-home order till Apri 30, 2020. (7)
 First confirmed case of COVID-19 coincides with the BSU announcement while the self-isolation notice occurred 12 days later.
 
 3/26/2020
-The United States leads the world in confirmed coronavirus cases. (5)
+The United States leads the world in confirmed coronavirus cases. (10)
 
 4/17/2020
-Date that more than 1,000 Boise conservative groups plan to protest stay-at-home order. (4)
+Date that more than 1,000 Boise conservative groups plan to protest stay-at-home order. (9)
 
 4/23/2020
 Idaho Gov. Brad Little has laid out his four step plan for reopening the state's economy. (5)
 
 4/25/2020
-Global death toll from COVID-19 surpasses 200,000. Idaho's COVID-19 related death toll is now 56 people and 1,760 confirmed cases. (6)
+Global death toll from COVID-19 surpasses 200,000. Idaho's COVID-19 related death toll is now 56 people and 1,760 confirmed cases. (11)
 
 4/28/2020
 Cases in Idaho reached 1,984. Talks of reopening continue.
@@ -54,14 +54,12 @@ Number of Idaho cases rose to 1,880 showing a decrease of daily transmissions. P
 
 
 
-1. Wikipedia contributors. (2020, April 15). 2019–20 coronavirus pandemic. In Wikipedia, The Free Encyclopedia. Retrieved 20:35, April 15, 2020, from https://en.wikipedia.org/w/index.php?title=2019%E2%80%9320_coronavirus_pandemic&oldid=951160943
+6. Wikipedia Contributors. 2019-20 Coronavirus Pandemic. *Wikipedia*. Retrieved 15 April, 2020. (Web) https://en.wikipedia.org/w/index.php?title=2019%E2%80%9320_coronavirus_pandemic&oldid=951160943
 
-2. Wikipedia contributors. (2020, April 14). 2020 coronavirus pandemic in Idaho. In Wikipedia, The Free Encyclopedia. Retrieved 20:41, April 15, 2020, from https://en.wikipedia.org/w/index.php?title=2020_coronavirus_pandemic_in_Idaho&oldid=950859214
+7. Wikipedia Contributors. 2020 Coronavirus Pandemic in Idaho. *Wikipedia.* Retrieved 15 April, 2020. (Web) https://en.wikipedia.org/w/index.php?title=2020_coronavirus_pandemic_in_Idaho&oldid=950859214
 
-3. Tromp, President, Dr. Marlene "Message from the President, Dr. Marlene Tromp." Message to (BSU staff and students). 15 March 2020 E-mail
+8. Tromp, Marlene. Message from the President, Dr. Marlene Tromp. *Boise State University.* 15 March, 2020. (E-mail)
 
-4. Idaho Statesman. (2020, April 16). https://www.idahostatesman.com/news/politics-government/state-politics/article242061306.html
+9. Sewell, Cynthia. Conservative Groups Plan to Violate Stay-Home Order With Friday at Idaho Capitol. *Idaho Statesman.* 16, April 2020. (Web) https://www.idahostatesman.com/news/politics-government/state-politics/article242061306.html
 
-5. Taylor, D. B. (2020, February 13). A Timeline of the Coronavirus Pandemic. Retrieved from https://www.nytimes.com/article/coronavirus-timeline.html
-
-6. Staff. (n.d.). Coronavirus In Idaho Live Blog: Resources & News. Retrieved from https://www.boisestatepublicradio.org/post/coronavirus-idaho-live-blog-resources-news#stream/0
+10. Taylor, Derrick. How the Coronavirus Pandemic Unfolded: a Timeline. *New York Times.* 28 April, 2020. (Web) https://www.nytimes.com/article/coronavirus-timeline.html

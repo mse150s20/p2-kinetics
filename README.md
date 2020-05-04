@@ -184,23 +184,34 @@ As it stands the way that the graphs are generated it is not likely we will be a
    website: https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/summary.html#:~:text=On%20March%2011%2C%20the,of%20novel%20influenza%20viruses.
   * The CDC provides one of the most up to date information regarding the COVID-19 situation in the United States. It provides recommendations for what individuals and businesses should do as well as information on the risk and severity of COVID-19
 
-6. University of Michigan - Health Lab Blog  
+6. Wikipedia Contributors. 
+  a. 2019-20 Coronavirus Pandemic. *Wikipedia.* Retrieved 15 April, 2020. (Web) https://en.wikipedia.org/w/index.php?title=2019%E2%80%9320_coronavirus_pandemic&oldid=951160943
+  b. 2020 Coronavirus Pandemic in Idaho. *Wikipedia.* Retrieved 15 April, 2020. (Web) https://en.wikipedia.org/w/index.php?title=2020_coronavirus_pandemic_in_Idaho&oldid=950859214
+  
+7. Tromp, Marlene. Message from the President, Dr. Marlene Tromp. *Boise State University.* 15 March, 2020. (E-mail)
+
+8. Sewell, Cynthia. Conservative Groups Plan to Violate Stay-Home Order With Friday at Idaho Capitol. *Idaho Statesman.* 16, April 2020. (Web) https://www.idahostatesman.com/news/politics-government/state-politics/article242061306.html
+
+9. Taylor, Derrick. How the Coronavirus Pandemic Unfolded: a Timeline. *New York Times.* 28 April, 2020. (Web) https://www.nytimes.com/article/coronavirus-timeline.html
+
+10. Coronavirus in Idaho Live Blog: Resources & News. *Boise State Public Radio.* (Web) https://www.boisestatepublicradio.org/post/coronavirus-idaho-live-blog-resources-news#stream/0
+
+11. University of Michigan - Health Lab Blog  
    website: https://labblog.uofmhealth.org/rounds/how-scientists-quantify-intensity-of-an-outbreak-like-covid-19
   * A blog post that explains the term R0 and its context in epidemiology and the current COVID-19 pandemic.
 
-7. John Hopkins Whiting School of Engineering github repository
+12. John Hopkins Whiting School of Engineering github repository
    website:  https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv
   * This repository is the data that John Hopkins has gathered about the COVID-19 pandemic in the United States. 
-
-8. New York Times
+13. New York Times
    website: https://www.nytimes.com/interactive/2020/us/idaho-coronavirus-cases.html
   * This article has COVID-19 related data about Idaho and its counties.
 
-9. John Hopkins University and Medicine
+14. John Hopkins University and Medicine
    website: https://coronavirus.jhu.edu/us-map
   * A map of COVID-19 cases and related data on a global scale, country scale, state, and counties.
 
-10. Medium: Towards Data Science
+15. Medium: Towards Data Science
   a. https://towardsdatascience.com/infectious-disease-modelling-part-i-understanding-sir-28d60e29fdfc
   b. https://towardsdatascience.com/infectious-disease-modelling-beyond-the-basic-sir-model-216369c584c4
   c. https://towardsdatascience.com/infectious-disease-modelling-fit-your-model-to-coronavirus-data-2568e672dbc7
@@ -208,22 +219,22 @@ As it stands the way that the graphs are generated it is not likely we will be a
   d. https://github.com/hf2000510/infectious_disease_modelling/blob/master/part_two.ipynb0
     * A github repository that contains the modelling data that was used in the articles to help explain the SIR model.
 
-11. International Journal of Infections Diseases
+16. International Journal of Infections Diseases
     website: https://www.ijidonline.com/article/S1201-9712(20)30182-X/fulltext
    * A journal article that details the transmissibility and mortality of COVID-19 in Europe
  
-12. Institute for Health Metrics and Evaluation
+17. Institute for Health Metrics and Evaluation
     website: https://covid19.healthdata.org/united-states-of-america/idaho
    * This website provide plots of reported and projected number of deaths and hospital resources used in the state of Idaho.
  
-13. Covid Act Now
+18. Covid Act Now
     website: https://covidactnow.org/us/id
    * Another website that provides additional information on COVID-19 infections rates and projections in the state of Idaho and the strain on hospitals.
  
-14. Our World in Data
+19. Our World in Data
     website: https://ourworldindata.org/coronavirus
    * A series of plots that show the total global death toll from COVID-19 and the comparisons between countries. 
 
-15. Science Direct
+20. Science Direct
     website: https://www.sciencedirect.com/science/article/pii/S1286457920300265
    * A scientific article that compares the transmission and mortality of COVID-19 to other diseases. 
